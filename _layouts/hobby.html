@@ -1,0 +1,20 @@
+---
+layout: base
+---
+{% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
+
+{% if page.title.size > 0 %}
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+  <hr class="sr-only"/>
+{% endif %}
+
+
+{{ content }}
+
+<nav class="sidebar-nav heading" role="navigation">
+    {% include body/show.html %}
+  </nav>
+

@@ -1,0 +1,90 @@
+# The primary author of this blog.
+# Must be the same as `author` in `_config.yml`.
+# Change `author1` to your shortname.
+author1:
+  name: Alfred-Alan
+  email: l3210440292@gmail.com
+
+  # Used at the bottom of each page and at the top of the `about` layout
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:             |
+    身处井底的青蛙 只能看到狭小的天空，
+    如果没有了追求 就如同那咸鱼一般。
+
+    
+    [Download Free][kit]
+    -- or --
+    [Buy PRO][buy]
+
+    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
+    [buy]: https://app.simplegoods.co/i/NATYVLYT
+
+  # This photo will be used in the about section
+  picture:
+    path:            /assets/icons/icon.png
+    # srcset is optional, but can be used to provide higher res versions for retina displays
+    srcset:
+      1x:            /assets/icons/icon.png
+      2x:            /assets/icons/icon.png
+
+  # Social media icons in sidebar
+  # Comment/uncommet to show/hide
+  # Rearrange to change the order in which they appear
+  social:
+    # twitter:         <username>
+    facebook:        alfred.alan.7739
+    sina-weibo:     https://weibo.com/u/6280722873
+    github:          https://github.com/Alfred-Alan
+    # email:           l3210440292@gmail.com
+    # rss:             https://<url>/feed.xml
+    # google:          l3210440292@gmail.com
+    # vk:              <username>
+    steam: 3210440292
+    # vimeo:           <username>
+    # vine:            <username>
+    spotify: https://open.spotify.com/user/f43n1k1sc2yz2b3nb69ib8ase?si=wjpDRGuESqOecixyi7ZJEg
+    youtube:         UCJd-ApxX9Np3mUeRtcdf2ug
+    # soundcloud:      <username>
+    # lastfm:          <username>
+    # instagram:       <username>
+    # flickr:          <string@string>
+    # 500px:           <username>
+    # dribbble:        <username>
+    # behance:         <username>
+    # deviantart:      <username>
+    # ello:            <username>
+    # twitch:          <username>
+    # reddit:          <username>
+    # tumblr:          <username>
+    # pinterest:       <username>
+    # foursquare:      <number>
+    # yelp:            <string>
+    # stackoverflow:   <number/username>
+    # npm:             <username>
+    # hackernews:      <username>
+    # trello:          <firstnamelastname>
+    # linkedin:        <firstname-lastname-string>
+    # xing:            <firstname_lastname_counter>
+    # blogger:         <number>
+    # delicious:       <username>
+    # stumbleupon:     <username>
+    # paypal:          <username>
+    # download:        <url>
+
+# Another author (optional)
+author2:
+  name:              <firtname> <lastname>
+  email:             <mail@domain.tld>
+  about:             |
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+    Open `_data/authors.yml` to edit this text.
+  picture:           https://placehold.it/128x128
+  twitter:           <username>
+  github:            <username>
+  accent_color:      '#268bd2'
+  accent_image:
+    background:      '#202020'
+    overlay:         false

@@ -1,0 +1,63 @@
+---
+# Copyright (c) 2018 Florian Klampfer <https://qwtel.com/>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+layout: base
+---
+
+{% assign posts = site.categories[page.slug] | default:site.tags[page.slug] | default:site.posts %}
+
+{% if page.title.size > 0 %}
+  <header>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% include components/message.html text=page.description hide=page.hide_description %}
+  </header>
+  <hr class="sr-only"/>
+{% endif %}
+
+
+{{ content }}
+{% for projecturl in page.projectlist %}
+
+  <div class="col-xs-6 f1">
+    <iframe id="frame1" frameborder=0 width=1100 height=770  src="{{projecturl}}" marginheight=0 marginwidth=0></iframe>
+    
+  </div>
+{% endfor %}
+
+<style>
+  .f1{width:1100px; height:800px; overflow: hidden;}
+  /* .f2{height:485px; overflow: hidden;} */
+  #frame1{position:relative;top: -50px; left:-40px; transform:scale(1,1);}
+  /* #frame2{position:relative; top:-895px;left:-4.8%;  z-index: 0} */
+
+</style>
+
+
+<!-- 
+<iframe src="https://gitee.com/l3210440292/mydjango"
+        width="500" height="500" frameborder="0"
+        allowfullscreen sandbox>
+  <p> <a href="https://gitee.com/l3210440292/mydjango">
+    mydjango
+  </a> </p>
+</iframe> -->
+
+
+
+
+{% assign date_formats  = site.data.strings.date_formats               %}
+{% assign list_group_by = date_formats.list_group_by | default:"%Y"    %}
+{% assign list_entry    = date_formats.list_entry    | default:"%d %b" %}
