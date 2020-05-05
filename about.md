@@ -5,7 +5,7 @@ image: /assets/img/blog/hydejack-8.png
 # About
 ## 基本信息
 ---
-刘吉庆 2002年9月
+姓名：刘吉庆
 
 北京 Python全栈开发工程师
 
