@@ -84,6 +84,9 @@ permalink:             /:categories/:year-:month-:day-:title/
 paginate:              10
 paginate_path:         /page-:num/
 
+# Share
+social-share: true
+social-share-items: ['wechat','qq','qzone', 'weibo', 'douban', 'twitter','linkedin']
 
 # Customizaton
 # ========================================================================================
