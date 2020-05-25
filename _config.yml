@@ -154,13 +154,11 @@ defaults:
 # pages with `comments: true` in the front matter.
 # disqus: alfred-alan
 # gitalk 设置
-gitalk: true
-gitalk_clientid: '1e3ecd59274587087a72'
-gitalk_secret: '341d36b5e98c8844089259539a2cff2477d572f2'
-gitalk_repo: 'Alfred-Alan.github.io'
-gitalk_owner: 'Alfred-Alan'
-gitalk_admin: 'Alfred-Alan'
-gitalk_dfm: false
+# Gitalk settings
+comment_gitalk_clientId: 8497436ebdd9d51a76fe
+comment_gitalk_clientSecret: 35a17a60d44942a59ebd008392e51b33fbe647df
+comment_gitalk_repo: alfred-alan.github.io
+github_username: Alfred-Alan
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>

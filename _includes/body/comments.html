@@ -1,33 +1,36 @@
 
 {% if page.comments %}
 <aside class="comments related" role="complementary">
-<h2 class="hr">{{ site.data.strings.comments | default:"Comments" }}</h2>
+  <!-- <h2 class="hr">{{ site.data.strings.comments | default:"Comments" }}</h2> -->
   <!-- {% include my-comments.html %} -->
-  <div id="git_thread"></div>
-</aside>
 
-<!-- 加载gitalk -->
+    <!-- Gitalk start -->
+    <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+    <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+    <script src="/assets/js/md5.min.js"></script>
 
-<!-- <link rel="stylesheet" href="/assets/css/gitalk.css">
-<script src="/assets/js/gitalk.min.js"></script>
+    <div id="gitalk-container" style="padding-bottom: 30px;"></div>
+    <script>
+      var gitalk = new Gitalk({
+          clientID: '8497436ebdd9d51a76fe', // GitHub Application Client ID
+          clientSecret: '35a17a60d44942a59ebd008392e51b33fbe647df', // GitHub Application Client Secret
+          repo: 'alfred-alan.github.io',      // 存放评论的仓库
+          owner: 'Alfred-Alan',          // 仓库的创建者，
+          admin: ['Alfred-Alan'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
+          id: md5(location.pathname),      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+          title: document.title,
+          body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
+          adminUser: 'Alfred-Alan', // 评论初始化账户(GitHub ID)
+          distractionFreeMode: true // 是否开启分心自由模式 也就是免打扰
+      })
+      gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
+    </script>
+    <!-- Gitalk end -->
 
-<div id="gitalk-container"></div>
-    <script type="text/javascript">
-    var title = location.pathname.substr(0, 50);//截取路径的前50个字符作为标识符
-    var gitalk = new Gitalk({
-
-    // gitalk的主要参数
-        clientID: `1e3ecd59274587087a72`,
-        clientSecret: `341d36b5e98c8844089259539a2cff2477d572f2`,
-        repo: `Alfred-Alan.github.io`,
-        owner: 'Alfred-Alan',
-        admin: ['Alfred-Alan'],
-        id: title,//因为这里不能超过50字符，所以做了处理，当超过50时自动截取前50
-    
-    });
-    gitalk.render('gitalk-container');
-    </script> -->
-
-<!-- Gitalk end -->
+  <div id="git_thread"></div> 
+ </aside>
 
 {% endif %}
+<style> 
+
+</style>
