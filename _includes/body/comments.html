@@ -4,7 +4,6 @@
   <!-- <h2 class="hr">{{ site.data.strings.comments | default:"Comments" }}</h2> -->
   <!-- {% include my-comments.html %} -->
 
-    <!-- Gitalk start -->
     <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
     <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
     <script src="/assets/js/md5.min.js"></script>
@@ -22,10 +21,9 @@
           body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
           adminUser: 'Alfred-Alan', 
           distractionFreeMode: true, 
-      })
+      });
       gitalk.render('gitalk-container');    
     </script>
-    <!-- Gitalk end -->
 
   <div id="git_thread"></div> 
  </aside>
