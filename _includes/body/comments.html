@@ -12,18 +12,18 @@
     <div id="gitalk-container" style="padding-bottom: 30px;"></div>
     <script>
       var gitalk = new Gitalk({
-          clientID: '8497436ebdd9d51a76fe', // GitHub Application Client ID
-          clientSecret: '35a17a60d44942a59ebd008392e51b33fbe647df', // GitHub Application Client Secret
-          repo: 'alfred-alan.github.io',      // 存放评论的仓库
-          owner: 'Alfred-Alan',          // 仓库的创建者，
-          admin: ['Alfred-Alan'],        // 如果仓库有多个人可以操作，那么在这里以数组形式写出
-          id: md5(location.pathname),      // 用于标记评论是哪个页面的，确保唯一，并且长度小于50
+          clientID: '8497436ebdd9d51a76fe', 
+          clientSecret: '35a17a60d44942a59ebd008392e51b33fbe647df', 
+          repo: 'alfred-alan.github.io',      
+          owner: 'Alfred-Alan',         
+          admin: ['Alfred-Alan'],        
+          id: md5(location.pathname),      
           title: document.title,
           body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
-          adminUser: 'Alfred-Alan', // 评论初始化账户(GitHub ID)
-          distractionFreeMode: true // 是否开启分心自由模式 也就是免打扰
+          adminUser: 'Alfred-Alan', 
+          distractionFreeMode: true, 
       })
-      gitalk.render('gitalk-container');    // 渲染Gitalk评论组件
+      gitalk.render('gitalk-container');    
     </script>
     <!-- Gitalk end -->
 
