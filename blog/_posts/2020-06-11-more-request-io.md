@@ -24,6 +24,7 @@ image: /assets/img/blog/redis-black.png
 <br/>
 
 有一个想法：
+
 如果遇到mysql，oracle等大型数据库高密集读写的时候，先把需要更改的数据放进redis。
 
 高并发高请求的时候只对redis进行操作。只通过redis记录更改的值
