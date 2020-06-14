@@ -24,7 +24,7 @@ SnowFlake 其翻译过来是雪花，顾名思义 因为每片雪花的样式形
 
 但SnowFlake是基于二进制来生成的id 我们还可以对他进行反解析 将它转成二进制，按照所需来截取一段二进制码进行解析
 
-![bitcode](../../../../../Program Files/GitHub/alfred-alan.github.io/assets/img/SnowFlake/bitcode.jpg)
+![bitcode](/assets/img/SnowFlake/bitcode.jpg)
 
 1位标识符 为0
 
