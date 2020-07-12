@@ -75,7 +75,7 @@ def test():
 最后开启``celery服务``
 
 ```powershell
-celery worker -A mydjango -l info -P eventlet
+celery worker -A tasks -l info -P eventlet
 ```
 
 这里要说一嘴 可能 celery 普通启动会出错，所以使用eventlet包来协助启动。
@@ -111,6 +111,10 @@ celery worker -A mydjango -l info -P eventlet
 ```
 
 之后启动celery 的定时服务,效果如下
+
+```powershell
+celery -A tasks  beat -l info
+```
 
 ```powershell
 (base) E:\Python\myflask_dev>celery -A tasks  beat -l info
