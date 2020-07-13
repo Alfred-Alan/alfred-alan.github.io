@@ -5,7 +5,7 @@ subtitle: '如何在flasks上搭建celery定时任务'
 date: 2020-07-12
 categories: 技术
 tags: flask celery
-image: /assets/img/blog/celery.jpg
+image: /assets/img/blog/celery-flask.png
 
 ---
 
