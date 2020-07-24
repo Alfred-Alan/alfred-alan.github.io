@@ -33,19 +33,21 @@ LinkedIn：https://weibo.ws/lVewDx
 
 ## 技能列表
 ------
-+ 掌握：**Python**，**SQL**，Html，CSS, 熟悉JavaScript
++  掌握：**Python**，**SQL**，Html，CSS, 熟悉JavaScript
 
-+  后端框架：**Django**，Flask，FastAPI，Scrapy
++ 后端框架：**Django**，Flask，FastAPI，Scrapy
 
 + 掌握前端框架：**Vue.js**， Node.js 灵活运用**Bootstrap3/4**，VantUI，LayUI，ElementUI等组件
 
 +  Database：**Mysql**，Mongodb，Redis
 
-+ 开发系统：Windows，**Ubuntu**
++  开发系统：Windows，**Ubuntu**
 
-+  掌握开发工具：**Docker**，Git，Postman，**Vim**
++  掌握开发工具：**Docker**，Git，Postman，**Vim，**Nginx，Elasticsearch
 
-+ 外语： CET4
++  外语： CET4
+
+   
 
 ## 工作经历
 ------
@@ -120,3 +122,4 @@ LinkedIn：https://weibo.ws/lVewDx
 •    利用**ECharts**对抓取后的数据进行可视化展示 
 
 •    使用Scrapy + **Selenium** 篡改中间件模拟真实请求 防止检测
+
