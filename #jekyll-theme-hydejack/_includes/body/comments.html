@@ -1,6 +1,28 @@
 {% if page.comments %}
 <aside class="comments related" role="complementary">
-  <h2 class="hr-bottom">{{ site.data.strings.comments | default:"Comments" }}</h2>
-  {% include my-comments.html %}
+  <!-- <h2 class="hr-bottom">{{ site.data.strings.comments | default:"Comments" }}</h2>
+  {% include my-comments.html %} -->
+  <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+  <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+  <script src="/assets/js/md5.min.js"></script>
+
+  <div id="gitalk-container" style="padding-bottom: 30px;"></div>
+  <script>
+    var gitalk = new Gitalk({
+        clientID: '8497436ebdd9d51a76fe', 
+        clientSecret: '35a17a60d44942a59ebd008392e51b33fbe647df', 
+        repo: 'alfred-alan.github.io',      
+        owner: 'Alfred-Alan',         
+        admin: ['Alfred-Alan'],        
+        id: md5(location.pathname),      
+        title: document.title,
+        body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
+        adminUser: 'Alfred-Alan', 
+        distractionFreeMode: true, 
+    });
+    gitalk.render('gitalk-container');    
+  </script>
+
+  <div id="git_thread"></div> 
 </aside>
 {% endif %}

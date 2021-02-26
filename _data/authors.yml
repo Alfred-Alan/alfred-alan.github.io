@@ -2,41 +2,38 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name:              <firstname> <lastname>
-  email:             <mail@domain.tld>
+  name:              Alfred-Alan
+  email:             l3210440292@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-    
-    Open `_data/authors.yml` to edit this text.
-
+    身处井底的青蛙 只能看到狭小的天空，
+    如果没有了追求 就如同那咸鱼一般。
   # This photo will be used in the about section
   picture:
-    path:            https://placehold.it/128x128
+    path:            /assets/img/icon.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+      1x:            /assets/img/icon.png
+      2x:            /assets/img/icon.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Rearrange to change the order in which they appear
   social:
-    twitter:         <username>
-    github:          <username>
+    # twitter:         <username>
+    sina-weibo:     https://weibo.com/u/6280722873
+    github:          https://github.com/Alfred-Alan
     # email:           <mail@domain.tld>
     # rss:             https://<url>/feed.xml
-    # facebook:        <username>
+    facebook:        alfred.alan.7739
     # google:          <number>
     # vk:              <username>
-    # youtube:         <string_string_string>
+    youtube:         UCJd-ApxX9Np3mUeRtcdf2ug
     # vimeo:           <username>
     # vine:            <username>
-    # spotify:         <user>/<number>
+    spotify:         https://open.spotify.com/user/f43n1k1sc2yz2b3nb69ib8ase?si=wjpDRGuESqOecixyi7ZJEg
     # soundcloud:      <username>
     # lastfm:          <username>
     # instagram:       <username>
@@ -47,7 +44,7 @@ author1:
     # deviantart:      <username>
     # ello:            <username>
     # twitch:          <username>
-    # steam:           <number>
+    steam:           3210440292
     # reddit:          <username>
     # tumblr:          <username>
     # pinterest:       <username>
