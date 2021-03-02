@@ -1,4 +1,7 @@
 {% assign disqus = site.disqus | default:site.disqus_shortname %}
+{% assign gitalk = site.gitalk | default:site.gitalk %}
+{% assign valine = site.valine | default:site.valine %}
+
 {% if disqus %}
 <div id="disqus_thread"></div>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
@@ -21,4 +24,59 @@
     }
   }
 }(window, document);</script>
+{% endif %}
+
+{% if gitalk.enable %}
+  <div id="git_thread"></div>
+  <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
+  <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+  <script src="/assets/js/md5.min.js"></script>
+
+  <div id="gitalk-container" style="padding-bottom: 30px;"></div>
+  <script>
+    var gitalk_obj = new Gitalk({
+        clientID: '{{gitalk.clientId}}', 
+        clientSecret: '{{gitalk.clientSecret}}', 
+        repo: '{{gitalk.repo}}',      
+        owner: '{{gitalk.username}}',         
+        admin: ['{{gitalk.username}}'],        
+        id: md5(location.pathname),      
+        title: document.title,
+        body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
+        adminUser: '{{gitalk.username}}', 
+        distractionFreeMode: true, 
+    })
+    gitalk_obj.render('gitalk-container');    
+  </script>
+
+{% endif %}
+
+{% if valine.enable %}
+  <div id="valinecomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  <script>
+    var url = "/assets/js/emoji.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
+    var request = new XMLHttpRequest();
+    request.open("get", url);/*设置请求方法与路径*/
+    request.send(null);/*不发送数据到服务器*/
+    request.onload = function () {/*XHR对象获取到返回信息后执行*/
+      if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
+        new Valine({
+          el: '#valinecomments',
+          app_id: '{{valine.app_id}}',
+          app_key: '{{valine.app_key}}',
+          placeholder: '{{valine.placeholder}}',
+          avatar: '{{valine.avatar}}',
+          pageSize: {{valine.pageSize | defalut:10}},
+          recordIP:  {{valine.recordIP}},
+          requiredFields: ['nick', 'mail'],
+          // 设置Bilibili表情包地址
+          emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+          // 表情title和图片映射
+          emojiMaps: JSON.parse(request.responseText)
+        });
+      }
+    }
+  </script>
 {% endif %}

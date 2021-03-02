@@ -201,26 +201,24 @@ kramdown:
 
 # gitalk 设置
 # Gitalk settings
-comment_gitalk_clientId: 8497436ebdd9d51a76fe
-comment_gitalk_clientSecret: 35a17a60d44942a59ebd008392e51b33fbe647df
-comment_gitalk_repo: alfred-alan.github.io
-github_username: Alfred-Alan
+gitalk:
+  enable: false
+  clientId: 8497436ebdd9d51a76fe
+  clientSecret: 35a17a60d44942a59ebd008392e51b33fbe647df
+  repo: alfred-alan.github.io
+  username: Alfred-Alan
 
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
   enable: true
-  appid: 'A1SmFpxAvSgc38J5LcTnmfTq-MdYXbMMI' # Your leancloud application appid
-  appkey: 'snEGdAd0nqnPB6DQiavShjAp' # Your leancloud application appkey
-  notify: false # Mail notifier
-  placeholder: '欢迎评论' # Comment box placeholder
+  app_id: A1SmFpxAvSgc38J5LcTnmfTq-MdYXbMMI # Your leancloud application appid
+  app_key: snEGdAd0nqnPB6DQiavShjAp # Your leancloud application appkey
+  placeholder: 欢迎评论 # Comment box placeholder
   avatar: hide # Gravatar style
-  guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
-  visitor: true # Article reading statistic
-  comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP
-
+  requiredFields: [nick, mail]
 # Setting a tinyletter username will enable the newsletter subscription box.
 # PRO version only!
 # tinyletter:            <username>

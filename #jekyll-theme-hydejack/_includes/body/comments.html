@@ -1,64 +1,6 @@
 {% if page.comments %}
 <aside class="comments related" role="complementary">
-  <!-- <h2 class="hr-bottom">{{ site.data.strings.comments | default:"Comments" }}</h2>
-  {% include my-comments.html %} -->
-
-  <!-- <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
-  <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
-  <script src="/assets/js/md5.min.js"></script>
-
-  <div id="gitalk-container" style="padding-bottom: 30px;"></div>
-  <script>
-    var gitalk = new Gitalk({
-        clientID: '8497436ebdd9d51a76fe', 
-        clientSecret: '35a17a60d44942a59ebd008392e51b33fbe647df', 
-        repo: 'alfred-alan.github.io',      
-        owner: 'Alfred-Alan',         
-        admin: ['Alfred-Alan'],        
-        id: md5(location.pathname),      
-        title: document.title,
-        body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
-        adminUser: 'Alfred-Alan', 
-        distractionFreeMode: true, 
-    });
-    gitalk.render('gitalk-container');    
-  </script>
-
-  <div id="git_thread"></div>  -->
-
-  {% if site.valine.enable and site.valine.appid and site.valine.appkey %}
-    <div id="valinecomments"></div>
-    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-    <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-
-    <script>
-      window.onload = function () {
-            var url = "/assets/js/emoji.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
-            var request = new XMLHttpRequest();
-            request.open("get", url);/*设置请求方法与路径*/
-            request.send(null);/*不发送数据到服务器*/
-            request.onload = function () {/*XHR对象获取到返回信息后执行*/
-                if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
-                  new Valine({
-                    el: '#valinecomments',
-                    app_id: '{{ site.valine.appid }}',
-                    app_key: '{{ site.valine.appkey }}',
-                    placeholder: '{{ site.valine.placeholder }}',
-                    avatar: '{{ site.valine.avatar }}',
-                    pageSize: {{ site.valine.pageSize | default:10 }},
-                    visitor: {{ site.valine.visitor }},
-                    recordIP: {{ site.valine.recordIP }},
-                    // 设置Bilibili表情包地址
-                    emojiCDN: '//i0.hdslb.com/bfs/emote/', 
-                    // 表情title和图片映射
-                    emojiMaps: JSON.parse(request.responseText)
-                  });
-                }
-            }
-       }
-
-    </script>
-  {% endif %}
-
+  <h2 class="hr-bottom">{{ site.data.strings.comments | default:"Comments" }}</h2>
+  {% include my-comments.html %}
 </aside>
 {% endif %}
