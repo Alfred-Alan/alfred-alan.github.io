@@ -28,8 +28,8 @@
 
 {% if gitalk.enable %}
   <div id="git_thread"></div>
-  <link rel="stylesheet" href="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.css">
-  <script src="//cdn.bootcss.com/gitalk/1.5.0/gitalk.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
   <script src="/assets/js/md5.min.js"></script>
 
   <div id="gitalk-container" style="padding-bottom: 30px;"></div>
@@ -52,32 +52,54 @@
 {% endif %}
 
 {% if valine.enable %}
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src='//cdn1.lncld.net/static/js/3.0.4/av-min.js'></script>
+<script src='/assets/js/valine_comment.js'></script>
   <div id="valinecomments"></div>
-  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   <script>
-    window.onload = function() {
-      var request = new XMLHttpRequest();
-      request.open("get", "/assets/js/emoji.json");
-      request.send(null);
-      request.onload = function () {
-        if (request.status == 200) {
-          new Valine({
-            el: '#valinecomments',
-            app_id: '{{valine.app_id}}',
-            app_key: '{{valine.app_key}}',
-            placeholder: '{{valine.placeholder}}',
-            avatar: '{{valine.avatar}}',
-            pageSize: {{valine.pageSize | defalut:10}},
-            recordIP:  {{valine.recordIP}},
-            requiredFields: ['nick', 'mail'],
-            /* 设置Bilibili表情包地址*/
-            emojiCDN: '//i0.hdslb.com/bfs/emote/', 
-            /* 表情title和图片映射*/
-            emojiMaps: JSON.parse(request.responseText)
-          });
+
+    (function(history){
+        var pushState = history.pushState;
+        history.pushState = function(state) {
+          
+          // YOUR CUSTOM HOOK / FUNCTION
+          // render_valine();
+          const url = arguments[2]
+          res=url.match(/.*?([\d]{4}-[\d]{1,2}-[\d]{1,2}).*?/);
+          if (res){
+            render_valine();
+          }
+          return pushState.apply(history, arguments);
+        };
+    })(window.history);
+
+    window.onload = function(){
+      render_valine();
+    }
+    function render_valine() {
+      window.setTimeout(function(){
+        var request = new XMLHttpRequest();
+        request.open("get", "/assets/js/emoji.json");
+        request.send(null);
+        request.onload = function () {
+          if (request.status == 200) {
+            new Valine({
+              el: '#valinecomments',
+              app_id: '{{valine.app_id}}',
+              app_key: '{{valine.app_key}}',
+              placeholder: '{{valine.placeholder}}',
+              avatar: '{{valine.avatar}}',
+              pageSize: {{valine.pageSize | defalut:10}},
+              recordIP:  {{valine.recordIP}},
+              requiredFields: ['nick', 'mail'],
+              /* 设置Bilibili表情包地址*/
+              emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+              /* 表情title和图片映射*/
+              emojiMaps: JSON.parse(request.responseText)
+            });
+          }
         }
-      }
+      },1);
     }
   </script>
 {% endif %}

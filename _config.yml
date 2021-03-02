@@ -202,7 +202,7 @@ kramdown:
 # gitalk 设置
 # Gitalk settings
 gitalk:
-  enable: false
+  enable: true
   clientId: 8497436ebdd9d51a76fe
   clientSecret: 35a17a60d44942a59ebd008392e51b33fbe647df
   repo: alfred-alan.github.io
@@ -211,7 +211,7 @@ gitalk:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: true
+  enable: false
   app_id: A1SmFpxAvSgc38J5LcTnmfTq-MdYXbMMI # Your leancloud application appid
   app_key: snEGdAd0nqnPB6DQiavShjAp # Your leancloud application appkey
   placeholder: 欢迎评论 # Comment box placeholder
