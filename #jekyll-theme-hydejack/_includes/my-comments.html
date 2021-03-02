@@ -56,26 +56,28 @@
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
   <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   <script>
-    var url = "/assets/js/emoji.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
-    var request = new XMLHttpRequest();
-    request.open("get", url);/*设置请求方法与路径*/
-    request.send(null);/*不发送数据到服务器*/
-    request.onload = function () {/*XHR对象获取到返回信息后执行*/
-      if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
-        new Valine({
-          el: '#valinecomments',
-          app_id: '{{valine.app_id}}',
-          app_key: '{{valine.app_key}}',
-          placeholder: '{{valine.placeholder}}',
-          avatar: '{{valine.avatar}}',
-          pageSize: {{valine.pageSize | defalut:10}},
-          recordIP:  {{valine.recordIP}},
-          requiredFields: ['nick', 'mail'],
-          /* 设置Bilibili表情包地址*/
-          emojiCDN: '//i0.hdslb.com/bfs/emote/', 
-          /* 表情title和图片映射*/
-          emojiMaps: JSON.parse(request.responseText)
-        });
+    window.onload = function() {
+      var url = "/assets/js/emoji.json"/*json文件url，本地的就写本地的位置，如果是服务器的就写服务器的路径*/
+      var request = new XMLHttpRequest();
+      request.open("get", url);/*设置请求方法与路径*/
+      request.send(null);/*不发送数据到服务器*/
+      request.onload = function () {/*XHR对象获取到返回信息后执行*/
+        if (request.status == 200) {/*返回状态为200，即为数据获取成功*/
+          new Valine({
+            el: '#valinecomments',
+            app_id: '{{valine.app_id}}',
+            app_key: '{{valine.app_key}}',
+            placeholder: '{{valine.placeholder}}',
+            avatar: '{{valine.avatar}}',
+            pageSize: {{valine.pageSize | defalut:10}},
+            recordIP:  {{valine.recordIP}},
+            requiredFields: ['nick', 'mail'],
+            /* 设置Bilibili表情包地址*/
+            emojiCDN: '//i0.hdslb.com/bfs/emote/', 
+            /* 表情title和图片映射*/
+            emojiMaps: JSON.parse(request.responseText)
+          });
+        }
       }
     }
   </script>
