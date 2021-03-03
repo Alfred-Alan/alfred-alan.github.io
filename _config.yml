@@ -197,12 +197,12 @@ kramdown:
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-# disqus:                <username>
+disqus:                <username>
 
 # gitalk 设置
 # Gitalk settings
 gitalk:
-  enable: true
+  enable: false
   clientId: 8497436ebdd9d51a76fe
   clientSecret: 35a17a60d44942a59ebd008392e51b33fbe647df
   repo: alfred-alan.github.io

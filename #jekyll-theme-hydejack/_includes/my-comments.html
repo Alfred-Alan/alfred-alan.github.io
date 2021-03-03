@@ -3,7 +3,7 @@
 {% assign valine = site.valine | default:site.valine %}
 
 {% if disqus %}
-<div id="disqus_thread"></div>
+<!-- <div id="disqus_thread"></div>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 <script>!function(w, d) {
   if (d.getElementById("disqus_thread")) {
@@ -23,7 +23,25 @@
       w.loadJSDeferred(d.getElementById("_hrefDisqus").href + '/embed.js');
     }
   }
-}(window, document);</script>
+}(window, document);</script> -->
+<script type="text/javascript" src="/assets/js/iDisqus.min.js"></script>  
+<link rel="stylesheet" type="text/css" href="/assets/css/iDisqus.min.css" />
+
+<!-- <a href="index.html#disqus_thread" data-disqus-identifier=""></a> -->
+<div id="comment"></div>
+<script type="text/javascript">
+  var disq = new iDisqus('comment', {
+      forum: 'alfred-alan',
+      api: 'http://www.alfred-alan.online/',
+      site: 'https://www.alfred-alan.online/',
+      url: location.pathname,
+      mode: 1,
+      timeout: 2000,
+      init: true,
+    });
+  disq.count();
+</script>
+
 {% endif %}
 
 {% if gitalk.enable %}
