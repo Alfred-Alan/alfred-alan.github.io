@@ -83,7 +83,7 @@
         body:  '文章链接：'+ decodeURIComponent(location.origin+location.pathname),
         adminUser: '{{gitalk.username}}', 
         distractionFreeMode: true, 
-        proxy: '/github/login/oauth/access_token' // 新添加的
+        proxy: '/github/login/oauth/access_token'
     });
     gitalk_obj.render('gitalk-container');    
   </script>
