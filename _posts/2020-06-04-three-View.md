@@ -31,9 +31,8 @@ image: /assets/img/blog/restframework.png
 使用方式
 <br/>
 
-**views.py**：
-
 ```python
+# file: 'views.py'
 from django.http import HttpResponse
 from django.views import View
 
@@ -43,9 +42,8 @@ class MyView(View):
         return HttpResponse('Hello, World!')
 ```
 
-**urls.py**：
-
 ```python
+# file: 'urls.py'
 from django.urls import path
 
 from myapp.views import MyView
@@ -101,7 +99,7 @@ APIView是django rest framework框架中的基类 APIView继承了django中的Vi
 <br/>
 
 ```python
-# APIView_test.py
+# file: 'APIView_test.py'
 class SnippetList(APIView):
 
     def get(self, request):
@@ -143,7 +141,7 @@ GenericAPIView 的五个拓展类提供了五个方法分别进行增删改查�
 例如上述代码，我们可以简化为
 
 ```python
-# GenericAPIView_test.py
+# file: 'GenericAPIView_test.py'
 from rest_framework.mixins import ListModelMixin,CreateModelMixin
 from rest_framework.generics import GenericAPIView
 

@@ -21,35 +21,31 @@ invert_sidebar: true
 由于rabbitMq需要erlang语言的支持，需要安装erlang：
 
 ```powershell
-apt-get install erlang-nox # 安装 
-安装之后输入 erl 查看是否成功 
+apt-get install erlang-nox
 ```
+安装之后输入 erl 查看是否成功 
 
 
 ## 添加公钥
-
 ```powershell
 wget -O- https://www.rabbitmq.com/rabbitmq-release-signing-key.asc | sudo apt-key add -
 ```
 
-
 ## 更新软件包
-
 ```powershell
 apt-get update
 ```
 
 ## 安装 RabbitMQ
-
 ```powershell
-apt-get install rabbitmq-server # 安装rabbitmq
+apt-get install rabbitmq-server
 ```
 
 ## 查看 RabbitMq状态
-
 ```powershell
-systemctl status rabbitmq-server # 如果有 Active: active (running) 说明处于运行状态
+systemctl status rabbitmq-server
 ```
+如果有 Active: active (running) 说明处于运行状态
 
 ### 启动、停止、重启
 
@@ -61,13 +57,17 @@ service rabbitmq-server restart # 重启
 
 执行了上面的步骤，rabbitMq已经安装成功。
 ## 配置Management Plugin
-如果要启用 web端可视化操作界面，我们还需要配置Management Plugin插件
+如果要启用 web端可视化操作界面，我们还需要配置Management Plugin插件 
+<br>
 
-```powersehll
-rabbitmq-plugins enable rabbitmq_management # 启用插件
-service rabbitmq-server restart # 重启
+启用插件
+```powershell
+rabbitmq-plugins enable rabbitmq_management
 ```
-
+重启
+```powershell
+service rabbitmq-server restart
+```
 这里我新建了一个用户 方便使用 
 ## 查看用户
 
@@ -76,10 +76,13 @@ rabbitmqctl list_users
 ```
 
 ## 添加管理用户
-
+增加普通用户
 ```powershell
-rabbitmqctl add_user admin 123456 # 增加普通用户
-rabbitmqctl set_user_tags admin administrator # 给普通用户分配管理员角色
+rabbitmqctl add_user admin 123456
+```
+给普通用户分配管理员角色
+```powershell 
+rabbitmqctl set_user_tags admin administrator
 ```
 
 用户创建完毕之后 就可以使用浏览器访问：http://服务器Ip:15672/ 来访问你的rabbitmq监控页面。
@@ -101,9 +104,9 @@ rabbitmqctl set_user_tags admin administrator # 给普通用户分配管理员�
 也可以用命令设置
 
 命令设置权限方式为：
-
-\>> rabbitmqctl set_permissions -p '/' yueer01 ".*" ".*" ".*"Setting permissions for user "yueer01" in vhost "/" ...
-
+```powershell
+rabbitmqctl set_permissions -p '/' admin ".*" ".*" ".*"Setting permissions for user "admin" in vhost "/" ...
+```
 设置完成之后
 
 ![选择admin](/assets/img/rabbitmq/choose_admin.png)
@@ -120,10 +123,10 @@ rabbitmqctl set_user_tags admin administrator # 给普通用户分配管理员�
 ```powershell
 pip install  pika
 ```
-
 ### 创建发布者：
 
 ```python
+# file: 'sender.py'
 # 创建凭证，使用rabbitmq用户密码登录
 credentials = pika.PlainCredentials("admin", "123456")
 cpara = pika.ConnectionParameters(host='0.0.0.0', port=5672, credentials=credentials)
@@ -146,10 +149,10 @@ print("send sucessful")
 # 程序退出前，确保刷新网络缓冲以及消息发送给rabbitmq，需要关闭本次连接
 connection.close()
 ```
-
 ### 创建接受者：
 
 ```python
+# file: 'receiver.py'
 # 建立与rabbitmq的连接
 credentials = pika.PlainCredentials("admin", "123456")
 cpara = pika.ConnectionParameters(host='0.0.0.0', port=5672, credentials=credentials)
@@ -190,6 +193,7 @@ def callback(ch, method, properties, body):
 手动应答，如果回调函数处理过程中发生错误，该条语句不会执行，消息回滚，等待下次消费。示例代码如下
 
 ```python
+# file: 'receiver.py'
  def callback(ch, method, properties, body):
         print(type(body))
         # print(body.decode(encoding='utf-8'))
@@ -210,6 +214,7 @@ channel.basic_consume(on_message_callback=callback, queue='queue1', auto_ack=Fal
 在发布者和接受者新建队列时 设置消息持久化 
 
 ```python
+# file: 'sender.py'
 # durable=True 设置消息持久化，即使rabbitmq重启也会保存消息，记得建立新的队列，因为以前的队列不支持持久化
 channel.queue_declare(queue='queue1', durable=True)
 ```
@@ -220,9 +225,10 @@ channel.queue_declare(queue='queue1', durable=True)
 
 - 交换机的类型为**fanout**，此种模式下，每个消费者创建时，都会创建属于自己的队列，生产者会将消息传递到交换机，交换机传递到它绑定的所有队列上，此时所有生产者都会接收到消息。
 
-#### 生产者
+### 生产者
 
 ```python
+# file: 'producer.py'
 import pika
 
 # 创建凭证，使用rabbitmq用户密码登录
@@ -242,9 +248,10 @@ print("send sucessful")
 connection.close()
 ```
 
-#### 消费者
+### 消费者
 
 ```python
+# file: 'consumer.py'
 import pika
 
 # 建立与rabbitmq的连接
@@ -278,9 +285,10 @@ channel.start_consuming()
 
 - 发布订阅模式下，所有消费者都会接收消息，如果生产者发送的消息只想让部分消费者接收，应该如何实现呢？此时可以考虑关键字模式，当交换机类型为**direct**时，为关键字模式
 
-#### 生产者
+### 生产者
 
 ```python
+# file: 'producer.py'
 import pika
 
 # 建立与rabbitmq的连接
@@ -301,9 +309,10 @@ print("send sucessful")
 connection.close()
 ```
 
-#### 消费者
+### 消费者
 
 ```python
+# file: 'consumer.py'
 import pika
 
 # 建立与rabbitmq的连接
@@ -337,7 +346,7 @@ channel.start_consuming()
   解答：消费者代码中多次调用channel.queue_bind方法，一次绑定一个关键字
 
 ```python
-# consumer.py
+# file: 'consumer.py'
 channel.queue_bind(exchange='logs2',  
                    queue=queue_name,
                    routing_key='error'  # 绑定关键字error

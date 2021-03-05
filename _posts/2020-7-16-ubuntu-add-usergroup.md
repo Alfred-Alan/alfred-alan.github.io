@@ -4,6 +4,7 @@ title: 'Ubuntu中输入命令不加sudo'
 description: '如何在ubutnu下输入命令不加sudo'
 categories: [Ubuntu]
 image: /assets/img/blog/Ubuntu.png
+accent_image: /assets/img/blog/Ubuntu.png
 related_posts:
   - _posts/2020-7-14-ubuntu-install-vim.md
 ---

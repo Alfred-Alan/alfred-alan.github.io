@@ -21,7 +21,7 @@ image: /assets/img/blog/mongodb.jpg
 首先使用``heyui`` 提供的模块 来渲染成一个输入框
 
 ```html
-<!-- 商品评论 -->
+<!-- file: 'comment.vue' -->
 <!--v-wordcount 控制字数-->
 <textarea rows="5" v-model="comment" v-autosize  v-wordcount='100'>
 
@@ -33,6 +33,7 @@ image: /assets/img/blog/mongodb.jpg
 创建函数 使用axios发送请求
 
 ```js
+// file: 'comment.vue'
 // 提交评论
 	submit(){
         // 判断评论规格
@@ -74,6 +75,7 @@ image: /assets/img/blog/mongodb.jpg
 当该列表过期后才可以继续添加
 
 ```python
+# file: 'views.py'
 def post(self,request):
     
     # 获取客户端ip
@@ -111,6 +113,7 @@ def post(self,request):
 ## django后端展示评论
 
 ```python
+# file: 'views.py'
 def get(self,reuqest):
     gid = reuqest.GET.get('gid',None)
     print(gid)
@@ -123,6 +126,7 @@ def get(self,reuqest):
 ## 获取评论数据接口
 
 ```js
+// file: 'comment.vue'
 //获取评论
 get_comment(){
     this.axios.get('http://127.0.0.1:8000/myapp/commentinsert/',{

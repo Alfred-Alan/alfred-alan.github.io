@@ -29,6 +29,7 @@ text 变量就是绑定的搜索的参数
 我们只需要判断该变量就可以了
 
 ```js
+// file: 'goods.vue'
 	// 查询字符串中是否有空格
 if (this.text.indexOf(' ')){
     //由空格为间隔切片为list
@@ -53,6 +54,8 @@ text = eval(request.GET.get('text',None))
 操作思路：循环查询参数 每次查询之后添加进列表
 
 ```python
+# file: 'view.py'
+
 # 是否进行模糊查询
 if text:
     goods=[]
@@ -81,6 +84,7 @@ else:
 可以用过滤器来操作
 
 ```js
+// file: 'goods.vue'
 //过滤器
  filters:{
 	 make_text(str){

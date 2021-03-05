@@ -4,7 +4,7 @@ title: '使用高德API 来进行ip定位 '
 description: '如何使用高德api'
 categories: [Python]
 image: /assets/img/blog/gaode.png
-
+accent_image:  /assets/img/blog/gaode.png
 ---
 - Table of Contents
 {:toc .large-only}
@@ -86,6 +86,7 @@ __proto__: Object
 ## 使用python请求 
 
 ```python
+# file: 'test.py'
 import requests
 
 res= requests.get('https://restapi.amap.com/v3/ip?parameters',params={'key':'c8165322c2c48892f90ccda1aef617cf'})

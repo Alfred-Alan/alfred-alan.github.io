@@ -2,8 +2,11 @@
 layout: post
 title: '使用docker部署Nginx反向代理Vue'
 description: '使用docker部署Nginx反向代理Vue'
-categories: [Docker,Vue,nginx]
+categories: [Docker,Vue,Nginx]
 image: /assets/img/blog/vuejs-logo.jpg
+accent_image: /assets/img/blog/vuejs-logo.jpg
+# invert_sidebar: true
+
 related_posts:
   - _posts/2020-04-27-docker-use.md
   - _posts/2020-7-20-use-docker-deploy.md
@@ -54,7 +57,8 @@ npm run build
 该文件是指定nginx的配置 
 将下列配置放进配置文件中
 
-```powershell
+```shell
+# file: 'nginx/default.conf'
 server {
     listen       80;
     server_name  localhost;
@@ -100,7 +104,8 @@ nginx 配置好之后
 
 该文件被docker 读取的时候 docker会按内部的设置来生成镜像
 
-```powershell
+```shell
+# file: 'Dockerfile'
 # 设置基础镜像
 FROM nginx
 # 定义作者
@@ -113,9 +118,10 @@ COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 ## 打包vue项目
 当配置设置完毕之后 
 就可以使用docker对项目进行打包，打包为一个独立的镜像 
+```shell
 docker build -t 'myvue' .
-
-```powershell
+```
+```shell
 [root@VM-0-12-centos vue_project]# docker build -t 'myvue' .
 Sending build context to Docker daemon 11.39 MB
 Step 1/4 : FROM nginx
@@ -148,7 +154,9 @@ docker.io/python       3.6                 e0373ff33a19        3 weeks ago      
 ```
 ## 启动镜像
 最后使用docker 启动该镜像 
+```shell
 docker run -d -p 80:80 myvue 
+```
 
 查看是否启动
 

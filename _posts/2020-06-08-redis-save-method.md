@@ -5,7 +5,7 @@ description: '谈一谈redis的持久化'
 categories: [Redis] 
 image: /assets/img/blog/redis-black.png
 
-
+accent_image: /assets/img/blog/redis-black.png
 ---
 
 - Table of Contents

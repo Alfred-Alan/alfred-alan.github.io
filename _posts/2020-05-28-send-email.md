@@ -78,6 +78,7 @@ related_posts:
 ## 创建发送邮件函数
 
 ```python
+# file: 'send_email.py'
 import smtplib
 from email.mime.text import MIMEText
 from email.utils import  formataddr

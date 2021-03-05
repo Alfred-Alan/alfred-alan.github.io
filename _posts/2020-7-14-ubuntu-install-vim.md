@@ -5,7 +5,7 @@ subtitle: '如何在Ubuntu20.04下安装及配置vim'
 date: 2020-07-14
 categories: [Ubuntu,Vim]
 image: /assets/img/blog/install-vim-ubuntu.png
-related_posts:
+accent_image: /assets/img/blog/install-vim-ubuntu.png
 related_posts:
   - _posts/2020-7-16-ubuntu-add-usergroup.md
   - _posts/2020-7-11-installvim-onwin.md
@@ -49,7 +49,8 @@ vim ~/.vimrc
 ## vim 配置信息
 使用vim 打开/新建 ~/.vimrc 并写入以下内容
 
-```powershell
+```shell
+# file: '~/.vimrc'
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -70,7 +71,8 @@ vim ~/.vimrc.bundles
 
 然后添加以下内容
 
-```powershell
+```shell
+# file: '~/.vimrc.bundles'
 if &compatible
   set nocompatible
 end
@@ -179,7 +181,8 @@ sudo apt-get install ctags
 
 再次打开 ``~/.vimrc``
 
-```powershell
+```shell
+# file: '~/.vimrc'
 filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -358,8 +361,10 @@ inoremap > <ESC>:call InsertHtmlTag()<CR>a<CR><Esc>O
 在~/.vimrc最后一行追击代码如下：
 
 " 运行文件
+```shell
+# file: '~/.vimrc'
 map <F5> :w<cr>:r!python3 %<cr>
-
+```
 上述代码的意思就是，在Vim的正常模式下，按F5就会保存文件并使用Python3运行当前文件，并将结果输出到当前界面。
 
 注意，:!python3表示运行系统命令Python3，如果你没有安装Python2和Python3共存，此处只写python即可。

@@ -4,6 +4,9 @@ title: '使用docker实现部署热更新'
 description: '如何使用docker实现部署热更新'
 categories: [Docker]
 image: /assets/img/blog/docker.png
+accent_image: /assets/img/blog/docker.png
+invert_sidebar: true
+
 related_posts:
   - _posts/2020-04-27-docker-use.md
   - _posts/2020-7-20-use-docker-deploy.md
@@ -43,7 +46,8 @@ supervisor的重启服务对于无响应的Flask进程来说并不生效，不�
 
 gunicorn 配置 如下 
 
-```powershell
+```python
+# file: 'gunicorn.conf.py'
 workers = 1    # 根据核心数 
 worker_class = "gevent"   # 使用协程启动
 bind = "0.0.0.0:5000"
@@ -52,7 +56,8 @@ reload = True  # debug 模式开启
 ```
 ## Dockerfile配置
 
-```powershell
+```shell
+# file: 'Dockerfile'
 FROM python:3.6
 WORKDIR /Project/flask_project  # 容器内项目位置 
 
@@ -107,7 +112,8 @@ docker run -p 5000:5000 -v /root/project/flask_project:/Project/flask_project fl
 vim manage.py 
 ```
 
-``` powershell
+```python
+# file: 'manage.py'
 from app import *
 import user_view
 import get_order

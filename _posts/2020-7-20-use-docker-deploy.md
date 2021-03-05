@@ -3,7 +3,7 @@ layout: post
 title: '使用Docker部署Gunicorn+Flask'
 description: '如何使用docker来线上部署'
 categories: [Docker]
-image: /assets/img/blog/docker.png
+image: /assets/img/blog/docker_flask.png
 related_posts:
   - _posts/2020-04-27-docker-use.md
   - _posts/2020-7-15-docker-install-mysql.md
@@ -26,6 +26,7 @@ Docker其强大的跨平台特性，可以让我们在任何系统下部署项�
   manage.py是项目的入口文件，这里我们利用Sockert.io让Flask支持Websocket
 
 ```python
+# file: 'manage.py'
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import pymysql
@@ -157,8 +158,11 @@ pip install gunicorn gevent --user
 
   编辑项目目录下的gunicorn.conf.py
 
-```powershell
-workers = 3    # 进程数worker_class = "gevent"   # 异步模式bind = "0.0.0.0:5000"
+```python
+# file: 'gunicorn.conf.py'
+workers = 3    # 进程数
+worker_class = "gevent"   # 异步模式
+bind = "0.0.0.0:5000"
 ```
 
   由于Gunicorn并不支持Windows环境，所以只需要写好配置，不需要运行。
@@ -179,7 +183,8 @@ redis==3.3.11
 ## 编写Dockerfile
   随后在项目目录下创建一个 Dockerfile 文件，这个文件可以理解为打包镜像的脚本，你需要这个镜像做什么，就把任务写到脚本中，Docker通过执行这个脚本来打包镜像
 
-```powershell
+```shell
+# file: 'Dockerfile'
 FROM python:3.6
 WORKDIR /Project/myflask
 
@@ -231,4 +236,4 @@ docker run -it --rm -p 5000:5000 myflask
 
 ![img](/assets/img/docker_deploy/20200716110737_84282.png)
 
-  结语：到这里我们的 Docker+Flask + Gunicorn就部署完毕了，将这个镜像上传Dockerhub仓库，在任何时间、任何地点、任何系统上，只要连着网、只要我们想，就都可以在短短1分钟之内部署好我们的项目，这就是Docker技术对开发人员最好的馈赠。最后奉上项目地址:https://gitee.com/QiHanXiBei/myflask
+  结语：到这里我们的 Docker+Flask + Gunicorn就部署完毕了，将这个镜像上传Dockerhub仓库，在任何时间、任何地点、任何系统上，只要连着网、只要我们想，就都可以在短短1分钟之内部署好我们的项目，这就是Docker技术对开发人员最好的馈赠

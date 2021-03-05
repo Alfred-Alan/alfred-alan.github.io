@@ -22,6 +22,7 @@ DRF的核心 就是 前后端分离的核心
 ## 制作序列化类
 
 ```python
+# file: 'serializer.py'
 from rest_framework import serializers
 
 from myapp.models import *
@@ -35,6 +36,8 @@ class userlSer(serializers.ModelSerializer):
 我们就来实现一下原理
 
 ```python
+# file: 'view.py'
+
 # 导入原生sql模块
 from django.db import connection
 
@@ -67,6 +70,8 @@ class Search(APIView):
 函数内的逻辑就是 将查询出的数据 进行列表嵌套键值对的二次重组
 
 ```python
+# file: 'view.py'
+
 #  格式化结果集
 def dictfetch(cursor):
     # 声明描述符 description获取字段名
@@ -92,6 +97,8 @@ zip()函数将可迭代对象作为参数，并打包成元组
 之后将dict提交给序列化类 通过save就可以直接入库保存了
 
 ```python
+# file: 'view.py'
+
 class UserInsert(APIView):
     def post(self,request):
         # 初始化参数

@@ -3,7 +3,7 @@ layout: post
 title: 'Docker中下载mysql及使用'
 description: '如何在Docker中下载mysql并且使用'
 categories: [Docker,Mysql]
-image: /assets/img/blog/docker.png
+image: /assets/img/blog/docker_mysql.png
 related_posts:
   - _posts/2020-04-27-docker-use.md
   - _posts/2020-7-20-use-docker-deploy.md

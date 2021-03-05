@@ -5,7 +5,8 @@ description: '什么是单点登录'
 image: /assets/img/blog/sso.png
 
 
-
+# accent_image: /assets/img/blog/sso.png
+# invert_sidebar: true
 ---
 
 ***什么是单点登录：***

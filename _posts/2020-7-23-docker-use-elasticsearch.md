@@ -5,6 +5,9 @@ description: '如何利用docker实现Elasticsearch全文检索部署'
 categories: [Docker]
 tags: [Elasticsearch]
 image: /assets/img/blog/ElasticSearch.jpg
+accent_image: /assets/img/blog/ElasticSearch.jpg
+# invert_sidebar: true
+
 related_posts:
   - _posts/2020-04-27-docker-use.md
   - _posts/2020-7-15-docker-install-mysql.md
@@ -71,7 +74,7 @@ docker run --name es -p 9200:9200 -p 9300:9300 -e "discovery.type=singl
 然后将配置复制到主机内
 
 ```powershell
-docker cp 容器id:/usr/share/elasticsearch/config/elasticsearch.yml ./elasticsearch.yml
+docker cp 容器id:/usr/share/elasticsearch/config/elasticsearch.yml /home/bywlop/file/es/elasticsearch.yml
 ```
 
 打开elasticsearch.yml，可以自己加一些配置，比如允许跨域访问，这样你这台Elasticsearch就可以被别的服务器访问了，这是微服务全文检索系统架构的第一步。
@@ -80,7 +83,8 @@ docker cp 容器id:/usr/share/elasticsearch/config/elasticsearch.yml ./elasticse
 vim elasticsearch.yml
 ```
 
-```powershell
+```shell
+# file: '/home/bywlop/file/es/elasticsearch.yml'
 cluster.name: "docker-cluster"
 network.host: 0.0.0.0
 http.cors.enabled: true
@@ -98,7 +102,10 @@ docker rm es
 再次启动 Elasticsearch 服务器，而这次需要 使用 -v 挂载命令  将我们配置好的设置文件 挂载到容器中去
 
 ```powershell
-docker run --name es -v home/bywlop/file/es/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -d elasticsearch:7.2.0
+docker run --name es -p 9200:9200 -p 9300:9300 \
+-v home/bywlop/file/es/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml \
+-e "discovery.type=single-node" \
+-d elasticsearch:7.2.0
 ```
 ## 注意
 挂载这个地方需要注意 ``/es/elasticsearch.yml``
@@ -110,7 +117,11 @@ docker run --name es -v home/bywlop/file/es/elasticsearch.yml:/usr/share/elastic
  另外还有一个需要注意的点，就是Elasticsearch存储数据也可以通过-v命令挂载出来，如果不对数据进行挂载，当容器被停止或者删除，数据也会不复存在，所以挂载后存储在宿主机会比较好一点，命令是：
 
 ```powershell
-docker run --name es -v home/bywlop/file/es/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml -v home/bywlop/file/es/data:/usr/share/elasticsearch/data -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" -d elasticsearch:7.2.0
+docker run --name es -p 9200:9200 -p 9300:9300 \
+-v home/bywlop/file/es/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml \
+-v home/bywlop/file/es/data:/usr/share/elasticsearch/data \
+-e "discovery.type=single-node" \
+-d elasticsearch:7.2.0
 ```
 ## 使用elasticsearch服务
 而仅仅启动还不够
@@ -131,6 +142,7 @@ pip3 install elasticsearch
 
 ### 连接服务
 ```python
+# file: 'es_test.py'
 from elasticsearch import Elasticsearch es = Elasticsearch(hosts=[{"host":'Docker容器所在的ip', "port": 9200}])
 ```
 
@@ -140,6 +152,7 @@ from elasticsearch import Elasticsearch es = Elasticsearch(hosts=[{"host":'Docke
 这里我们创建一个名为 article 的索引
 
 ```python
+# file: 'es_test.py'
 result = es.indices.create(index='article', ignore=400)
 print(result) 
 {'acknowledged': True, 'shards_acknowledged': True, 'index': 'article'} 
@@ -150,6 +163,7 @@ print(result)
   删除索引也是类似的，代码如下：
 
 ```python
+# file: 'es_test.py'
 result = es.indices.delete(index='article', ignore=[400, 404])
 print(result)
 {'acknowledged': True}
@@ -158,6 +172,7 @@ print(result)
   插入数据，Elasticsearch 就像 MongoDB 一样，在插入数据的时候可以直接插入结构化字典数据，插入数据可以调用 index() 方法，这里索引和数据是强关联的，所以插入时需要指定之前建立好的索引。
 
 ```python
+# file: 'es_test.py'
 data = {'title': '我在北京学习人工智能', 'url': 'http://123.com','content':"在北京学习"}
 result = es.index(index='article',body=data)
 print(result)
@@ -170,6 +185,7 @@ print(result)
 我们同样需要指定数据的 id 和内容，调用 index() 方法即可，代码如下：
 
 ```python
+# file: 'es_test.py'
 data = {'content':"在北京学习python"}
 #修改
 result = es.index(index='article',body=data, id='GyJgb3MBuQaE6wYOApTh')
@@ -179,6 +195,7 @@ result = es.index(index='article',body=data, id='GyJgb3MBuQaE6wYOApTh')
 可以调用 delete() 方法，指定需要删除的数据 id 即可
 
 ```python
+# file: 'es_test.py'
 #删除
 result = es.delete(index='article',id='GyJgb3MBuQaE6wYOApTh')
 print(result)
@@ -188,6 +205,7 @@ print(result)
 这里可以简单的查询全量数据：
 
 ```python
+# file: 'es_test.py'
 #查询
 result = es.search(index='article')
 print(result)
@@ -270,6 +288,7 @@ print(result)
   还可以进行全文检索，这才是体现 Elasticsearch 搜索引擎特性的地方。
 
 ```python
+# file: 'es_test.py'
 mapping = {
     'query': {
         'match': {

@@ -44,6 +44,7 @@ pip3 install Django==2.0.4
 ## 配置settings.py文件:
 
 ```python
+# file: 'settings.py'
 CELERY_BROKER_URL = 'redis://localhost:6379/'
 
 CELERY_RESULT_BACKEND = 'redis://localhost:6379/'
@@ -54,6 +55,8 @@ CELERY_RESULT_SERIALIZER = 'json'
 在```settings```同级目录创建一个 celery.py
 
 ```python
+# file: 'celery.py'
+
 # -*- coding: utf-8 -*-
 from __future__ import absolute_import, unicode_literals
 import os
@@ -75,6 +78,7 @@ app.autodiscover_tasks()
 将同级目录的```__init__``` 添加
 
 ```python
+# file: '__init__.py'
 from .celery import app as celery_app
 __all__ = ['celery_app']
 ```
@@ -83,6 +87,7 @@ __all__ = ['celery_app']
 在app中创建```tasks.py```
 
 ```python
+# file: 'tasks.py'
 from mydjango.celery import app
 
 @app.task
@@ -93,6 +98,7 @@ def write_log():
 ## 在视图中调用
 
 ```python
+# file: 'views.py'
 from myapp import tasks
 def test():
 	res=tasks.Send_Mail.delay()
@@ -157,6 +163,8 @@ celery worker -A celery_name --loglevel=info --pool=solo
 在```settings``` 中添加
 
 ```python
+# file: 'settings.py'
+
 # 导入celery 定时模块
 from celery.schedules import crontab
 from datetime import timedelta

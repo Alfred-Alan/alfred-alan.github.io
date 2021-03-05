@@ -26,6 +26,7 @@ related_posts:
 在``settings`` 中
 
 ```python
+# file: 'settings.py'
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -44,6 +45,7 @@ INSTALLED_APPS = [
 ## 创建model模型类
 
 ```python
+# file: 'models.py'
 class User(models.Model):
     create_time = models.DateTimeField(blank=True, null=True)
     username = models.CharField(max_length=200)
@@ -60,7 +62,7 @@ class User(models.Model):
 
 ## 迁移数据库
 
-```dos
+```powershell
 python manage.py makemigrations  生成迁移文件
 
 python manage.py migrate  根据迁移文件更改数据库
@@ -71,6 +73,7 @@ python manage.py migrate  根据迁移文件更改数据库
 之后在app文件夹内创建一个py文件
 
 ```python
+# file: 'serializer.py'
 from rest_framework import serializers
 
 from myapp.models import *
@@ -94,6 +97,8 @@ from myapp.serializers import userlSer
 ## 序列化器的使用方式
 
 ```python
+# file: 'view.py'
+
 # 商品分类接口
 class User_show(APIView):
     def get(self,request):
@@ -110,7 +115,8 @@ class User_show(APIView):
 ## 更简单的方法
 
 ```python
-# 导包
+# file: 'view.py'
+
 from rest_framework.mixins import  在mixins 中导包
 ListModelMixin,       序列化展示
 CreateModelMixin,    反序列化创建

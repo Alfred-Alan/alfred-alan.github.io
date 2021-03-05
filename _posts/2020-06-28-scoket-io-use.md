@@ -6,6 +6,8 @@ categories: Python
 tags: [Socket,Flask]
 image: /assets/img/blog/socketio.png
 
+accent_image: /assets/img/blog/socketio.png
+
 ---
 - Table of Contents
 {:toc .large-only}
@@ -38,6 +40,7 @@ Flask-SQLAlchemy      2.4.1
 随后我们简单写一个flask的入口启动文件 manage.py
 
 ```python
+# file: 'manage.py'
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import pymysql
@@ -104,6 +107,7 @@ npm install vue-socket.io@2.1.0
   在入口文件main.js中引用
 
 ```js
+// file: 'main.js'
 import VueSocketio from 'vue-socket.io';
 
 Vue.use(VueSocketio,'http://127.0.0.1:5000');
@@ -114,6 +118,7 @@ Vue.use(VueSocketio,'http://127.0.0.1:5000');
   新建一个index.vue组件来进行模拟用户链接
 
 ```html
+<!--file: 'index.vue'-->
 <template>
   <div>
 	<div v-for="item in log_list">
@@ -177,6 +182,7 @@ export default {
   这时我们可以尝试再做一个后台客服的组件页面item.vue，模拟用户和客服分别在不同的电脑进行聊天的场景
 
 ```html
+<!--file: 'item.vue'-->
 <template>
   <div>
 	<div v-for="item in log_list">

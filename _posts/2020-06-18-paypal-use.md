@@ -81,6 +81,7 @@ pip3 install paypalrestsdk
 先实例化一下sdk对象
 
 ```python
+# file: 'utils.py'
 def get_paypal_object():
     paypalrestsdk.configure({
         "mode": "sandbox",  # sandbox代表沙盒
@@ -93,7 +94,8 @@ def get_paypal_object():
 创建一个视图类
 
 ```python
-import paypalrestsdk
+# file: 'views.py'
+from myapp.utils import get_paypal_object
 
 class paypal_view(APIView):
     def post(self,request):
@@ -140,6 +142,7 @@ paymentId 是支付订单id payer是支付者的id
 ## 回调视图
 
 ```python
+# file: 'views.py'
 class paypal_view(APIView):
     def get(self,request):
         snow_id = request.GET.get('snow_id',None)
@@ -176,7 +179,8 @@ payment.execute({"payer_id": payerid})
 候我们需要对交易流水进行一些核对，也可以通过接口查看交易明细
 
 ```python
-payment = paypalrestsdk.Payment.find("订单号")print(payment)
+payment = paypalrestsdk.Payment.find("订单号")
+print(payment)
 ```
 
 其返回的数据结构为
@@ -240,7 +244,9 @@ payment = paypalrestsdk.Payment.find("订单号")print(payment)
 
 ```python
 #退款
-from paypalrestsdk import Salesale = Sale.find("流水号")
+from paypalrestsdk import Sale
+
+sale = Sale.find("流水号")
 # Make Refund API call
 # Set amount only if the refund is 
 partialrefund = sale.refund({

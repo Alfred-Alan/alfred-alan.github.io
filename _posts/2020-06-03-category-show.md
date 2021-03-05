@@ -42,6 +42,8 @@ related_posts:
 当现在下标上的元素 没有的时候 返回 数据列表
 
 ```python
+# file: 'utils.py'
+
 tree = {}
 lists = []
 def test(alist):
@@ -77,6 +79,7 @@ def test(alist):
 通过这个函数就可以对查询出的结果进行操作
 
 ```python
+# file: 'views.py'
 def get(self,request):
     categorys=Category.objects.all()
     categoryser= Category_ser(categorys,many=True)
@@ -123,6 +126,7 @@ def get(self,request):
 新建一个```Reply.vue``` 文件
 
 ```vue
+<!--file: 'Reply.vue'-->
 <template>
   <div>
         <li > 
@@ -168,6 +172,7 @@ ul {
 在展示页面 导入 Reply.vue 并且使用
 
 ```vue
+<!--file: 'menu.vue'-->
 <template>
   <div>
         <div class="form">

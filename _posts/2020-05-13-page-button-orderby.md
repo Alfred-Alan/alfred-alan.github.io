@@ -20,6 +20,8 @@ model 类获取数据之后 可以使用切片 来指定返回数据
 这样根据 当前页数 就可以指定返回数据
 
 ```python
+# file: 'views.py'
+
 # 当前页
 page = int(request.GET.get('page',1))
 # 显示个数
@@ -52,6 +54,7 @@ return Response({'data':goods_ser.data,'total':count})
 ## heyui分页按钮
 
 ```html
+<!--file: 'goods.vue'-->
 <div class="page_button">
     <Pagination  v-model="pagination" @change="currentChange" layout="pager" small></Pagination>
 </div>
@@ -69,6 +72,7 @@ return Response({'data':goods_ser.data,'total':count})
 ## 定义变量
 
 ```js
+// file: 'goods.vue'
 pagination:{
     page:1,
     size:4,
@@ -79,6 +83,7 @@ pagination:{
 ## 发送请求
 
 ```js
+// file: 'goods.vue'
 //获取商品
 get_goods(){
     this.axios.get('http://127.0.0.1:8000/myapp/goodslist/?page='+this.pagination.page+'&size='+this.pagination.size).then(res=>{
@@ -98,6 +103,7 @@ get_goods(){
 ### 定义变量
 
 ```js
+// file: 'goods.vue'
 // 数据列表
 goods_list_self:[],
 // 数据总和
@@ -123,6 +129,7 @@ size:1,
 发送请求 变量赋值
 
 ```js
+// file: 'goods.vue'
 //封装函数
 get_goods_self(page){
     // 传参可复用 每次翻页将页数付给当前页数
@@ -153,6 +160,7 @@ get_goods_self(page){
 ```
 
 ```js
+// file: 'goods.vue'
 // 点击调用函数并传参 
 <button v-for="index in allpage" @click="get_goods_self(index)">{ {index} }</button>
 ```
@@ -176,6 +184,7 @@ var move_page = 2
 生成左侧页数列表
 
 ```js
+// file: 'goods.vue'
 var my_last=[]
 // 计算左侧偏移量
 // 起始位置=当前页-偏移量 例 5-2=3 从3开始展示 
@@ -192,6 +201,7 @@ this.last_page=my_last  //赋值
 生成右侧页数列表
 
 ```js
+// file: 'goods.vue'
 var my_next=[]
 // 计算右侧偏移量
 // 右侧起始要大于当前页 例 5+1=6 从6开始
@@ -210,6 +220,7 @@ this.next_page = my_next
 左侧页数列表 +  当前页数 + 右侧页数列表
 
 ```html
+<!--file: 'goods.vue'-->
 <button v-for="index in last_page" @click="get_goods_self(index)">{ {index} }</button>
 <button  @click="get_goods_self(page)">{ {page} }</button>
 <button  v-for="index in next_page" @click="get_goods_self(index)">{ {index} }</button>
@@ -222,6 +233,8 @@ this.next_page = my_next
 django后台 model类可以order_by 排序
 
 ```python
+# file: 'views.py'
+
 # 排序字段
 column = request.GET.get('column',None)
 # 顺序 默认空是正序
@@ -231,6 +244,8 @@ sort_order = request.GET.get('order',"")
 ### 查询操作
 
 ```python
+# file: 'views.py'
+
 # 如果有排序字段
 if column:
     goods= Goods.objects.all().order_by(sort_order+column) # 字符串拼接
@@ -242,6 +257,7 @@ else:
 ### 前端定义两个变量
 
 ```js
+// file: 'goods.vue'
 //排序变量
 column:'',
 order:'',
@@ -250,6 +266,7 @@ order:'',
 ### 默认带空参数
 
 ```js
+// file: 'goods.vue'
 get_goods_self(){
     this.axios.get('http://127.0.0.1:8000/myapp/goodslist/',{
         params:{column:this.column,order:this.order}
@@ -260,6 +277,7 @@ get_goods_self(){
 ### 当点击按钮的时候对排序变量赋值
 
 ```html
+<!--file: 'goods.vue'-->
 <Button @click="orderby('price')">按价格排序</Button>
 <Button @click="orderby('create_time')">按日期排序</Button>
  <!--django后台 -号为倒序-->
@@ -269,6 +287,7 @@ get_goods_self(){
 ### 添加点击事件
 
 ```js
+// file: 'goods.vue'
 //排序操作
 orderby(column){
     // 接受参数赋值

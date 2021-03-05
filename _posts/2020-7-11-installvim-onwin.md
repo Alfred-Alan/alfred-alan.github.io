@@ -42,6 +42,7 @@ vim 是一个上手极难 但一熟练就会大大提高效率的编辑器，
 将以下内容添加到_vimrc文件中
 
 ```shell
+# file: 'vim/_vimrc'
 " An example for a vimrc file.
 "
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
@@ -140,7 +141,8 @@ map <F5> :! python.exe %
 
 修改用户目录下的_vimrc配置文件，将下面的配置加进去
 
-```
+```shell
+# file: 'vim/_vimrc'
 execute pathogen#infect()
 ```
 
@@ -195,8 +197,11 @@ Clone或者下载压缩包之后，发现里面有after文件夹、complete-dict
 
  随后在_vimrc里面添加 
 
-```
-复制filetype plugin onlet g:pydiction_location='C:vimftplugincomplete-dict'let g:pydiction_menu_height = 3
+```shell
+# file: 'vim/_vimrc'
+filetype plugin on
+let g:pydiction_location='c:/vim/ftplugin/complete-dict'
+let g:pydiction_menu_height = 3
 ```
 
   这就搞定了，使用方法是，敲入两个字母之后使用tab键进行补全，效果是下面这样

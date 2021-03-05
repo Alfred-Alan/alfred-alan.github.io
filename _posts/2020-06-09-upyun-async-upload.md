@@ -21,6 +21,7 @@ image: /assets/img/blog/upyun.jpg
 
 
 ```python
+# file: 'views.py'
 def post(self,request):
     title = request.POST.get('title')
     file = request.FILES.get('file')
@@ -49,6 +50,7 @@ def post(self,request):
 这里的想法是 将文件流分割 再使用多线程并发上传
 
 ```python
+# file: 'tasks.py'
 import upyun
 import threading
 

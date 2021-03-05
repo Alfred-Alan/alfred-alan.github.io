@@ -60,6 +60,7 @@ image: /assets/img/blog/dingding.png
 ## 代码
 
 ```python
+# file: 'dingtalk_robot.py'
 import time
 import hmac
 import hashlib
@@ -84,7 +85,7 @@ webhook = 'https://oapi.dingtalk.com/robot/send?access_token=f0ca7636f5812fe4815
 #"at": {"atMobiles": "['"+ mobile + "']"
 data = {
     "msgtype": "text",
-    "text": {"content": '都谁没加到群里来？小心升不了班'},
+    "text": {"content": '都谁没加到群里来？'},
     "isAtAll": True}
 res = requests.post(webhook, data=json.dumps(data), headers=headers)   #发送post请求
 

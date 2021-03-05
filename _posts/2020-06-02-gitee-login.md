@@ -73,6 +73,8 @@ code=request.GET.get('code',None)
 我们根据这个code 来访问gitee 请求到```access_token```
 
 ```python
+# file: 'views.py'
+
 data={
     'grant_type':'authorization_code',
     'code':code,
@@ -96,6 +98,8 @@ token=res.json()['access_token']
 ## 获取用户数据
 
 ```python
+# file: 'views.py'
+
  # 获取用户数据
  ret=requests.get('https://gitee.com/api/v5/user?access_token='+token)
  name = ret.json()['name']
@@ -106,6 +110,8 @@ token=res.json()['access_token']
 可以进行一些入库验证操作
 
 ```python
+# file: 'views.py'
+
 # 查询用户
 user=User.objects.filter(username=name).first()
 # 如果曾经登录过

@@ -24,6 +24,7 @@ image: /assets/img/blog/celery-flask.png
 首先，在``app.py`` 下实例化 celery对象
 
 ```python
+# file: 'app.py'
 from datetime import timedelta
 from celery import Celery
 
@@ -40,6 +41,7 @@ celery = Celery('tasks',broker=broker,backend=backend,
 之后创建一个``tasks.py``  写一个简单的任务
 
 ```python
+# file: 'tasks.py'
 from app import celery
 
 # 创建任务
@@ -50,10 +52,11 @@ def add(a, b):
     return n
 ```
 ## 设置定时任务
-写好之后 在回到``app.py 添加定时任务``
+写好之后 在回到``app.py`` 添加定时任务
 
 ```python 
-#beat_schedule 定义定时任务的
+# file: 'app.py'
+# beat_schedule 定义定时任务的
 celery.conf.beat_schedule = {
     'two_nums': {
         # 执行tasks1下的test_celery函数
@@ -68,6 +71,7 @@ celery.conf.beat_schedule = {
 ## 调用任务
 
 ```python
+# file: 'manage.py'
 import tasks 
 def test():
 	res=tasks.add.delay(5,6) # 使用delay 方法

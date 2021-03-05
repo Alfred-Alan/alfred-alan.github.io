@@ -100,6 +100,7 @@ pip3 install -i https://pypi.douban.com/simple pycryptodome
 然后根据开发文档写一个基类
 
 ```python
+# file: 'pay.py'
 from datetime import datetime
 from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_v1_5
@@ -239,6 +240,7 @@ class AliPay(object):
 ## 在视同中使用
 
 ```python
+# file: 'utils.py'
 from mydjango.pay import AliPay
 
 # 引入密钥
@@ -264,6 +266,7 @@ def get_ali_object():
 ## 支付的视图
 
 ```python
+# file: 'views.py'
 class alipay_view(APIView):
     def post(self,request):
 	    money = float(request.POST.get('money'))
@@ -283,6 +286,7 @@ class alipay_view(APIView):
 然后要创建函数接受支付后的返回
 
 ```python
+# file: 'views.py'
 class alipay_view(APIView):
     def get(self, request):
         alipay = get_ali_object()
