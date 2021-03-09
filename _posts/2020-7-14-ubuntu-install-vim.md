@@ -1,11 +1,11 @@
 ---
 layout: post
 title: '在Ubuntu20.04下安装配置vim'
-subtitle: '如何在Ubuntu20.04下安装及配置vim'
+description: '如何在Ubuntu20.04下安装及配置vim'
 date: 2020-07-14
 categories: [Ubuntu,Vim]
 image: /assets/img/blog/install-vim-ubuntu.png
-accent_image: /assets/img/blog/install-vim-ubuntu.png
+# accent_image: /assets/img/blog/install-vim-ubuntu.png
 related_posts:
   - _posts/2020-7-16-ubuntu-add-usergroup.md
   - _posts/2020-7-11-installvim-onwin.md

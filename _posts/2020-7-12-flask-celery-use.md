@@ -3,7 +3,7 @@ layout: post
 title: 'Flak + Celery 设置定时任务'
 description: '如何在flasks上搭建celery定时任务'
 categories: [Python]
-tags: [Flask,celery]
+tags: [Flask,Celery]
 image: /assets/img/blog/celery-flask.png
 
 ---
