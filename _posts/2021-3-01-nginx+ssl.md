@@ -164,15 +164,10 @@ server {
 
 ```shell
 docker run --name nginx -d -p 80:80 -p 443:443 \
-
 --restart always \
-
 -v /home/nginx/log:/var/log/nginx \
-
 -v /home/nginx/config/conf.d:/etc/nginx/conf.d \
-
 -v /home/nginx/nginx.conf:/etc/nginx/nginx.conf \
-
 -v /root/alfred-alan.github.io/_site:/usr/share/nginx/html \
 -v /home/nginx/ssl/:/etc/nginx/ssl/ nginx
 ```
