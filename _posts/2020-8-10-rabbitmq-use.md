@@ -1,7 +1,7 @@
 ---
 layout: post
-title: '在Linux下安装rabbitmq并使用'
-description: '如何在Linux下安装rabbitmq并使用'
+title: '在Ubuntu下安装rabbitmq并使用'
+description: '如何在Ubuntu下安装rabbitmq并使用'
 categories: [Ubuntu]
 tags: [rabbitmq]
 image:  /assets/img/blog/RabbitMQ-logo.png
