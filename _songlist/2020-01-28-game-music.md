@@ -13,7 +13,7 @@ sitemap: false
 comments: true
 ---
 
-<script type='text/javascript' src='https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript' src='/assets/aplayer/jquery.min.js'></script>
 
 <!-- <script type='text/javascript' src='https://api88.net/api/play/js/?id=4139958112&type=songlist&music=qqmusic&listMaxHeight=500'></script> -->
 
@@ -23,13 +23,13 @@ var css = $("head").children(":last");
 css.attr({
     rel: "stylesheet",
     type: "text/css",
-    href: "https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css"
+    href: "/assets/aplayer/APlayer.min.css"
 });
 document.write('<div id="aplayer"></div>');
-$.getScript('https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js', function () {
+$.getScript('/assets/aplayer/APlayer.min.js', function () {
     $.ajax({
         type: "GET",
-        url:'/assets/js/song_list.json',
+        url:'/assets/js/game_music.json',
         dataType: 'json',
         success: function (result) {
             var ap = new APlayer({

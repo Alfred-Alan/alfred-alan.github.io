@@ -12,27 +12,27 @@ description: >
 sitemap: false
 comments: true
 ---
-<script type='text/javascript' src='https://cdn.bootcdn.net/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+<script type='text/javascript' src='/assets/aplayer/jquery.min.js'></script>
 
-<script type='text/javascript' src='https://api88.net/api/play/js/?id=3616881472&type=songlist&music=qqmusic'></script>
+<!-- <script type='text/javascript' src='https://api88.net/api/play/js/?id=3616881472&type=songlist&music=qqmusic'></script> -->
 
 <!-- <iframe src="https://open.spotify.com/embed/playlist/5NnkN8yucyX8nMOK15jAj9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
 
 <!-- <script type='text/javascript' src='https://api88.net/api/play/js/?id=3616881472&type=songlist&music=qqmusic&listFolded=false'></script> -->
-<!-- <script>
+<script>
     $("head").append("<link>");
     var css = $("head").children(":last");
     css.attr({
         rel: "stylesheet",
         type: "text/css",
-        href: "https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.css"
+        href: "/assets/aplayer/APlayer.min.css"
     });
     document.write('<div id="aplayer"></div>');
 
-    $.getScript('https://cdn.bootcss.com/aplayer/1.10.1/APlayer.min.js', function () {
+    $.getScript('/assets/aplayer/APlayer.min.js', function () {
         $.ajax({
             type: "GET",
-            url: "https://api88.net/api/qqmusic/?key=733d4fd9fc8fc02683cde869226ca155&id=3616881472&type=songlist&cache=",
+            url: "https://api88.net/api/qqmusic/?key=1193755ae99702b0&id=3616881472&type=songlist&cache=",
             dataType: 'json',
             success: function (result) {
                 console.log(result.Body)
@@ -45,13 +45,10 @@ comments: true
                     theme: '#32CD32',
                     autoplay: false,
                     order: 'list',
-                    //loop: 'none',
-                    //mini: false,
-                    listFolded: false,
-                    listMaxHeight: 500,
-                    audio: result.Body,
+                    listFolded:false,
+                    audio: result.Body
                 });
             }
-        });.
+        });
     });
-</script> -->
+</script>

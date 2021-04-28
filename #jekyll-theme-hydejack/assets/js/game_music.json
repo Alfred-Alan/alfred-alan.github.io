@@ -21,7 +21,7 @@
             "author": "Alan Walker",
             "url": "http://64.64.248.103/music/Alone.mp3",
             "pic": "http://64.64.248.103/images/Alone.jpg",
-            "lrc": "/assets/lrcs/We Won't Be Alone.lrc"
+            "lrc": "/assets/lrcs/Alone.lrc"
         },
         {
             "mid": "004NPbwc1NpPAV",
@@ -136,9 +136,9 @@
             "vid": "",
             "title": "Lonely",
             "author": "Alan Walker",
-            "url": "http://64.64.248.103/music/ScaredToBeLonely.mp3",
+            "url": "http://64.64.248.103/music/Lonely.mp3",
             "pic": "http://64.64.248.103/images/Lonely.jpg",
-            "lrc": "/assets/lrcs/Scared To Be Lonely.lrc"
+            "lrc": "/assets/lrcs/Lonely.lrc"
         },
         {
             "mid": "000NgBjP4PclJ1",
@@ -191,7 +191,7 @@
             "title": "Move Your Body(Alan Walker Remix)",
             "author": "Sia/Alan-Walker",
             "url": "http://64.64.248.103/music/MoveYourBody%28AlanWalkerRemix%29.mp3",
-            "pic": "http://64.64.248.103/images/Move%20Your%20Body%20%28Alan%20Walker%20Remix%29.jpg",
+            "pic": "http://64.64.248.103/images/Move_Your_Body_(Alan_Walker_Remix).jpg",
             "lrc": "/assets/lrcs/Move Your Body (Alan Walker Remix).lrc"
         },
         {
@@ -921,7 +921,7 @@
             "author": "EXID",
             "url": "http://64.64.248.103/music/위아래%28上下%29.mp3",
             "pic": "http://64.64.248.103/images/위아래.jpg",
-            "lrc": "/assets/lrcs/上下.lrc"
+            "lrc": "/assets/lrcs/up&down.lrc"
         },
         {
             "mid": "004Lljs31Ja0zY",
@@ -993,7 +993,7 @@
             "author": "AOA",
             "url": "http://64.64.248.103/music/심쿵해%28怦然心动%29%28KoreanVer.%29.mp3",
             "pic": "http://64.64.248.103/images/심쿵해.jpg",
-            "lrc": "/assets/lrcs/怦然心动 (Korean Ver.).lrc"
+            "lrc": "/assets/lrcs/Heart Attack.lrc"
         },
         {
             "mid": "000tOaCb1PlWAK",
@@ -1002,7 +1002,7 @@
             "author": "AOA",
             "url": "http://64.64.248.103/music/愛をちょうだい%28请给我爱%29.mp3",
             "pic": "http://64.64.248.103/images/愛をちょうだい.jpg",
-            "lrc": "/assets/lrcs/愛をちょうだい (请给我爱).lrc"
+            "lrc": "/assets/lrcs/please_give_me_love.lrc"
         },
         {
             "mid": "0025vepP2OVLKr",
@@ -1047,7 +1047,7 @@
             "author": "HELLOVENUS",
             "url": "http://64.64.248.103/music/난예술이야%28我是艺术啊%29.mp3",
             "pic": "http://64.64.248.103/images/난예술이야.jpg",
-            "lrc": "/assets/lrcs/我是艺术啊.lrc"
+            "lrc": "/assets/lrcs/I'm art.lrc"
         },
         {
             "mid": "0003TYr52jPUdv",
@@ -1056,7 +1056,7 @@
             "author": "HELLOVENUS",
             "url": "http://64.64.248.103/music/위글위글%28摆动摆动%29.mp3",
             "pic": "http://64.64.248.103/images/위글위글.jpg",
-            "lrc": "/assets/lrcs/摆动摆动.lrc"
+            "lrc": "/assets/lrcs/Wiggle wiggle.lrc"
         },
         {
             "mid": "001SrmNw1N8l9Y",
@@ -1065,7 +1065,7 @@
             "author": "HELLOVENUS",
             "url": "http://64.64.248.103/music/끈적끈적%28黏黏糊糊%29.mp3",
             "pic": "http://64.64.248.103/images/끈적끈적.jpg",
-            "lrc": "/assets/lrcs/黏黏糊糊.lrc"
+            "lrc": "/assets/lrcs/Sticky Sticky.lrc"
         },
         {
             "mid": "001XehUv0558VB",
@@ -1107,7 +1107,7 @@
             "mid": "002OyPBM0eTwaa",
             "vid": "",
             "title": "POP/STARS",
-            "author": "茶理理理子",
+            "author": "league of legends",
             "url": "http://64.64.248.103/music/POP_STARS.mp3",
             "pic": "http://64.64.248.103/images/POPSTARS.jpg",
             "lrc": "/assets/lrcs/POP_STARS.lrc"
@@ -1119,7 +1119,7 @@
             "author": "After School",
             "url": "http://64.64.248.103/music/첫사랑%28初恋%29.mp3",
             "pic": "http://64.64.248.103/images/첫사랑.jpg",
-            "lrc": "/assets/lrcs/初恋.lrc"
+            "lrc": "/assets/lrcs/First love.lrc"
         },
         {
             "mid": "000jLx0I1FzTgz",
@@ -1128,7 +1128,7 @@
             "author": "CL",
             "url": "http://64.64.248.103/music/멘붕%28崩溃%29.mp3",
             "pic": "http://64.64.248.103/images/멘붕.jpg",
-            "lrc": "/assets/lrcs/崩溃.lrc"
+            "lrc": "/assets/lrcs/Menbung.lrc"
         },
         {
             "mid": "003yjh2J1XdmdH",
@@ -1137,7 +1137,7 @@
             "author": "泫雅",
             "url": "http://64.64.248.103/music/빨개요%28红%29.mp3",
             "pic": "http://64.64.248.103/images/빨개요.jpg",
-            "lrc": "/assets/lrcs/红.lrc"
+            "lrc": "/assets/lrcs/red.lrc"
         },
         {
             "mid": "002Q1owa2nAnIq",
@@ -1146,7 +1146,7 @@
             "author": "FIESTAR",
             "url": "http://64.64.248.103/music/하나더%28OneMore%29%28再一次%29.mp3",
             "pic": "http://64.64.248.103/images/하나더%28OneMore%29.jpg",
-            "lrc": "/assets/lrcs/One More(再一次).lrc"
+            "lrc": "/assets/lrcs/One More.lrc"
         },
         {
             "mid": "0023TPCe0GhbIc",
@@ -1155,7 +1155,7 @@
             "author": "Stellar",
             "url": "http://64.64.248.103/music/마리오네트%28提线木偶%29.mp3",
             "pic": "http://64.64.248.103/images/마리오네트.jpg",
-            "lrc": "/assets/lrcs/提线木偶.lrc"
+            "lrc": "/assets/lrcs/Marionette.lrc"
         },
         {
             "mid": "001KtNgh15JgTr",
@@ -1164,7 +1164,7 @@
             "author": "朴振荣",
             "url": "http://64.64.248.103/music/어머님이누구니%28你妈妈是谁%29.mp3",
             "pic": "http://64.64.248.103/images/어머님이누구니.jpg",
-            "lrc": "/assets/lrcs/你妈妈是谁.lrc"
+            "lrc": "/assets/lrcs/Who is your mother.lrc"
         },
         {
             "mid": "0001sYMf0CyTRt",
@@ -1182,7 +1182,7 @@
             "author": "BIGBANG",
             "url": "http://64.64.248.103/music/Blue%28%E8%93%9D%E8%89%B2%29.mp3",
             "pic": "http://64.64.248.103/images/Blue.jpg",
-            "lrc": "/assets/lrcs/Blue (蓝色).lrc"
+            "lrc": "/assets/lrcs/Blue.lrc"
         },
         {
             "mid": "004PBghD2IVci7",
@@ -1191,7 +1191,7 @@
             "author": "BIGBANG",
             "url": "http://64.64.248.103/music/Lies%28%E8%B0%8E%E8%A8%80%29.mp3",
             "pic": "http://64.64.248.103/images/Lies.jpg",
-            "lrc": "/assets/lrcs/Lies (谎言).lrc"
+            "lrc": "/assets/lrcs/Lies.lrc"
         },
         {
             "mid": "0016j8j527uqHq",
@@ -1218,7 +1218,7 @@
             "author": "G-DRAGON",
             "url": "http://64.64.248.103/music/삐딱하게%28Crooked%29%28狂放%29.mp3",
             "pic": "http://64.64.248.103/images/삐딱하게%28Crooked%29.jpg",
-            "lrc": "/assets/lrcs/Crooked(狂放).lrc"
+            "lrc": "/assets/lrcs/Crooked.lrc"
         },
         {
             "mid": "000iCbza0g51tb",
@@ -1227,7 +1227,7 @@
             "author": "EXO",
             "url": "http://64.64.248.103/music/咆哮%28Growl%29.mp3",
             "pic": "http://64.64.248.103/images/咆哮%28Growl%29.jpg",
-            "lrc": "/assets/lrcs/咆哮(Growl).lrc"
+            "lrc": "/assets/lrcs/Growl.lrc"
         },
         {
             "mid": "0040yW6I2aMVQt",
@@ -1243,9 +1243,9 @@
             "vid": "t00111h9z9r",
             "title": "She",
             "author": "Groove Coverage",
-            "url": "http://64.64.248.103/music/Shelter.mp3",
+            "url": "http://64.64.248.103/music/She.mp3",
             "pic": "http://64.64.248.103/images/She.jpg",
-            "lrc": "/assets/lrcs/Shelter.lrc"
+            "lrc": "/assets/lrcs/She.lrc"
         },
         {
             "mid": "0023awZK1lQAa0",
@@ -1333,9 +1333,9 @@
             "vid": "",
             "title": "How Do You Do?",
             "author": "Befour",
-            "url": "https://api88.net/api/qqmusic/?key=4b52821e4082d728816e86e536f325be&type=url&id=004OF0UZ1VntBD&size=",
-            "pic": "https://api88.net/api/qqmusic/?key=4b52821e4082d728816e86e536f325be&cache=&type=pic&id=004OF0UZ1VntBD",
-            "lrc": "https://api88.net/api/qqmusic/?key=4b52821e4082d728816e86e536f325be&cache=&type=lrc&id=004OF0UZ1VntBD"
+            "url": "http://64.64.248.103/music/HowDoYouDo.mp3",
+            "pic": "http://64.64.248.103/images/HowDoYouDo.jpg",
+            "lrc": "/assets/lrcs/How Do You Do.lrc"
         },
         {
             "mid": "002k4UDb4GBWfg",
@@ -1441,9 +1441,9 @@
             "vid": "p0016el6pym",
             "title": "Baby",
             "author": "Justin Bieber",
-            "url": "http://64.64.248.103/music/FantasticBaby.mp3",
+            "url": "http://64.64.248.103/music/Baby.mp3",
             "pic": "http://64.64.248.103/images/Baby.jpg",
-            "lrc": "/assets/lrcs/Fantastic Baby.lrc"
+            "lrc": "/assets/lrcs/Baby.lrc"
         },
         {
             "mid": "000oj55D2tU7nT",
@@ -1488,7 +1488,7 @@
             "author": "薛明媛",
             "url": "http://64.64.248.103/music/非酋.mp3",
             "pic": "http://64.64.248.103/images/非酋.jpg",
-            "lrc": "/assets/lrcs/非酋.lrc"
+            "lrc": "/assets/lrcs/Non-chief.lrc"
         },
         {
             "mid": "004Gq0xE1YC8xp",
@@ -1506,7 +1506,7 @@
             "author": "王怡祯",
             "url": "http://64.64.248.103/music/%E5%85%A5%E6%88%8F%E5%A4%AA%E6%B7%B1%28%E5%A5%B3%E7%94%9F%E7%89%88%29.mp3",
             "pic": "http://64.64.248.103/images/%E5%85%A5%E6%88%8F%E5%A4%AA%E6%B7%B1%28%E5%A5%B3%E7%94%9F%E7%89%88%29.jpg",
-            "lrc": "/assets/lrcs/入戏太深 (女生版).lrc"
+            "lrc": "/assets/lrcs/入戏太深(Girl Version).lrc"
         },
         {
             "mid": "001XJjzt1C1ylZ",
@@ -1524,7 +1524,7 @@
             "author": "街道办GDC",
             "url": "http://64.64.248.103/music/春娇与志明.mp3",
             "pic": "http://64.64.248.103/images/春娇与志明.jpg",
-            "lrc": "/assets/lrcs/春娇与志明.lrc"
+            "lrc": "/assets/lrcs/Chunjiao and Zhiming.lrc"
         },
         {
             "mid": "003CgSQS0FgfnX",
@@ -1533,7 +1533,7 @@
             "author": "刘大美人",
             "url": "http://64.64.248.103/music/%E4%BD%A0%E6%98%AF%E6%88%91%E7%88%B1%E7%9A%84%E4%BA%BA.mp3",
             "pic": "http://64.64.248.103/images/%E4%BD%A0%E6%98%AF%E6%88%91%E7%88%B1%E7%9A%84%E4%BA%BA.jpg",
-            "lrc": "/assets/lrcs/你是我爱的人.lrc"
+            "lrc": "/assets/lrcs/You are the one i love.lrc"
         },
         {
             "mid": "004DHG7d3Hkxg2",
@@ -1542,7 +1542,7 @@
             "author": "陈龙威",
             "url": "http://64.64.248.103/music/%E4%B8%8D%E7%88%B1%E5%8F%88%E4%BD%95%E5%BF%85%E7%BA%A0%E7%BC%A0.mp3",
             "pic": "http://64.64.248.103/images/%E4%B8%8D%E7%88%B1%E5%8F%88%E4%BD%95%E5%BF%85%E7%BA%A0%E7%BC%A0.jpg",
-            "lrc": "/assets/lrcs/不爱又何必纠缠.lrc"
+            "lrc": "/assets/lrcs/Why bother if you don't love.lrc"
         },
         {
             "mid": "004RlCol45Hr0e",
@@ -1551,7 +1551,7 @@
             "author": "萌萌哒天团",
             "url": "http://64.64.248.103/music/魔都.mp3",
             "pic": "http://64.64.248.103/images/魔都.jpg",
-            "lrc": "/assets/lrcs/魔都.lrc"
+            "lrc": "/assets/lrcs/Magic city.lrc"
         },
         {
             "mid": "000bALrT4czR7k",
@@ -1560,7 +1560,7 @@
             "author": "萌萌哒天团",
             "url": "http://64.64.248.103/music/帝都.mp3",
             "pic": "http://64.64.248.103/images/帝都.jpg",
-            "lrc": "/assets/lrcs/帝都.lrc"
+            "lrc": "/assets/lrcs/Imperial capital.lrc"
         },
         {
             "mid": "000rthMY4SRqM0",
@@ -1569,7 +1569,7 @@
             "author": "赵方婧",
             "url": "http://64.64.248.103/music/尽头.mp3",
             "pic": "http://64.64.248.103/images/尽头.jpg",
-            "lrc": "/assets/lrcs/尽头.lrc"
+            "lrc": "/assets/lrcs/The end.lrc"
         },
         {
             "mid": "000ZME4T3OpTGI",
@@ -1578,7 +1578,7 @@
             "author": "阳逸晨",
             "url": "http://64.64.248.103/music/%E5%88%AB%EF%BC%8C%E7%88%B1.mp3",
             "pic": "http://64.64.248.103/images/%E5%88%AB%EF%BC%8C%E7%88%B1.jpg",
-            "lrc": "/assets/lrcs/别，爱.lrc"
+            "lrc": "/assets/lrcs/Don't love.lrc"
         },
         {
             "mid": "003bR4G50BUAH3",
@@ -1587,7 +1587,7 @@
             "author": "夏婉安",
             "url": "http://64.64.248.103/music/奈何桥.mp3",
             "pic": "http://64.64.248.103/images/奈何桥.jpg",
-            "lrc": "/assets/lrcs/奈何桥.lrc"
+            "lrc": "/assets/lrcs/Naihe Bridge.lrc"
         },
         {
             "mid": "0019hpEw1QzwRq",
@@ -1596,7 +1596,7 @@
             "author": "孤独诗人",
             "url": "http://64.64.248.103/music/渡我不渡她.mp3",
             "pic": "http://64.64.248.103/images/渡我不渡她.jpg",
-            "lrc": "/assets/lrcs/渡我不渡她.lrc"
+            "lrc": "/assets/lrcs/Ferry me or not her.lrc"
         },
         {
             "mid": "000c5J4O1KmPSA",
@@ -1605,7 +1605,7 @@
             "author": "胡彦斌",
             "url": "http://64.64.248.103/music/月光.mp3",
             "pic": "http://64.64.248.103/images/月光.jpg",
-            "lrc": "/assets/lrcs/月光.lrc"
+            "lrc": "/assets/lrcs/moonlight.lrc"
         },
         {
             "mid": "000EPCFK1EOlmE",
@@ -1623,7 +1623,7 @@
             "author": "许嵩",
             "url": "http://64.64.248.103/music/惊鸿一面.mp3",
             "pic": "http://64.64.248.103/images/惊鸿一面.jpg",
-            "lrc": "/assets/lrcs/惊鸿一面.lrc"
+            "lrc": "/assets/lrcs/Shocking.lrc"
         },
         {
             "mid": "001KjQes18Qprk",
@@ -1632,7 +1632,7 @@
             "author": "张信哲",
             "url": "http://64.64.248.103/music/焚情.mp3",
             "pic": "http://64.64.248.103/images/焚情.jpg",
-            "lrc": "/assets/lrcs/焚情.lrc"
+            "lrc": "/assets/lrcs/Burning love.lrc"
         },
         {
             "mid": "004ZdFCb4JSGHQ",
@@ -1641,7 +1641,7 @@
             "author": "莫冰",
             "url": "http://64.64.248.103/music/坠落%28插曲版%29.mp3",
             "pic": "http://64.64.248.103/images/坠落.jpg",
-            "lrc": "/assets/lrcs/坠落 (插曲版).lrc"
+            "lrc": "/assets/lrcs/Falling (Interlude Version).lrc"
         },
         {
             "mid": "003JF2lq1Fs0Id",
@@ -1650,7 +1650,7 @@
             "author": "李进",
             "url": "http://64.64.248.103/music/战争之后.mp3",
             "pic": "http://64.64.248.103/images/战争之后.jpg",
-            "lrc": "/assets/lrcs/战争之后.lrc"
+            "lrc": "/assets/lrcs/After the war.lrc"
         },
         {
             "mid": "00020yc41KtWj2",
@@ -1659,7 +1659,7 @@
             "author": "朴树",
             "url": "http://64.64.248.103/music/平凡之路.mp3",
             "pic": "http://64.64.248.103/images/平凡之路.jpg",
-            "lrc": "/assets/lrcs/平凡之路.lrc"
+            "lrc": "/assets/lrcs/Ordinary road.lrc"
         },
         {
             "mid": "0043WGTm3kacAQ",
@@ -1668,7 +1668,7 @@
             "author": "南征北战NZBZ",
             "url": "http://64.64.248.103/music/我的天空.mp3",
             "pic": "http://64.64.248.103/images/我的天空.jpg",
-            "lrc": "/assets/lrcs/我的天空.lrc"
+            "lrc": "/assets/lrcs/My sky.lrc"
         },
         {
             "mid": "000dA1250inLb5",
@@ -1677,7 +1677,7 @@
             "author": "萧敬腾",
             "url": "http://64.64.248.103/music/斗罗大陆.mp3",
             "pic": "http://64.64.248.103/images/斗罗大陆.jpg",
-            "lrc": "/assets/lrcs/斗罗大陆.lrc"
+            "lrc": "/assets/lrcs/Douluo Dalu.lrc"
         },
         {
             "mid": "000LuWyw2Hat5H",
@@ -1686,7 +1686,7 @@
             "author": "萧敬腾",
             "url": "http://64.64.248.103/music/爱的大未来.mp3",
             "pic": "http://64.64.248.103/images/爱的大未来.jpg",
-            "lrc": "/assets/lrcs/爱的大未来.lrc"
+            "lrc": "/assets/lrcs/The great future of love.lrc"
         },
         {
             "mid": "001i4N8Y1mmkAS",
@@ -1695,7 +1695,7 @@
             "author": "南征北战NZBZ",
             "url": "http://64.64.248.103/music/绽放.mp3",
             "pic": "http://64.64.248.103/images/绽放.jpg",
-            "lrc": "/assets/lrcs/绽放.lrc"
+            "lrc": "/assets/lrcs/Bloom.lrc"
         },
         {
             "mid": "003Qclke2iBiIE",
@@ -1704,7 +1704,7 @@
             "author": "裂天",
             "url": "http://64.64.248.103/music/如我西沉.mp3",
             "pic": "http://64.64.248.103/images/如我西沉.jpg",
-            "lrc": "/assets/lrcs/如我西沉.lrc"
+            "lrc": "/assets/lrcs/As i sink.lrc"
         },
         {
             "mid": "0038qkBl41pm2p",
@@ -1713,7 +1713,7 @@
             "author": "金志文",
             "url": "http://64.64.248.103/music/%E5%8B%87%E6%95%A2%E7%9A%84%E6%88%91.mp3",
             "pic": "http://64.64.248.103/images/%E5%8B%87%E6%95%A2%E7%9A%84%E6%88%91.jpg",
-            "lrc": "/assets/lrcs/勇敢的我.lrc"
+            "lrc": "/assets/lrcs/Brave me.lrc"
         },
         {
             "mid": "003YyyPi4QT2GE",
@@ -1722,7 +1722,7 @@
             "author": "蓝波",
             "url": "http://64.64.248.103/music/迎着风.mp3",
             "pic": "http://64.64.248.103/images/迎着风.jpg",
-            "lrc": "/assets/lrcs/迎着风.lrc"
+            "lrc": "/assets/lrcs/Facing the wind.lrc"
         },
         {
             "mid": "00044Y5v3NLOW7",
@@ -1731,7 +1731,7 @@
             "author": "杜歌",
             "url": "http://64.64.248.103/music/%E5%85%84%E5%BC%9F%E9%9A%BE%E5%BD%93.mp3",
             "pic": "http://64.64.248.103/images/%E5%85%84%E5%BC%9F%E9%9A%BE%E5%BD%93.jpg",
-            "lrc": "/assets/lrcs/兄弟难当.lrc"
+            "lrc": "/assets/lrcs/Brothers.lrc"
         },
         {
             "mid": "000p7i6u0VyDWU",
@@ -1740,7 +1740,7 @@
             "author": "蓝波",
             "url": "http://64.64.248.103/music/%E4%BD%A0%E5%88%B0%E5%BA%95%E6%9C%89%E6%B2%A1%E6%9C%89%E7%88%B1%E8%BF%87%E6%88%91.mp3",
             "pic": "http://64.64.248.103/images/%E4%BD%A0%E5%88%B0%E5%BA%95%E6%9C%89%E6%B2%A1%E6%9C%89%E7%88%B1%E8%BF%87%E6%88%91.jpg",
-            "lrc": "/assets/lrcs/你到底有没有爱过我.lrc"
+            "lrc": "/assets/lrcs/Have you ever loved me.lrc"
         },
         {
             "mid": "001Ue5983QvMUm",
@@ -1830,7 +1830,7 @@
             "author": "英雄联盟",
             "url": "http://64.64.248.103/music/WelcometoPlanetUrf%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%B5%B7%E7%89%9B%E6%98%9F.mp3",
             "pic": "http://64.64.248.103/images/WelcometoPlanetUrf%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%B5%B7%E7%89%9B%E6%98%9F.jpg",
-            "lrc": "/assets/lrcs/Welcome to Planet Urf 欢迎来到海牛星.lrc"
+            "lrc": "/assets/lrcs/Welcome to Planet Urflrc"
         },
         {
             "mid": "002yw1bj2N60HQ",
@@ -1839,7 +1839,7 @@
             "author": "Alan Walker",
             "url": "http://64.64.248.103/music/LegendsNeverDie%28AlanWalkerRemix%29.mp3",
             "pic": "http://64.64.248.103/images/LegendsNeverDie.jpg",
-            "lrc": "/assets/lrcs/Legends Never Die (Alan Walker Remix)"
+            "lrc": "/assets/lrcs/Legends Never Die (Alan Walker Remix).lrc"
         },
         {
             "mid": "00394z9S2ciPAD",
@@ -1857,7 +1857,7 @@
             "author": "The Glitch Mob",
             "url": "http://64.64.248.103/music/RISE%E7%99%BB%E5%B3%B0%E9%80%A0%E6%9E%81%E5%A2%83.mp3",
             "pic": "http://64.64.248.103/images/RISE%E7%99%BB%E5%B3%B0%E9%80%A0%E6%9E%81%E5%A2%83.jpg",
-            "lrc": "/assets/lrcs/RISE 登峰造极境.lrc"
+            "lrc": "/assets/lrcs/RISE.lrc"
         },
         {
             "mid": "004GBDaV3Lie8v",
@@ -1866,7 +1866,7 @@
             "author": "英雄联盟",
             "url": "http://64.64.248.103/music/Awaken%E8%A7%89%E9%86%92.mp3",
             "pic": "http://64.64.248.103/images/Awaken%E8%A7%89%E9%86%92.jpg",
-            "lrc": "/assets/lrcs/Awaken 觉醒.lrc"
+            "lrc": "/assets/lrcs/Awaken.lrc"
         },
         {
             "mid": "001h6WuT3jdB2i",
@@ -1884,7 +1884,7 @@
             "author": "Away",
             "url": "http://64.64.248.103/music/faded%EF%BC%88%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E5%8F%B0%E8%AF%8D%E7%89%88%EF%BC%89%EF%BC%88Cover%EF%BC%9AAlanWalker%EF%BC%89.mp3",
             "pic": "http://64.64.248.103/images/faded%EF%BC%88%E8%8B%B1%E9%9B%84%E8%81%94%E7%9B%9F%E5%8F%B0%E8%AF%8D%E7%89%88%EF%BC%89%EF%BC%88Cover%EF%BC%9AAlanWalker%EF%BC%89.jpg",
-            "lrc": "/assets/lrcs/faded（英雄联盟台词版）（Cover：Alan Walker）.lrc"
+            "lrc": "/assets/lrcs/faded (League of Legends version).lrc"
         },
         {
             "mid": "003w2c4x0GyYCj",
@@ -1893,7 +1893,7 @@
             "author": "MKJ",
             "url": "http://64.64.248.103/music/Time%28%E5%8F%A3%E7%99%BD%29.mp3",
             "pic": "http://64.64.248.103/images/Time.jpg",
-            "lrc": "/assets/lrcs/Time (口白).lrc"
+            "lrc": "/assets/lrcs/Time.lrc"
         },
         {
             "mid": "003wx6994V2EFH",
@@ -2124,7 +2124,7 @@
             "mid": "002irpTC4eJYOC",
             "vid": "",
             "title": "Goodbye",
-            "author": "보이네이션",
+            "author": "Boynation",
             "url": "http://64.64.248.103/music/Goodbye.mp3",
             "pic": "http://64.64.248.103/images/Goodbye.jpg",
             "lrc": "/assets/lrcs/Goodbye.lrc"
@@ -2919,7 +2919,7 @@
             "author": "Krewella",
             "url": "http://64.64.248.103/music/ComeAndGetIt%28Reimx%E7%89%88%29.mp3",
             "pic": "http://64.64.248.103/images/ComeAndGetIt%28Reimx%E7%89%88%29.jpg",
-            "lrc": "/assets/lrcs/Come And Get It (Reimx版).lrc"
+            "lrc": "/assets/lrcs/Come And Get It.lrc"
         },
         {
             "mid": "0010hVid3sOeEZ",
@@ -3090,7 +3090,7 @@
             "author": "Teriyaki Boyz",
             "url": "http://64.64.248.103/music/TokyoDrift%28%E4%B8%9C%E4%BA%AC%E6%BC%82%E7%A7%BB%29.mp3",
             "pic": "http://64.64.248.103/images/TokyoDrift.jpg",
-            "lrc": "/assets/lrcs/Tokyo Drift (东京漂移).lrc"
+            "lrc": "/assets/lrcs/Tokyo Drift.lrc"
         },
         {
             "mid": "003L8Oq94De6Fy",
