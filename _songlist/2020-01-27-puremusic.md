@@ -19,7 +19,15 @@ comments: true
 <!-- <iframe src="https://open.spotify.com/embed/playlist/5NnkN8yucyX8nMOK15jAj9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
 
 <!-- <script type='text/javascript' src='https://api88.net/api/play/js/?id=3616881472&type=songlist&music=qqmusic&listFolded=false'></script> -->
+
 <script>
+    $(document).ready(function () {
+        if(location.href.indexOf("#reloaded")==-1){
+            location.href=location.href+"#reloaded";
+            location.reload();
+        }
+    })
+
     $("head").append("<link>");
     var css = $("head").children(":last");
     css.attr({
@@ -32,10 +40,9 @@ comments: true
     $.getScript('/assets/aplayer/APlayer.min.js', function () {
         $.ajax({
             type: "GET",
-            url: "https://api88.net/api/qqmusic/?key=1193755ae99702b0&id=3616881472&type=songlist&cache=",
+            url: "https://api88.net/api/qqmusic/?key=f34fa9f56ca6475401293358d49e764d&id=3616881472&type=songlist&cache=",
             dataType: 'json',
             success: function (result) {
-                console.log(result.Body)
                 var ap = new APlayer({
                     element: document.getElementById('aplayer'),
                     lrcType: 3,
