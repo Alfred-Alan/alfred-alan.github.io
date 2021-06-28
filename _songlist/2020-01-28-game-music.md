@@ -23,7 +23,7 @@ comments: true
             location.href=location.href+"#reloaded";
             location.reload();
         }
-    })
+    });
 
     $("head").append("<link>");
     var css = $("head").children(":last");
