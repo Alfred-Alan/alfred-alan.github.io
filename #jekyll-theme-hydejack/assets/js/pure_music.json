@@ -1,0 +1,2754 @@
+{
+    "Code": "OK",
+    "listname": "『纯音乐』和『电音』流行歌曲精选",
+    "nickname": "印痕",
+    "qq": "3210440292",
+    "songnum": 305,
+    "Body": [
+        {
+            "mid": "002iZhy72Lwxuk",
+            "vid": "",
+            "title": "Life",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Life-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Life-Tobu.jpg",
+            "lrc": "/assets/lrcs/Life-Tobu.lrc"
+        },
+        {
+            "mid": "002zKp492ZXn3T",
+            "vid": "",
+            "title": "Hope",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Hope-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Hope-Tobu.jpg",
+            "lrc": "/assets/lrcs/Hope-Tobu.lrc"
+        },
+        {
+            "mid": "000utOcK4Y4tem",
+            "vid": "",
+            "title": "Seven",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Seven-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Seven-Tobu.jpg",
+            "lrc": "/assets/lrcs/Seven-Tobu.lrc"
+        },
+        {
+            "mid": "002KmIJ92cPH41",
+            "vid": "",
+            "title": "Colors",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Colors-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Colors-Tobu.jpg",
+            "lrc": "/assets/lrcs/Colors-Tobu.lrc"
+        },
+        {
+            "mid": "003Jvty133zfRO",
+            "vid": "",
+            "title": "Higher",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Higher-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Higher-Tobu.jpg",
+            "lrc": "/assets/lrcs/Higher-Tobu.lrc"
+        },
+        {
+            "mid": "000VECte2X2Nt8",
+            "vid": "",
+            "title": "Infectious",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Infectious-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Infectious-Tobu.jpg",
+            "lrc": "/assets/lrcs/Infectious-Tobu.lrc"
+        },
+        {
+            "mid": "004Ob5A40QlUOv",
+            "vid": "",
+            "title": "Mesmerize",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Mesmerize-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Mesmerize-Tobu.jpg",
+            "lrc": "/assets/lrcs/Mesmerize-Tobu.lrc"
+        },
+        {
+            "mid": "0001ljEW3tC0Bh",
+            "vid": "",
+            "title": "Candyland",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Candyland-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Candyland-Tobu.jpg",
+            "lrc": "/assets/lrcs/Candyland-Tobu.lrc"
+        },
+        {
+            "mid": "0036l2SP42Cbng",
+            "vid": "",
+            "title": "Magic",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Magic-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Magic-Tobu.jpg",
+            "lrc": "/assets/lrcs/Magic-Tobu.lrc"
+        },
+        {
+            "mid": "003ggnbe33n1UY",
+            "vid": "",
+            "title": "Fantasy",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Fantasy-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Fantasy-Tobu.jpg",
+            "lrc": "/assets/lrcs/Fantasy-Tobu.lrc"
+        },
+        {
+            "mid": "003PL8Kc3EksFh",
+            "vid": "",
+            "title": "Sunburst",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Sunburst-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Sunburst-Tobu.jpg",
+            "lrc": "/assets/lrcs/Sunburst-Tobu.lrc"
+        },
+        {
+            "mid": "004OiYkl11Xy0E",
+            "vid": "",
+            "title": "Holiday",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Holiday-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Holiday-Tobu.jpg",
+            "lrc": "/assets/lrcs/Holiday-Tobu.lrc"
+        },
+        {
+            "mid": "002Eoc601yzi7Y",
+            "vid": "",
+            "title": "Cloud 9",
+            "author": "Tobu",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Cloud 9-Tobu.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Cloud 9-Tobu.jpg",
+            "lrc": "/assets/lrcs/Cloud 9-Tobu.lrc"
+        },
+        {
+            "mid": "0015PB9N15aKo2",
+            "vid": "",
+            "title": "Fade",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Fade-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Fade-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Fade-Alan Walker.lrc"
+        },
+        {
+            "mid": "004TUeEi1iadFZ",
+            "vid": "",
+            "title": "Force",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Force-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Force-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Force-Alan Walker.lrc"
+        },
+        {
+            "mid": "001nHOrr49sHM7",
+            "vid": "j0022nz9g8g",
+            "title": "Alone",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Alone-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Alone-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Alone-Alan Walker.lrc"
+        },
+        {
+            "mid": "000YnU180HTMUN",
+            "vid": "s00244on2oh",
+            "title": "Spectre",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Spectre-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Spectre-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Spectre-Alan Walker.lrc"
+        },
+        {
+            "mid": "003l1FC446DSqg",
+            "vid": "l00306ob0l2",
+            "title": "Sky",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Sky-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Sky-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Sky-Alan Walker.lrc"
+        },
+        {
+            "mid": "004XNP5Y47uxtx",
+            "vid": "",
+            "title": "Interlude",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Interlude-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Interlude-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Interlude-Alan Walker.lrc"
+        },
+        {
+            "mid": "002ohHeK2wTHSN",
+            "vid": "",
+            "title": "Ignite",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Ignite-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Ignite-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Ignite-Alan Walker.lrc"
+        },
+        {
+            "mid": "002XSaPi32ONJr",
+            "vid": "",
+            "title": "Avem (The Aviation Theme)",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Avem (The Aviation Theme)-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Avem (The Aviation Theme)-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Avem (The Aviation Theme)-Alan Walker.lrc"
+        },
+        {
+            "mid": "003RtdQj0OSTjR",
+            "vid": "q0022anh6e7",
+            "title": "Routine",
+            "author": "Alan Walker",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Routine-Alan Walker.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Routine-Alan Walker.jpg",
+            "lrc": "/assets/lrcs/Routine-Alan Walker.lrc"
+        },
+        {
+            "mid": "004bfaFI2kZNIG",
+            "vid": "",
+            "title": "Epic",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Epic-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Epic-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Epic-TheFatRat.lrc"
+        },
+        {
+            "mid": "0028g8kF15iSbz",
+            "vid": "",
+            "title": "Unity",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Unity-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Unity-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Unity-TheFatRat.lrc"
+        },
+        {
+            "mid": "003MStS741cJSa",
+            "vid": "",
+            "title": "Windfall",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Windfall-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Windfall-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Windfall-TheFatRat.lrc"
+        },
+        {
+            "mid": "002GW5yE4VLDFV",
+            "vid": "",
+            "title": "Jackpot",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Jackpot-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Jackpot-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Jackpot-TheFatRat.lrc"
+        },
+        {
+            "mid": "000aT5NJ0alhaU",
+            "vid": "",
+            "title": "Oblivion",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Oblivion-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Oblivion-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Oblivion-TheFatRat.lrc"
+        },
+        {
+            "mid": "002MrdfP2BFduW",
+            "vid": "",
+            "title": "Time Lapse",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Time Lapse-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Time Lapse-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Time Lapse-TheFatRat.lrc"
+        },
+        {
+            "mid": "003QQeFn1ZHlcE",
+            "vid": "",
+            "title": "Xenogenesis",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Xenogenesis-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Xenogenesis-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Xenogenesis-TheFatRat.lrc"
+        },
+        {
+            "mid": "002zjltX3y60xe",
+            "vid": "",
+            "title": "Fly Away",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Fly Away-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Fly Away-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Fly Away-TheFatRat.lrc"
+        },
+        {
+            "mid": "002XxVi52Z5HHv",
+            "vid": "",
+            "title": "Infinite Power!",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Infinite Power!-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Infinite Power!-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Infinite Power!-TheFatRat.lrc"
+        },
+        {
+            "mid": "000tt9In27ieeS",
+            "vid": "",
+            "title": "Never Be Alone",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Never Be Alone-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Never Be Alone-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Never Be Alone-TheFatRat.lrc"
+        },
+        {
+            "mid": "000DEstK0BGWkr",
+            "vid": "",
+            "title": "Solitude",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Solitude-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Solitude-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Solitude-TheFatRat.lrc"
+        },
+        {
+            "mid": "002abfM332ZoFx",
+            "vid": "",
+            "title": "Stronger",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Stronger-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Stronger-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Stronger-TheFatRat.lrc"
+        },
+        {
+            "mid": "000aUBzg0R2tSF",
+            "vid": "",
+            "title": "MAYDAY",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/MAYDAY-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/MAYDAY-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/MAYDAY-TheFatRat.lrc"
+        },
+        {
+            "mid": "001BAXPK1AYdzP",
+            "vid": "",
+            "title": "Monody",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Monody-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Monody-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/Monody-TheFatRat.lrc"
+        },
+        {
+            "mid": "001bedzm11LADI",
+            "vid": "",
+            "title": "The Calling",
+            "author": "TheFatRat",
+            "url": "http://64.64.248.103/music_file/pure_music/music/The Calling-TheFatRat.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/The Calling-TheFatRat.jpg",
+            "lrc": "/assets/lrcs/The Calling-TheFatRat.lrc"
+        },
+        {
+            "mid": "0019tqLj07spxF",
+            "vid": "c0024kfz0d4",
+            "title": "Pizza",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Pizza-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Pizza-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Pizza-Martin Garrix.lrc"
+        },
+        {
+            "mid": "003lQGEv1hXAFP",
+            "vid": "",
+            "title": "Oops",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Oops-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Oops-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Oops-Martin Garrix.lrc"
+        },
+        {
+            "mid": "0014TyiX4Gah9g",
+            "vid": "w00148k712u",
+            "title": "Proxy",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Proxy-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Proxy-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Proxy-Martin Garrix.lrc"
+        },
+        {
+            "mid": "002TxWAS3Jb0uL",
+            "vid": "",
+            "title": "Poison",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Poison-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Poison-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Poison-Martin Garrix.lrc"
+        },
+        {
+            "mid": "003rW7FM4OBzsM",
+            "vid": "x001262f8rb",
+            "title": "Animals",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Animals-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Animals-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Animals-Martin Garrix.lrc"
+        },
+        {
+            "mid": "000wGFaj0pyHyg",
+            "vid": "f0028w6hoaj",
+            "title": "Yottabyte",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Yottabyte-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Yottabyte-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Yottabyte-Martin Garrix.lrc"
+        },
+        {
+            "mid": "003MW9DW29DPAc",
+            "vid": "",
+            "title": "Byte",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Byte-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Byte-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Byte-Martin Garrix.lrc"
+        },
+        {
+            "mid": "003rlN2h0YJFX0",
+            "vid": "r0028bd9v0b",
+            "title": "Latency",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Latency-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Latency-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Latency-Martin Garrix.lrc"
+        },
+        {
+            "mid": "001qDfdQ2h5dyZ",
+            "vid": "",
+            "title": "Helicopter",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Helicopter-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Helicopter-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Helicopter-Martin Garrix.lrc"
+        },
+        {
+            "mid": "000YzOtf0nqbQl",
+            "vid": "k0029hlx0qp",
+            "title": "Glitch",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Glitch-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Glitch-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Glitch-Martin Garrix.lrc"
+        },
+        {
+            "mid": "001eM2u60HLmkH",
+            "vid": "o001354zg6y",
+            "title": "Wizard",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Wizard-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Wizard-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Wizard-Martin Garrix.lrc"
+        },
+        {
+            "mid": "000DloXc2lySI9",
+            "vid": "",
+            "title": "The Only Way Is Up",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/The Only Way Is Up-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/The Only Way Is Up-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/The Only Way Is Up-Martin Garrix.lrc"
+        },
+        {
+            "mid": "002zw1324DOzh7",
+            "vid": "",
+            "title": "Bouncybob",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Bouncybob-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Bouncybob-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Bouncybob-Martin Garrix.lrc"
+        },
+        {
+            "mid": "001Hxnbu3tIwYu",
+            "vid": "",
+            "title": "Just Some Loops",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Just Some Loops-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Just Some Loops-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Just Some Loops-Martin Garrix.lrc"
+        },
+        {
+            "mid": "002Y2bxU368vH1",
+            "vid": "",
+            "title": "Welcome",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Welcome-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Welcome-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Welcome-Martin Garrix.lrc"
+        },
+        {
+            "mid": "001hhT6q3eI8ki",
+            "vid": "",
+            "title": "Game Over",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Game Over-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Game Over-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Game Over-Martin Garrix.lrc"
+        },
+        {
+            "mid": "001swKJG0QOEXd",
+            "vid": "f0024jvsg1d",
+            "title": "Forever",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Forever-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Forever-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Forever-Martin Garrix.lrc"
+        },
+        {
+            "mid": "000hiuNt1FpQY7",
+            "vid": "o0028h8rk8y",
+            "title": "Breach (Walk Alone)",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Breach (Walk Alone)-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Breach (Walk Alone)-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Breach (Walk Alone)-Martin Garrix.lrc"
+        },
+        {
+            "mid": "0007tyD74RtzCD",
+            "vid": "r0017a3t79y",
+            "title": "Forbidden Voices",
+            "author": "Martin Garrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Forbidden Voices-Martin Garrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Forbidden Voices-Martin Garrix.jpg",
+            "lrc": "/assets/lrcs/Forbidden Voices-Martin Garrix.lrc"
+        },
+        {
+            "mid": "001Ve8m10dEA8F",
+            "vid": "k0017go312w",
+            "title": "BFAM",
+            "author": "Julian Jordan",
+            "url": "http://64.64.248.103/music_file/pure_music/music/BFAM-Julian Jordan.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/BFAM-Julian Jordan.jpg",
+            "lrc": "/assets/lrcs/BFAM-Julian Jordan.lrc"
+        },
+        {
+            "mid": "001NZeO21sy1qt",
+            "vid": "",
+            "title": "Tremble",
+            "author": "Vicetone",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Tremble-Vicetone.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Tremble-Vicetone.jpg",
+            "lrc": "/assets/lrcs/Tremble-Vicetone.lrc"
+        },
+        {
+            "mid": "001meJW635oB8C",
+            "vid": "",
+            "title": "Astronomia",
+            "author": "Vicetone",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Astronomia-Vicetone.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Astronomia-Vicetone.jpg",
+            "lrc": "/assets/lrcs/Astronomia-Vicetone.lrc"
+        },
+        {
+            "mid": "000vd4Lo1vUNpK",
+            "vid": "",
+            "title": "Hope (Instrumental Mix)",
+            "author": "Vicetone",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Hope (Instrumental Mix)-Vicetone.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Hope (Instrumental Mix)-Vicetone.jpg",
+            "lrc": "/assets/lrcs/Hope (Instrumental Mix)-Vicetone.lrc"
+        },
+        {
+            "mid": "000dGKfL2elshS",
+            "vid": "y0025ieb11p",
+            "title": "Nevada",
+            "author": "Vicetone",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Nevada-Vicetone.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Nevada-Vicetone.jpg",
+            "lrc": "/assets/lrcs/Nevada-Vicetone.lrc"
+        },
+        {
+            "mid": "003eVA8R1qGKdD",
+            "vid": "",
+            "title": "Ensemble",
+            "author": "Vicetone",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Ensemble-Vicetone.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Ensemble-Vicetone.jpg",
+            "lrc": "/assets/lrcs/Ensemble-Vicetone.lrc"
+        },
+        {
+            "mid": "004HKZvW40Ldze",
+            "vid": "",
+            "title": "United We Dance",
+            "author": "Vicetone",
+            "url": "http://64.64.248.103/music_file/pure_music/music/United We Dance-Vicetone.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/United We Dance-Vicetone.jpg",
+            "lrc": "/assets/lrcs/United We Dance-Vicetone.lrc"
+        },
+        {
+            "mid": "002QZqF71tdR9T",
+            "vid": "",
+            "title": "Tevo",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Tevo-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Tevo-Vexento.jpg",
+            "lrc": "/assets/lrcs/Tevo-Vexento.lrc"
+        },
+        {
+            "mid": "003HHGE31oTyow",
+            "vid": "",
+            "title": "Glow",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Glow-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Glow-Vexento.jpg",
+            "lrc": "/assets/lrcs/Glow-Vexento.lrc"
+        },
+        {
+            "mid": "001lw2vh11l9QV",
+            "vid": "",
+            "title": "Digital Kiss",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Digital Kiss-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Digital Kiss-Vexento.jpg",
+            "lrc": "/assets/lrcs/Digital Kiss-Vexento.lrc"
+        },
+        {
+            "mid": "004bvT8N1pe0zS",
+            "vid": "",
+            "title": "Pixel Party",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Pixel Party-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Pixel Party-Vexento.jpg",
+            "lrc": "/assets/lrcs/Pixel Party-Vexento.lrc"
+        },
+        {
+            "mid": "002VeXNk1Pwqcx",
+            "vid": "v0033xelttr",
+            "title": "Trippy Love",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Trippy Love-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Trippy Love-Vexento.jpg",
+            "lrc": "/assets/lrcs/Trippy Love-Vexento.lrc"
+        },
+        {
+            "mid": "001bPCXG2PXU9h",
+            "vid": "",
+            "title": "Lonely Dance",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Lonely Dance-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Lonely Dance-Vexento.jpg",
+            "lrc": "/assets/lrcs/Lonely Dance-Vexento.lrc"
+        },
+        {
+            "mid": "001OpxzD3NQDdy",
+            "vid": "",
+            "title": "Masked Raver",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Masked Raver-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Masked Raver-Vexento.jpg",
+            "lrc": "/assets/lrcs/Masked Raver-Vexento.lrc"
+        },
+        {
+            "mid": "002UcYks2SWNmI",
+            "vid": "",
+            "title": "Dream Catcher",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Dream Catcher-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Dream Catcher-Vexento.jpg",
+            "lrc": "/assets/lrcs/Dream Catcher-Vexento.lrc"
+        },
+        {
+            "mid": "002Dfh4I4Gzwl1",
+            "vid": "",
+            "title": "Masked Heroes",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Masked Heroes-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Masked Heroes-Vexento.jpg",
+            "lrc": "/assets/lrcs/Masked Heroes-Vexento.lrc"
+        },
+        {
+            "mid": "003mmxZK0a6sxt",
+            "vid": "",
+            "title": "Return Of The Raver",
+            "author": "Vexento",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Return Of The Raver-Vexento.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Return Of The Raver-Vexento.jpg",
+            "lrc": "/assets/lrcs/Return Of The Raver-Vexento.lrc"
+        },
+        {
+            "mid": "003vyGwf02NVv9",
+            "vid": "",
+            "title": "Fire",
+            "author": "Elektronomia",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Fire-Elektronomia.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Fire-Elektronomia.jpg",
+            "lrc": "/assets/lrcs/Fire-Elektronomia.lrc"
+        },
+        {
+            "mid": "001HFl0b0APLWm",
+            "vid": "",
+            "title": "Vision",
+            "author": "Elektronomia",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Vision-Elektronomia.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Vision-Elektronomia.jpg",
+            "lrc": "/assets/lrcs/Vision-Elektronomia.lrc"
+        },
+        {
+            "mid": "000eF98O1yDPgj",
+            "vid": "",
+            "title": "Energy",
+            "author": "Elektronomia",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Energy-Elektronomia.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Energy-Elektronomia.jpg",
+            "lrc": "/assets/lrcs/Energy-Elektronomia.lrc"
+        },
+        {
+            "mid": "002VIgJb2Ytei9",
+            "vid": "",
+            "title": "Limitless",
+            "author": "Elektronomia",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Limitless-Elektronomia.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Limitless-Elektronomia.jpg",
+            "lrc": "/assets/lrcs/Limitless-Elektronomia.lrc"
+        },
+        {
+            "mid": "001tZnki0lTtRn",
+            "vid": "",
+            "title": "Sky High",
+            "author": "Elektronomia",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Sky High-Elektronomia.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Sky High-Elektronomia.jpg",
+            "lrc": "/assets/lrcs/Sky High-Elektronomia.lrc"
+        },
+        {
+            "mid": "000jam8c1b6fOO",
+            "vid": "",
+            "title": "Summer Vibes",
+            "author": "Elektronomia",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Summer Vibes-Elektronomia.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Summer Vibes-Elektronomia.jpg",
+            "lrc": "/assets/lrcs/Summer Vibes-Elektronomia.lrc"
+        },
+        {
+            "mid": "001B4Z612WeIAv",
+            "vid": "",
+            "title": "Summersong 2018",
+            "author": "Elektronomia",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Summersong 2018-Elektronomia.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Summersong 2018-Elektronomia.jpg",
+            "lrc": "/assets/lrcs/Summersong 2018-Elektronomia.lrc"
+        },
+        {
+            "mid": "004Pzbzf4LNz33",
+            "vid": "",
+            "title": "Hero",
+            "author": "Doctor Vox",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Hero-Doctor Vox.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Hero-Doctor Vox.jpg",
+            "lrc": "/assets/lrcs/Hero-Doctor Vox.lrc"
+        },
+        {
+            "mid": "004D6GDw2tazqL",
+            "vid": "",
+            "title": "Level Up",
+            "author": "Doctor Vox",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Level Up-Doctor Vox.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Level Up-Doctor Vox.jpg",
+            "lrc": "/assets/lrcs/Level Up-Doctor Vox.lrc"
+        },
+        {
+            "mid": "000Luuq43PvY03",
+            "vid": "",
+            "title": "Horsepower",
+            "author": "MDK",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Horsepower-MDK.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Horsepower-MDK.jpg",
+            "lrc": "/assets/lrcs/Horsepower-MDK.lrc"
+        },
+        {
+            "mid": "002UviZz1qV50c",
+            "vid": "",
+            "title": "Frontier",
+            "author": "Doctor Vox",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Frontier-Doctor Vox.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Frontier-Doctor Vox.jpg",
+            "lrc": "/assets/lrcs/Frontier-Doctor Vox.lrc"
+        },
+        {
+            "mid": "003vRUut12lJ6L",
+            "vid": "",
+            "title": "Frontier",
+            "author": "Cargo",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Frontier-Cargo.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Frontier-Cargo.jpg",
+            "lrc": "/assets/lrcs/Frontier-Cargo.lrc"
+        },
+        {
+            "mid": "003czjIX1CkoxR",
+            "vid": "",
+            "title": "Frontier",
+            "author": "VINAI",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Frontier-VINAI.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Frontier-VINAI.jpg",
+            "lrc": "/assets/lrcs/Frontier-VINAI.lrc"
+        },
+        {
+            "mid": "0049BwSe1wsvf0",
+            "vid": "",
+            "title": "Bit Rush",
+            "author": "英雄联盟",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Bit Rush-英雄联盟.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Bit Rush-英雄联盟.jpg",
+            "lrc": "/assets/lrcs/Bit Rush-英雄联盟.lrc"
+        },
+        {
+            "mid": "001cXZo10ujYkC",
+            "vid": "",
+            "title": "Challengers",
+            "author": "英雄联盟",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Challengers-英雄联盟.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Challengers-英雄联盟.jpg",
+            "lrc": "/assets/lrcs/Challengers-英雄联盟.lrc"
+        },
+        {
+            "mid": "003FVzgN3MCyaK",
+            "vid": "",
+            "title": "2018 Rift Rivals Theme 英雄联盟2018洲际系列赛主题曲",
+            "author": "英雄联盟",
+            "url": "http://64.64.248.103/music_file/pure_music/music/2018 Rift Rivals Theme 英雄联盟2018洲际系列赛主题曲-英雄联盟.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/2018 Rift Rivals Theme 英雄联盟2018洲际系列赛主题曲-英雄联盟.jpg",
+            "lrc": "/assets/lrcs/2018 Rift Rivals Theme 英雄联盟2018洲际系列赛主题曲-英雄联盟.lrc"
+        },
+        {
+            "mid": "002gYKTg1CTz4w",
+            "vid": "x0024ypz9d8",
+            "title": "The Boy Who Shattered Time",
+            "author": "MitiS",
+            "url": "http://64.64.248.103/music_file/pure_music/music/The Boy Who Shattered Time-MitiS.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/The Boy Who Shattered Time-MitiS.jpg",
+            "lrc": "/assets/lrcs/The Boy Who Shattered Time-MitiS.lrc"
+        },
+        {
+            "mid": "003J7AH23fFR4D",
+            "vid": "e002419bi53",
+            "title": "Welcome to Planet Urf",
+            "author": "Jauz",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Welcome to Planet Urf-Jauz.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Welcome to Planet Urf-Jauz.jpg",
+            "lrc": "/assets/lrcs/Welcome to Planet Urf-Jauz.lrc"
+        },
+        {
+            "mid": "000dKG2y42UeFc",
+            "vid": "",
+            "title": "Kinetic",
+            "author": "英雄联盟",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Kinetic-英雄联盟.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Kinetic-英雄联盟.jpg",
+            "lrc": "/assets/lrcs/Kinetic-英雄联盟.lrc"
+        },
+        {
+            "mid": "000omN6M3bhwPQ",
+            "vid": "h0024x2icjo",
+            "title": "Piercing Light",
+            "author": "Mako",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Piercing Light-Mako.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Piercing Light-Mako.jpg",
+            "lrc": "/assets/lrcs/Piercing Light-Mako.lrc"
+        },
+        {
+            "mid": "002cWoUY104MB8",
+            "vid": "",
+            "title": "Silver Scrapes",
+            "author": "Danny McCarthy",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Silver Scrapes-Danny McCarthy.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Silver Scrapes-Danny McCarthy.jpg",
+            "lrc": "/assets/lrcs/Silver Scrapes-Danny McCarthy.lrc"
+        },
+        {
+            "mid": "002LB3qW1zIZu9",
+            "vid": "g00238f4vlh",
+            "title": "Tales Of The Rift",
+            "author": "英雄联盟",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Tales Of The Rift-英雄联盟.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Tales Of The Rift-英雄联盟.jpg",
+            "lrc": "/assets/lrcs/Tales Of The Rift-英雄联盟.lrc"
+        },
+        {
+            "mid": "003XlEag0PqieK",
+            "vid": "l0024yijqr3",
+            "title": "PROJECT Yi",
+            "author": "Vicetone",
+            "url": "http://64.64.248.103/music_file/pure_music/music/PROJECT Yi-Vicetone.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/PROJECT Yi-Vicetone.jpg",
+            "lrc": "/assets/lrcs/PROJECT Yi-Vicetone.lrc"
+        },
+        {
+            "mid": "000iwWQU07th1Y",
+            "vid": "",
+            "title": "Swamp Thing",
+            "author": "Pegboard Nerds",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Swamp Thing-Pegboard Nerds.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Swamp Thing-Pegboard Nerds.jpg",
+            "lrc": "/assets/lrcs/Swamp Thing-Pegboard Nerds.lrc"
+        },
+        {
+            "mid": "000W6KYR1YXc7a",
+            "vid": "",
+            "title": "Disconnected",
+            "author": "Pegboard Nerds",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Disconnected-Pegboard Nerds.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Disconnected-Pegboard Nerds.jpg",
+            "lrc": "/assets/lrcs/Disconnected-Pegboard Nerds.lrc"
+        },
+        {
+            "mid": "000qnerk3LwAug",
+            "vid": "",
+            "title": "Fire in the Hole",
+            "author": "Pegboard Nerds",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Fire in the Hole-Pegboard Nerds.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Fire in the Hole-Pegboard Nerds.jpg",
+            "lrc": "/assets/lrcs/Fire in the Hole-Pegboard Nerds.lrc"
+        },
+        {
+            "mid": "000FqIJB46hNa5",
+            "vid": "",
+            "title": "Checkpoint",
+            "author": "Hyper Potions",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Checkpoint-Hyper Potions.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Checkpoint-Hyper Potions.jpg",
+            "lrc": "/assets/lrcs/Checkpoint-Hyper Potions.lrc"
+        },
+        {
+            "mid": "001JbdKl4ZT5Jh",
+            "vid": "",
+            "title": "New Game",
+            "author": "Nitro fun",
+            "url": "http://64.64.248.103/music_file/pure_music/music/New Game-Nitro fun.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/New Game-Nitro fun.jpg",
+            "lrc": "/assets/lrcs/New Game-Nitro fun.lrc"
+        },
+        {
+            "mid": "001KWnEo30sTS7",
+            "vid": "",
+            "title": "Promise",
+            "author": "山冈晃",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Promise-山冈晃.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Promise-山冈晃.jpg",
+            "lrc": "/assets/lrcs/Promise-山冈晃.lrc"
+        },
+        {
+            "mid": "002Mjnqi228FrP",
+            "vid": "",
+            "title": "Intro",
+            "author": "Dreamtale",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Intro-Dreamtale.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Intro-Dreamtale.jpg",
+            "lrc": "/assets/lrcs/Intro-Dreamtale.lrc"
+        },
+        {
+            "mid": "001pIQnJ1IF8lK",
+            "vid": "",
+            "title": "Heist",
+            "author": "Noisestorm",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Heist-Noisestorm.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Heist-Noisestorm.jpg",
+            "lrc": "/assets/lrcs/Heist-Noisestorm.lrc"
+        },
+        {
+            "mid": "003nMpVV0JTgfB",
+            "vid": "",
+            "title": "Future Funk",
+            "author": "Varien",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Future Funk-Varien.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Future Funk-Varien.jpg",
+            "lrc": "/assets/lrcs/Future Funk-Varien.lrc"
+        },
+        {
+            "mid": "001mxO1l2s2QHG",
+            "vid": "",
+            "title": "He's a Pirate",
+            "author": "Klaus Badelt",
+            "url": "http://64.64.248.103/music_file/pure_music/music/He's a Pirate-Klaus Badelt.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/He's a Pirate-Klaus Badelt.jpg",
+            "lrc": "/assets/lrcs/He's a Pirate-Klaus Badelt.lrc"
+        },
+        {
+            "mid": "0027AddN4JGK0g",
+            "vid": "",
+            "title": "Battle Without Honor Or Humanity",
+            "author": "布袋寅泰",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Battle Without Honor Or Humanity-布袋寅泰.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Battle Without Honor Or Humanity-布袋寅泰.jpg",
+            "lrc": "/assets/lrcs/Battle Without Honor Or Humanity-布袋寅泰.lrc"
+        },
+        {
+            "mid": "000ktlwN1afKUY",
+            "vid": "",
+            "title": "Shotgun Senorita",
+            "author": "Blue Stahli",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Shotgun Senorita-Blue Stahli.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Shotgun Senorita-Blue Stahli.jpg",
+            "lrc": "/assets/lrcs/Shotgun Senorita-Blue Stahli.lrc"
+        },
+        {
+            "mid": "004L8fIM3bFGbD",
+            "vid": "",
+            "title": "Leadfoot Getaway",
+            "author": "Blue Stahli",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Leadfoot Getaway-Blue Stahli.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Leadfoot Getaway-Blue Stahli.jpg",
+            "lrc": "/assets/lrcs/Leadfoot Getaway-Blue Stahli.lrc"
+        },
+        {
+            "mid": "001xfrlS0fYS3z",
+            "vid": "",
+            "title": "Victory",
+            "author": "Two Steps From Hell",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Victory-Two Steps From Hell.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Victory-Two Steps From Hell.jpg",
+            "lrc": "/assets/lrcs/Victory-Two Steps From Hell.lrc"
+        },
+        {
+            "mid": "003BIyA14TxbEW",
+            "vid": "v0023dliurr",
+            "title": "Star Sky",
+            "author": "Two Steps From Hell",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Star Sky-Two Steps From Hell.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Star Sky-Two Steps From Hell.jpg",
+            "lrc": "/assets/lrcs/Star Sky-Two Steps From Hell.lrc"
+        },
+        {
+            "mid": "000O75fp2iuRV8",
+            "vid": "",
+            "title": "El Dorado",
+            "author": "Two Steps From Hell",
+            "url": "http://64.64.248.103/music_file/pure_music/music/El Dorado-Two Steps From Hell.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/El Dorado-Two Steps From Hell.jpg",
+            "lrc": "/assets/lrcs/El Dorado-Two Steps From Hell.lrc"
+        },
+        {
+            "mid": "003iPLlC2vmGoZ",
+            "vid": "",
+            "title": "Dragon Rider",
+            "author": "Two Steps From Hell",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Dragon Rider-Two Steps From Hell.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Dragon Rider-Two Steps From Hell.jpg",
+            "lrc": "/assets/lrcs/Dragon Rider-Two Steps From Hell.lrc"
+        },
+        {
+            "mid": "001YvIdG3Cj40c",
+            "vid": "i0026q0yiun",
+            "title": "Pacific Rim",
+            "author": "Ramin Djawadi",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Pacific Rim-Ramin Djawadi.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Pacific Rim-Ramin Djawadi.jpg",
+            "lrc": "/assets/lrcs/Pacific Rim-Ramin Djawadi.lrc"
+        },
+        {
+            "mid": "0016nwun03A7Ds",
+            "vid": "",
+            "title": "Rags To Rings",
+            "author": "Mark Petrie",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Rags To Rings-Mark Petrie.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Rags To Rings-Mark Petrie.jpg",
+            "lrc": "/assets/lrcs/Rags To Rings-Mark Petrie.lrc"
+        },
+        {
+            "mid": "004EuS7h0NLylb",
+            "vid": "",
+            "title": "Electric Romeo",
+            "author": "Jeffrey Fayman",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Electric Romeo-Jeffrey Fayman.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Electric Romeo-Jeffrey Fayman.jpg",
+            "lrc": "/assets/lrcs/Electric Romeo-Jeffrey Fayman.lrc"
+        },
+        {
+            "mid": "001nzOIF0N6Vbi",
+            "vid": "",
+            "title": "Breath and Life",
+            "author": "Audiomachine",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Breath and Life-Audiomachine.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Breath and Life-Audiomachine.jpg",
+            "lrc": "/assets/lrcs/Breath and Life-Audiomachine.lrc"
+        },
+        {
+            "mid": "003rflZ12mxMw0",
+            "vid": "",
+            "title": "Rise - Epic Music (上升 - 史诗音乐)",
+            "author": "John Dreamer",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Rise - Epic Music (上升 - 史诗音乐)-John Dreamer.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Rise - Epic Music (上升 - 史诗音乐)-John Dreamer.jpg",
+            "lrc": "/assets/lrcs/Rise - Epic Music (上升 - 史诗音乐)-John Dreamer.lrc"
+        },
+        {
+            "mid": "001IOVfO0Yjdg1",
+            "vid": "",
+            "title": "Last Reunion (Epicmusicvn Series)",
+            "author": "Peter Roe",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Last Reunion (Epicmusicvn Series)-Peter Roe.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Last Reunion (Epicmusicvn Series)-Peter Roe.jpg",
+            "lrc": "/assets/lrcs/Last Reunion (Epicmusicvn Series)-Peter Roe.lrc"
+        },
+        {
+            "mid": "003dok0o3kkDpn",
+            "vid": "",
+            "title": "Trip",
+            "author": "Axero",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Trip-Axero.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Trip-Axero.jpg",
+            "lrc": "/assets/lrcs/Trip-Axero.lrc"
+        },
+        {
+            "mid": "001guCZb0ZbRq8",
+            "vid": "",
+            "title": "River",
+            "author": "Axero",
+            "url": "http://64.64.248.103/music_file/pure_music/music/River-Axero.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/River-Axero.jpg",
+            "lrc": "/assets/lrcs/River-Axero.lrc"
+        },
+        {
+            "mid": "004ADJu90YwiFB",
+            "vid": "",
+            "title": "Natural",
+            "author": "Axero",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Natural-Axero.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Natural-Axero.jpg",
+            "lrc": "/assets/lrcs/Natural-Axero.lrc"
+        },
+        {
+            "mid": "001u8exI2GJzsY",
+            "vid": "",
+            "title": "Lights",
+            "author": "Axero",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Lights-Axero.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Lights-Axero.jpg",
+            "lrc": "/assets/lrcs/Lights-Axero.lrc"
+        },
+        {
+            "mid": "002dUybh3D7NiP",
+            "vid": "",
+            "title": "Beginning",
+            "author": "Axero",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Beginning-Axero.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Beginning-Axero.jpg",
+            "lrc": "/assets/lrcs/Beginning-Axero.lrc"
+        },
+        {
+            "mid": "0009m5Uf0I4j9H",
+            "vid": "",
+            "title": "Downtown",
+            "author": "Axero",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Downtown-Axero.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Downtown-Axero.jpg",
+            "lrc": "/assets/lrcs/Downtown-Axero.lrc"
+        },
+        {
+            "mid": "002tBEIJ3xvYPJ",
+            "vid": "",
+            "title": "True Stories",
+            "author": "Axero",
+            "url": "http://64.64.248.103/music_file/pure_music/music/True Stories-Axero.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/True Stories-Axero.jpg",
+            "lrc": "/assets/lrcs/True Stories-Axero.lrc"
+        },
+        {
+            "mid": "000eEuqG4WtArV",
+            "vid": "",
+            "title": "Our Road",
+            "author": "Axero",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Our Road-Axero.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Our Road-Axero.jpg",
+            "lrc": "/assets/lrcs/Our Road-Axero.lrc"
+        },
+        {
+            "mid": "001CgHCK4fMXuk",
+            "vid": "",
+            "title": "Nova",
+            "author": "Ahrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Nova-Ahrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Nova-Ahrix.jpg",
+            "lrc": "/assets/lrcs/Nova-Ahrix.lrc"
+        },
+        {
+            "mid": "004NBQgu1aGNgp",
+            "vid": "",
+            "title": "Relief",
+            "author": "Ahrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Relief-Ahrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Relief-Ahrix.jpg",
+            "lrc": "/assets/lrcs/Relief-Ahrix.lrc"
+        },
+        {
+            "mid": "0030rYPD4FpHyi",
+            "vid": "",
+            "title": "Reborn",
+            "author": "Ahrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Reborn-Ahrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Reborn-Ahrix.jpg",
+            "lrc": "/assets/lrcs/Reborn-Ahrix.lrc"
+        },
+        {
+            "mid": "003cit3c0nUph2",
+            "vid": "",
+            "title": "Evolving",
+            "author": "Ahrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Evolving-Ahrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Evolving-Ahrix.jpg",
+            "lrc": "/assets/lrcs/Evolving-Ahrix.lrc"
+        },
+        {
+            "mid": "002beMVk2guN0s",
+            "vid": "",
+            "title": "Left Behind",
+            "author": "Ahrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Left Behind-Ahrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Left Behind-Ahrix.jpg",
+            "lrc": "/assets/lrcs/Left Behind-Ahrix.lrc"
+        },
+        {
+            "mid": "000eJdHi4fzp8y",
+            "vid": "",
+            "title": "Courage",
+            "author": "Ahrix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Courage-Ahrix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Courage-Ahrix.jpg",
+            "lrc": "/assets/lrcs/Courage-Ahrix.lrc"
+        },
+        {
+            "mid": "001ynaT703fwfx",
+            "vid": "",
+            "title": "Ease",
+            "author": "Alex Skrindo",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Ease-Alex Skrindo.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Ease-Alex Skrindo.jpg",
+            "lrc": "/assets/lrcs/Ease-Alex Skrindo.lrc"
+        },
+        {
+            "mid": "003sPvlJ20vshx",
+            "vid": "",
+            "title": "Jumbo",
+            "author": "Alex Skrindo",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Jumbo-Alex Skrindo.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Jumbo-Alex Skrindo.jpg",
+            "lrc": "/assets/lrcs/Jumbo-Alex Skrindo.lrc"
+        },
+        {
+            "mid": "002mjDWy30JLrZ",
+            "vid": "",
+            "title": "Green Sky",
+            "author": "Alex Skrindo",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Green Sky-Alex Skrindo.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Green Sky-Alex Skrindo.jpg",
+            "lrc": "/assets/lrcs/Green Sky-Alex Skrindo.lrc"
+        },
+        {
+            "mid": "004IUqrL0E1SU0",
+            "vid": "",
+            "title": "You",
+            "author": "Axol",
+            "url": "http://64.64.248.103/music_file/pure_music/music/You-Axol.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/You-Axol.jpg",
+            "lrc": "/assets/lrcs/You-Axol.lrc"
+        },
+        {
+            "mid": "001O6xe10VDdA5",
+            "vid": "",
+            "title": "Adventures",
+            "author": "Alex Skrindo",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Adventures-Alex Skrindo.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Adventures-Alex Skrindo.jpg",
+            "lrc": "/assets/lrcs/Adventures-Alex Skrindo.lrc"
+        },
+        {
+            "mid": "004XgNjt44hkRw",
+            "vid": "",
+            "title": "Moments",
+            "author": "Alex Skrindo",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Moments-Alex Skrindo.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Moments-Alex Skrindo.jpg",
+            "lrc": "/assets/lrcs/Moments-Alex Skrindo.lrc"
+        },
+        {
+            "mid": "0016LSHJ4gLxVo",
+            "vid": "",
+            "title": "Fade",
+            "author": "Janji",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Fade-Janji.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Fade-Janji.jpg",
+            "lrc": "/assets/lrcs/Fade-Janji.lrc"
+        },
+        {
+            "mid": "001aVkOm3eLE1m",
+            "vid": "",
+            "title": "Dawn",
+            "author": "Janji",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Dawn-Janji.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Dawn-Janji.jpg",
+            "lrc": "/assets/lrcs/Dawn-Janji.lrc"
+        },
+        {
+            "mid": "003g9zky0MXJC2",
+            "vid": "",
+            "title": "Horizon",
+            "author": "Janji",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Horizon-Janji.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Horizon-Janji.jpg",
+            "lrc": "/assets/lrcs/Horizon-Janji.lrc"
+        },
+        {
+            "mid": "000MlDRJ1N6FEi",
+            "vid": "",
+            "title": "Shadows",
+            "author": "Janji",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Shadows-Janji.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Shadows-Janji.jpg",
+            "lrc": "/assets/lrcs/Shadows-Janji.lrc"
+        },
+        {
+            "mid": "004G2BPW3anSQd",
+            "vid": "",
+            "title": "Aurora",
+            "author": "Janji",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Aurora-Janji.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Aurora-Janji.jpg",
+            "lrc": "/assets/lrcs/Aurora-Janji.lrc"
+        },
+        {
+            "mid": "000NKKjA0ksyf1",
+            "vid": "",
+            "title": "Summer Memories",
+            "author": "Janji",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Summer Memories-Janji.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Summer Memories-Janji.jpg",
+            "lrc": "/assets/lrcs/Summer Memories-Janji.lrc"
+        },
+        {
+            "mid": "002GujRe1d7ZUS",
+            "vid": "",
+            "title": "Milky Way Stars",
+            "author": "Janji",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Milky Way Stars-Janji.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Milky Way Stars-Janji.jpg",
+            "lrc": "/assets/lrcs/Milky Way Stars-Janji.lrc"
+        },
+        {
+            "mid": "002taVHh1aZw1T",
+            "vid": "",
+            "title": "Aeon",
+            "author": "JJD",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Aeon-JJD.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Aeon-JJD.jpg",
+            "lrc": "/assets/lrcs/Aeon-JJD.lrc"
+        },
+        {
+            "mid": "000RSi841LdZ1g",
+            "vid": "",
+            "title": "Ocean",
+            "author": "JJD",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Ocean-JJD.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Ocean-JJD.jpg",
+            "lrc": "/assets/lrcs/Ocean-JJD.lrc"
+        },
+        {
+            "mid": "002w2td30oSh3c",
+            "vid": "",
+            "title": "Skyhigh",
+            "author": "JJD",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Skyhigh-JJD.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Skyhigh-JJD.jpg",
+            "lrc": "/assets/lrcs/Skyhigh-JJD.lrc"
+        },
+        {
+            "mid": "003Bu6Cl1XDmfj",
+            "vid": "",
+            "title": "Aurora",
+            "author": "JJD",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Aurora-JJD.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Aurora-JJD.jpg",
+            "lrc": "/assets/lrcs/Aurora-JJD.lrc"
+        },
+        {
+            "mid": "004Q8MhF1Xysrg",
+            "vid": "",
+            "title": "Wonderland",
+            "author": "JJD",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Wonderland-JJD.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Wonderland-JJD.jpg",
+            "lrc": "/assets/lrcs/Wonderland-JJD.lrc"
+        },
+        {
+            "mid": "004NQqBE2nrVE3",
+            "vid": "",
+            "title": "Origin",
+            "author": "K-391",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Origin-K-391.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Origin-K-391.jpg",
+            "lrc": "/assets/lrcs/Origin-K-391.lrc"
+        },
+        {
+            "mid": "002JSZQD4Ns8xl",
+            "vid": "",
+            "title": "Solstice",
+            "author": "K-391",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Solstice-K-391.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Solstice-K-391.jpg",
+            "lrc": "/assets/lrcs/Solstice-K-391.lrc"
+        },
+        {
+            "mid": "000I26Gm2Xdm9X",
+            "vid": "",
+            "title": "Summertime",
+            "author": "K-391",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Summertime-K-391.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Summertime-K-391.jpg",
+            "lrc": "/assets/lrcs/Summertime-K-391.lrc"
+        },
+        {
+            "mid": "000zKymE2Zb2aA",
+            "vid": "",
+            "title": "Rollin Heads",
+            "author": "K-391",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Rollin Heads-K-391.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Rollin Heads-K-391.jpg",
+            "lrc": "/assets/lrcs/Rollin Heads-K-391.lrc"
+        },
+        {
+            "mid": "003R4KiJ3wvV57",
+            "vid": "",
+            "title": "Vee",
+            "author": "ENV",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Vee-ENV.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Vee-ENV.jpg",
+            "lrc": "/assets/lrcs/Vee-ENV.lrc"
+        },
+        {
+            "mid": "000VDaGV0RU2Nx",
+            "vid": "",
+            "title": "Bloom",
+            "author": "ENV",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Bloom-ENV.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Bloom-ENV.jpg",
+            "lrc": "/assets/lrcs/Bloom-ENV.lrc"
+        },
+        {
+            "mid": "0046tQw23zS3JV",
+            "vid": "",
+            "title": "Firefrost",
+            "author": "ENV",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Firefrost-ENV.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Firefrost-ENV.jpg",
+            "lrc": "/assets/lrcs/Firefrost-ENV.lrc"
+        },
+        {
+            "mid": "001RVSUE40PNcw",
+            "vid": "",
+            "title": "Pneumatic Tokyo",
+            "author": "ENV",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Pneumatic Tokyo-ENV.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Pneumatic Tokyo-ENV.jpg",
+            "lrc": "/assets/lrcs/Pneumatic Tokyo-ENV.lrc"
+        },
+        {
+            "mid": "003xPk3A4Eh9oB",
+            "vid": "",
+            "title": "Link",
+            "author": "Jim Yosef",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Link-Jim Yosef.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Link-Jim Yosef.jpg",
+            "lrc": "/assets/lrcs/Link-Jim Yosef.lrc"
+        },
+        {
+            "mid": "002foUH50HaTbr",
+            "vid": "",
+            "title": "Lights",
+            "author": "Jim Yosef",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Lights-Jim Yosef.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Lights-Jim Yosef.jpg",
+            "lrc": "/assets/lrcs/Lights-Jim Yosef.lrc"
+        },
+        {
+            "mid": "004bkeJt2MpAjk",
+            "vid": "",
+            "title": "Eclipse",
+            "author": "Jim Yosef",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Eclipse-Jim Yosef.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Eclipse-Jim Yosef.jpg",
+            "lrc": "/assets/lrcs/Eclipse-Jim Yosef.lrc"
+        },
+        {
+            "mid": "0028YRIK0ORNBU",
+            "vid": "",
+            "title": "Firefly",
+            "author": "Jim Yosef",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Firefly-Jim Yosef.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Firefly-Jim Yosef.jpg",
+            "lrc": "/assets/lrcs/Firefly-Jim Yosef.lrc"
+        },
+        {
+            "mid": "001Pm7Ms1oiWZ1",
+            "vid": "",
+            "title": "Times",
+            "author": "Itro",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Times-Itro.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Times-Itro.jpg",
+            "lrc": "/assets/lrcs/Times-Itro.lrc"
+        },
+        {
+            "mid": "000NBJOw3bjAxy",
+            "vid": "",
+            "title": "Panda",
+            "author": "Itro",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Panda-Itro.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Panda-Itro.jpg",
+            "lrc": "/assets/lrcs/Panda-Itro.lrc"
+        },
+        {
+            "mid": "0016fpvI3ZyABY",
+            "vid": "",
+            "title": "Home",
+            "author": "Itro",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Home-Itro.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Home-Itro.jpg",
+            "lrc": "/assets/lrcs/Home-Itro.lrc"
+        },
+        {
+            "mid": "000I7Lca1VBAjU",
+            "vid": "",
+            "title": "Cetus",
+            "author": "Lensko",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Cetus-Lensko.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Cetus-Lensko.jpg",
+            "lrc": "/assets/lrcs/Cetus-Lensko.lrc"
+        },
+        {
+            "mid": "003FAMVU3lkRvW",
+            "vid": "",
+            "title": "Circles",
+            "author": "Lensko",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Circles-Lensko.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Circles-Lensko.jpg",
+            "lrc": "/assets/lrcs/Circles-Lensko.lrc"
+        },
+        {
+            "mid": "000votBL4TIYsQ",
+            "vid": "",
+            "title": "Heaven",
+            "author": "Lensko",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Heaven-Lensko.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Heaven-Lensko.jpg",
+            "lrc": "/assets/lrcs/Heaven-Lensko.lrc"
+        },
+        {
+            "mid": "0004rJq72xWnap",
+            "vid": "",
+            "title": "Oasis",
+            "author": "WhatsUpRAMS",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Oasis-WhatsUpRAMS.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Oasis-WhatsUpRAMS.jpg",
+            "lrc": "/assets/lrcs/Oasis-WhatsUpRAMS.lrc"
+        },
+        {
+            "mid": "004PwSxV1XF1Jj",
+            "vid": "",
+            "title": "Love Story",
+            "author": "LOCH",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Love Story-LOCH.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Love Story-LOCH.jpg",
+            "lrc": "/assets/lrcs/Love Story-LOCH.lrc"
+        },
+        {
+            "mid": "001U5lBJ0aTod7",
+            "vid": "",
+            "title": "Takeoff",
+            "author": "Cediv",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Takeoff-Cediv.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Takeoff-Cediv.jpg",
+            "lrc": "/assets/lrcs/Takeoff-Cediv.lrc"
+        },
+        {
+            "mid": "00344DhQ0qEn0A",
+            "vid": "",
+            "title": "Ascent",
+            "author": "Teminite",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Ascent-Teminite.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Ascent-Teminite.jpg",
+            "lrc": "/assets/lrcs/Ascent-Teminite.lrc"
+        },
+        {
+            "mid": "0038Isf70b8Wdz",
+            "vid": "",
+            "title": "Aspiration",
+            "author": "Teminite",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Aspiration-Teminite.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Aspiration-Teminite.jpg",
+            "lrc": "/assets/lrcs/Aspiration-Teminite.lrc"
+        },
+        {
+            "mid": "002hvWbh2FPPi1",
+            "vid": "",
+            "title": "Highscore",
+            "author": "Panda Eyes",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Highscore-Panda Eyes.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Highscore-Panda Eyes.jpg",
+            "lrc": "/assets/lrcs/Highscore-Panda Eyes.lrc"
+        },
+        {
+            "mid": "001Wdver42XQpX",
+            "vid": "t0020w64fao",
+            "title": "Alone",
+            "author": "Marshmello",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Alone-Marshmello.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Alone-Marshmello.jpg",
+            "lrc": "/assets/lrcs/Alone-Marshmello.lrc"
+        },
+        {
+            "mid": "002ikSmI2oEerD",
+            "vid": "z0024nbxyk5",
+            "title": "Flash Funk",
+            "author": "Marshmello",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Flash Funk-Marshmello.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Flash Funk-Marshmello.jpg",
+            "lrc": "/assets/lrcs/Flash Funk-Marshmello.lrc"
+        },
+        {
+            "mid": "004BD34F4HEIoV",
+            "vid": "",
+            "title": "Nekozilla",
+            "author": "Different Heaven",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Nekozilla-Different Heaven.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Nekozilla-Different Heaven.jpg",
+            "lrc": "/assets/lrcs/Nekozilla-Different Heaven.lrc"
+        },
+        {
+            "mid": "000PeEkW3CHRT7",
+            "vid": "",
+            "title": "My Heart",
+            "author": "Different Heaven",
+            "url": "http://64.64.248.103/music_file/pure_music/music/My Heart-Different Heaven.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/My Heart-Different Heaven.jpg",
+            "lrc": "/assets/lrcs/My Heart-Different Heaven.lrc"
+        },
+        {
+            "mid": "003zmtbu0xquhX",
+            "vid": "",
+            "title": "Stars",
+            "author": "Ahxello",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Stars-Ahxello.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Stars-Ahxello.jpg",
+            "lrc": "/assets/lrcs/Stars-Ahxello.lrc"
+        },
+        {
+            "mid": "000hGDiQ499wx7",
+            "vid": "",
+            "title": "Frisbee",
+            "author": "Ahxello",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Frisbee-Ahxello.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Frisbee-Ahxello.jpg",
+            "lrc": "/assets/lrcs/Frisbee-Ahxello.lrc"
+        },
+        {
+            "mid": "002aWlUx2TXLWe",
+            "vid": "",
+            "title": "Victim",
+            "author": "LarsM",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Victim-LarsM.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Victim-LarsM.jpg",
+            "lrc": "/assets/lrcs/Victim-LarsM.lrc"
+        },
+        {
+            "mid": "003DJWiw13INg7",
+            "vid": "",
+            "title": "Lovers",
+            "author": "LarsM",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Lovers-LarsM.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Lovers-LarsM.jpg",
+            "lrc": "/assets/lrcs/Lovers-LarsM.lrc"
+        },
+        {
+            "mid": "002O4LR64fkFtI",
+            "vid": "",
+            "title": "Samurai",
+            "author": "DEAF KEV",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Samurai-DEAF KEV.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Samurai-DEAF KEV.jpg",
+            "lrc": "/assets/lrcs/Samurai-DEAF KEV.lrc"
+        },
+        {
+            "mid": "001F5OzJ3QozEN",
+            "vid": "",
+            "title": "Invincible",
+            "author": "DEAF KEV",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Invincible-DEAF KEV.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Invincible-DEAF KEV.jpg",
+            "lrc": "/assets/lrcs/Invincible-DEAF KEV.lrc"
+        },
+        {
+            "mid": "004XRYNB0kP8E9",
+            "vid": "",
+            "title": "Somero",
+            "author": "Mich",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Somero-Mich.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Somero-Mich.jpg",
+            "lrc": "/assets/lrcs/Somero-Mich.lrc"
+        },
+        {
+            "mid": "003pfoW34RAEj8",
+            "vid": "",
+            "title": "Skyland",
+            "author": "Mich",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Skyland-Mich.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Skyland-Mich.jpg",
+            "lrc": "/assets/lrcs/Skyland-Mich.lrc"
+        },
+        {
+            "mid": "001e7dPl0I7eJ9",
+            "vid": "n0017wd4cio",
+            "title": "Intro",
+            "author": "The xx",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Intro-The xx.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Intro-The xx.jpg",
+            "lrc": "/assets/lrcs/Intro-The xx.lrc"
+        },
+        {
+            "mid": "000LV0nn0806un",
+            "vid": "",
+            "title": "Island",
+            "author": "Jarico",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Island-Jarico.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Island-Jarico.jpg",
+            "lrc": "/assets/lrcs/Island-Jarico.lrc"
+        },
+        {
+            "mid": "000Xbm7J2Hq9nD",
+            "vid": "",
+            "title": "Time",
+            "author": "Dogena",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Time-Dogena.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Time-Dogena.jpg",
+            "lrc": "/assets/lrcs/Time-Dogena.lrc"
+        },
+        {
+            "mid": "00370sMN03Nt6f",
+            "vid": "",
+            "title": "Tenko",
+            "author": "Oorora",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Tenko-Oorora.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Tenko-Oorora.jpg",
+            "lrc": "/assets/lrcs/Tenko-Oorora.lrc"
+        },
+        {
+            "mid": "0007a7373C6wDB",
+            "vid": "",
+            "title": "Star",
+            "author": "Eric Chen",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Star-Eric Chen.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Star-Eric Chen.jpg",
+            "lrc": "/assets/lrcs/Star-Eric Chen.lrc"
+        },
+        {
+            "mid": "001t0Mmz3t9BFF",
+            "vid": "",
+            "title": "Geisha",
+            "author": "Dj Judi",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Geisha-Dj Judi.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Geisha-Dj Judi.jpg",
+            "lrc": "/assets/lrcs/Geisha-Dj Judi.lrc"
+        },
+        {
+            "mid": "0011rAq92W9Wo3",
+            "vid": "",
+            "title": "Falling",
+            "author": "AndyM",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Falling-AndyM.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Falling-AndyM.jpg",
+            "lrc": "/assets/lrcs/Falling-AndyM.lrc"
+        },
+        {
+            "mid": "002Ptknl2i4tls",
+            "vid": "",
+            "title": "Stay",
+            "author": "Haukjem",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Stay-Haukjem.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Stay-Haukjem.jpg",
+            "lrc": "/assets/lrcs/Stay-Haukjem.lrc"
+        },
+        {
+            "mid": "0016kCUn1tV2Qx",
+            "vid": "",
+            "title": "旋律之森",
+            "author": "Thunse",
+            "url": "http://64.64.248.103/music_file/pure_music/music/旋律之森-Thunse.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/旋律之森-Thunse.jpg",
+            "lrc": "/assets/lrcs/旋律之森-Thunse.lrc"
+        },
+        {
+            "mid": "001AcoSn0xGfWY",
+            "vid": "",
+            "title": "Yumé",
+            "author": "Daïtshi",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Yumé-Daïtshi.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Yumé-Daïtshi.jpg",
+            "lrc": "/assets/lrcs/Yumé-Daïtshi.lrc"
+        },
+        {
+            "mid": "000V5r2V4fGxWt",
+            "vid": "",
+            "title": "Reverie",
+            "author": "Ezza Wan",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Reverie-Ezza Wan.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Reverie-Ezza Wan.jpg",
+            "lrc": "/assets/lrcs/Reverie-Ezza Wan.lrc"
+        },
+        {
+            "mid": "0014YxbY2OZDOX",
+            "vid": "",
+            "title": "Three Of Us",
+            "author": "Slinz",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Three Of Us-Slinz.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Three Of Us-Slinz.jpg",
+            "lrc": "/assets/lrcs/Three Of Us-Slinz.lrc"
+        },
+        {
+            "mid": "003jJUeV2H5p1k",
+            "vid": "",
+            "title": "Mystic Tides",
+            "author": "FEWZ",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Mystic Tides-FEWZ.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Mystic Tides-FEWZ.jpg",
+            "lrc": "/assets/lrcs/Mystic Tides-FEWZ.lrc"
+        },
+        {
+            "mid": "001Ozv7n2z2AYY",
+            "vid": "",
+            "title": "Complexity",
+            "author": "MadEye",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Complexity-MadEye.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Complexity-MadEye.jpg",
+            "lrc": "/assets/lrcs/Complexity-MadEye.lrc"
+        },
+        {
+            "mid": "001Iy63d1BxuJ7",
+            "vid": "",
+            "title": "Just For Fun",
+            "author": "PureBells",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Just For Fun-PureBells.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Just For Fun-PureBells.jpg",
+            "lrc": "/assets/lrcs/Just For Fun-PureBells.lrc"
+        },
+        {
+            "mid": "002p00Mo390Y4v",
+            "vid": "",
+            "title": "Zeemeeuw",
+            "author": "Lindequist",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Zeemeeuw-Lindequist.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Zeemeeuw-Lindequist.jpg",
+            "lrc": "/assets/lrcs/Zeemeeuw-Lindequist.lrc"
+        },
+        {
+            "mid": "000lBcM63oAjm4",
+            "vid": "",
+            "title": "You're Not Alone",
+            "author": "CMA",
+            "url": "http://64.64.248.103/music_file/pure_music/music/You're Not Alone-CMA.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/You're Not Alone-CMA.jpg",
+            "lrc": "/assets/lrcs/You're Not Alone-CMA.lrc"
+        },
+        {
+            "mid": "0024FVwD4L3ILo",
+            "vid": "",
+            "title": "Future Summer",
+            "author": "Stories",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Future Summer-Stories.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Future Summer-Stories.jpg",
+            "lrc": "/assets/lrcs/Future Summer-Stories.lrc"
+        },
+        {
+            "mid": "000CVJa71wcLqX",
+            "vid": "",
+            "title": "Shine",
+            "author": "Jebase",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Shine-Jebase.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Shine-Jebase.jpg",
+            "lrc": "/assets/lrcs/Shine-Jebase.lrc"
+        },
+        {
+            "mid": "00285F3E1KXPvM",
+            "vid": "",
+            "title": "Ngẫu Hứng",
+            "author": "MonBet",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Ngẫu Hứng-MonBet.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Ngẫu Hứng-MonBet.jpg",
+            "lrc": "/assets/lrcs/Ngẫu Hứng-MonBet.lrc"
+        },
+        {
+            "mid": "001gAkNN2BTltk",
+            "vid": "",
+            "title": "Dream",
+            "author": "JinBrothe",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Dream-JinBrothe.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Dream-JinBrothe.jpg",
+            "lrc": "/assets/lrcs/Dream-JinBrothe.lrc"
+        },
+        {
+            "mid": "003JeMMV0YHBg8",
+            "vid": "",
+            "title": "Oblivion",
+            "author": "Cody Sorenson",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Oblivion-Cody Sorenson.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Oblivion-Cody Sorenson.jpg",
+            "lrc": "/assets/lrcs/Oblivion-Cody Sorenson.lrc"
+        },
+        {
+            "mid": "004RiOf83DSy3B",
+            "vid": "",
+            "title": "Skyline",
+            "author": "Jordan Kelvin James",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Skyline-Jordan Kelvin James.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Skyline-Jordan Kelvin James.jpg",
+            "lrc": "/assets/lrcs/Skyline-Jordan Kelvin James.lrc"
+        },
+        {
+            "mid": "003h7IxA1r79Fa",
+            "vid": "",
+            "title": "Return",
+            "author": "Axel Wernberg",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Return-Axel Wernberg.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Return-Axel Wernberg.jpg",
+            "lrc": "/assets/lrcs/Return-Axel Wernberg.lrc"
+        },
+        {
+            "mid": "004bTHOm37fHkR",
+            "vid": "",
+            "title": "Are You with Me",
+            "author": "The Harmony Group",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Are You with Me-The Harmony Group.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Are You with Me-The Harmony Group.jpg",
+            "lrc": "/assets/lrcs/Are You with Me-The Harmony Group.lrc"
+        },
+        {
+            "mid": "003YtB2u4ILxku",
+            "vid": "",
+            "title": "Visions",
+            "author": "Acreix",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Visions-Acreix.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Visions-Acreix.jpg",
+            "lrc": "/assets/lrcs/Visions-Acreix.lrc"
+        },
+        {
+            "mid": "000qDFnJ0Xf86h",
+            "vid": "",
+            "title": "Aspire",
+            "author": "CelDro",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Aspire-CelDro.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Aspire-CelDro.jpg",
+            "lrc": "/assets/lrcs/Aspire-CelDro.lrc"
+        },
+        {
+            "mid": "0012bFAz0GUN2k",
+            "vid": "d0020gj3eeb",
+            "title": "Sakura",
+            "author": "R3HAB",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Sakura-R3HAB.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Sakura-R3HAB.jpg",
+            "lrc": "/assets/lrcs/Sakura-R3HAB.lrc"
+        },
+        {
+            "mid": "00188Ks71kUgYE",
+            "vid": "",
+            "title": "Escape",
+            "author": "Dripice",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Escape-Dripice.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Escape-Dripice.jpg",
+            "lrc": "/assets/lrcs/Escape-Dripice.lrc"
+        },
+        {
+            "mid": "000kDjAR2lclkC",
+            "vid": "",
+            "title": "ILY",
+            "author": "Panda Eyes",
+            "url": "http://64.64.248.103/music_file/pure_music/music/ILY-Panda Eyes.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/ILY-Panda Eyes.jpg",
+            "lrc": "/assets/lrcs/ILY-Panda Eyes.lrc"
+        },
+        {
+            "mid": "000kbQQm4VbRhY",
+            "vid": "",
+            "title": "Limitless",
+            "author": "Skylike",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Limitless-Skylike.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Limitless-Skylike.jpg",
+            "lrc": "/assets/lrcs/Limitless-Skylike.lrc"
+        },
+        {
+            "mid": "002ECgOk1uM2nP",
+            "vid": "",
+            "title": "True Colors",
+            "author": "Skillzmakekillz",
+            "url": "http://64.64.248.103/music_file/pure_music/music/True Colors-Skillzmakekillz.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/True Colors-Skillzmakekillz.jpg",
+            "lrc": "/assets/lrcs/True Colors-Skillzmakekillz.lrc"
+        },
+        {
+            "mid": "001t6eRx4GRBMe",
+            "vid": "",
+            "title": "Eurodancer",
+            "author": "Mangoo",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Eurodancer-Mangoo.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Eurodancer-Mangoo.jpg",
+            "lrc": "/assets/lrcs/Eurodancer-Mangoo.lrc"
+        },
+        {
+            "mid": "003Yz7gW2QB8Im",
+            "vid": "",
+            "title": "Kageokuri",
+            "author": "5u5h1",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Kageokuri-5u5h1.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Kageokuri-5u5h1.jpg",
+            "lrc": "/assets/lrcs/Kageokuri-5u5h1.lrc"
+        },
+        {
+            "mid": "000OSYm83BW7Bw",
+            "vid": "",
+            "title": "Virtual World",
+            "author": "Smk",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Virtual World-Smk.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Virtual World-Smk.jpg",
+            "lrc": "/assets/lrcs/Virtual World-Smk.lrc"
+        },
+        {
+            "mid": "0008sNfA06RqHT",
+            "vid": "",
+            "title": "Daydreams",
+            "author": "Valcos",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Daydreams-Valcos.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Daydreams-Valcos.jpg",
+            "lrc": "/assets/lrcs/Daydreams-Valcos.lrc"
+        },
+        {
+            "mid": "001Hv1Sf0JQxUA",
+            "vid": "",
+            "title": "Cross the Line",
+            "author": "Jiaye",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Cross the Line-Jiaye.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Cross the Line-Jiaye.jpg",
+            "lrc": "/assets/lrcs/Cross the Line-Jiaye.lrc"
+        },
+        {
+            "mid": "002Ocj2O0nbREi",
+            "vid": "",
+            "title": "Awakening",
+            "author": "Defqwop",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Awakening-Defqwop.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Awakening-Defqwop.jpg",
+            "lrc": "/assets/lrcs/Awakening-Defqwop.lrc"
+        },
+        {
+            "mid": "00146do73s9bXu",
+            "vid": "",
+            "title": "What Love Is",
+            "author": "L3V3LS",
+            "url": "http://64.64.248.103/music_file/pure_music/music/What Love Is-L3V3LS.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/What Love Is-L3V3LS.jpg",
+            "lrc": "/assets/lrcs/What Love Is-L3V3LS.lrc"
+        },
+        {
+            "mid": "000TIilk0Wjmlt",
+            "vid": "",
+            "title": "Leevis",
+            "author": "Fri",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Leevis-Fri.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Leevis-Fri.jpg",
+            "lrc": "/assets/lrcs/Leevis-Fri.lrc"
+        },
+        {
+            "mid": "002UDUmP3PPlEK",
+            "vid": "",
+            "title": "Delay",
+            "author": "Alex Ferro",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Delay-Alex Ferro.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Delay-Alex Ferro.jpg",
+            "lrc": "/assets/lrcs/Delay-Alex Ferro.lrc"
+        },
+        {
+            "mid": "003XF7QL42uAFr",
+            "vid": "",
+            "title": "Peace",
+            "author": "SNVWTT",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Peace-SNVWTT.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Peace-SNVWTT.jpg",
+            "lrc": "/assets/lrcs/Peace-SNVWTT.lrc"
+        },
+        {
+            "mid": "004MCiEZ0lbObz",
+            "vid": "",
+            "title": "Beautiful Lies",
+            "author": "B-complex",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Beautiful Lies-B-complex.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Beautiful Lies-B-complex.jpg",
+            "lrc": "/assets/lrcs/Beautiful Lies-B-complex.lrc"
+        },
+        {
+            "mid": "003CVQpJ1rYKFG",
+            "vid": "",
+            "title": "On My Own",
+            "author": "Panda Eyes",
+            "url": "http://64.64.248.103/music_file/pure_music/music/On My Own-Panda Eyes.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/On My Own-Panda Eyes.jpg",
+            "lrc": "/assets/lrcs/On My Own-Panda Eyes.lrc"
+        },
+        {
+            "mid": "003TtpqZ4R2S85",
+            "vid": "",
+            "title": "Anywhere",
+            "author": "Lucas & Steve",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Anywhere-Lucas & Steve.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Anywhere-Lucas & Steve.jpg",
+            "lrc": "/assets/lrcs/Anywhere-Lucas & Steve.lrc"
+        },
+        {
+            "mid": "0021wsvT2gH6pR",
+            "vid": "c00314qe70i",
+            "title": "Boomerang",
+            "author": "Brooks",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Boomerang-Brooks.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Boomerang-Brooks.jpg",
+            "lrc": "/assets/lrcs/Boomerang-Brooks.lrc"
+        },
+        {
+            "mid": "001Nunek0niXKV",
+            "vid": "",
+            "title": "My Sunset",
+            "author": "Feint",
+            "url": "http://64.64.248.103/music_file/pure_music/music/My Sunset-Feint.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/My Sunset-Feint.jpg",
+            "lrc": "/assets/lrcs/My Sunset-Feint.lrc"
+        },
+        {
+            "mid": "0022eoAC4Ocl6Y",
+            "vid": "",
+            "title": "Rubik",
+            "author": "Distrion",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Rubik-Distrion.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Rubik-Distrion.jpg",
+            "lrc": "/assets/lrcs/Rubik-Distrion.lrc"
+        },
+        {
+            "mid": "001QbGpr3BoTo4",
+            "vid": "",
+            "title": "Delightful",
+            "author": "stahl!",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Delightful-stahl!.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Delightful-stahl!.jpg",
+            "lrc": "/assets/lrcs/Delightful-stahl!.lrc"
+        },
+        {
+            "mid": "003qOoWC0QeGz5",
+            "vid": "",
+            "title": "Boomerang(HINA Bootleg)",
+            "author": "HINA",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Boomerang(HINA Bootleg)-HINA.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Boomerang(HINA Bootleg)-HINA.jpg",
+            "lrc": "/assets/lrcs/Boomerang(HINA Bootleg)-HINA.lrc"
+        },
+        {
+            "mid": "004CP4ZC2liogC",
+            "vid": "",
+            "title": "J'adore",
+            "author": "TomLeevis",
+            "url": "http://64.64.248.103/music_file/pure_music/music/J'adore-TomLeevis.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/J'adore-TomLeevis.jpg",
+            "lrc": "/assets/lrcs/J'adore-TomLeevis.lrc"
+        },
+        {
+            "mid": "001zRCrz0rAAvY",
+            "vid": "",
+            "title": "Sky",
+            "author": "Steerner",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Sky-Steerner.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Sky-Steerner.jpg",
+            "lrc": "/assets/lrcs/Sky-Steerner.lrc"
+        },
+        {
+            "mid": "000SgtId35VpeB",
+            "vid": "",
+            "title": "Interstellar",
+            "author": "Laszlo",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Interstellar-Laszlo.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Interstellar-Laszlo.jpg",
+            "lrc": "/assets/lrcs/Interstellar-Laszlo.lrc"
+        },
+        {
+            "mid": "000CO3L33u5S9o",
+            "vid": "",
+            "title": "Emotions",
+            "author": "Verdial",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Emotions-Verdial.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Emotions-Verdial.jpg",
+            "lrc": "/assets/lrcs/Emotions-Verdial.lrc"
+        },
+        {
+            "mid": "000TNtIf27inBl",
+            "vid": "",
+            "title": "Invisible",
+            "author": "Julius Dreisig",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Invisible-Julius Dreisig.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Invisible-Julius Dreisig.jpg",
+            "lrc": "/assets/lrcs/Invisible-Julius Dreisig.lrc"
+        },
+        {
+            "mid": "002zRfKq23O910",
+            "vid": "",
+            "title": "Fiery Sky",
+            "author": "Felix Za",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Fiery Sky-Felix Za.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Fiery Sky-Felix Za.jpg",
+            "lrc": "/assets/lrcs/Fiery Sky-Felix Za.lrc"
+        },
+        {
+            "mid": "003BnlaE19TExK",
+            "vid": "",
+            "title": "Road So Fars",
+            "author": "杳葵",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Road So Fars-杳葵.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Road So Fars-杳葵.jpg",
+            "lrc": "/assets/lrcs/Road So Fars-杳葵.lrc"
+        },
+        {
+            "mid": "001DRnxC0twkty",
+            "vid": "",
+            "title": "Lifeline",
+            "author": "Zeraphym",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Lifeline-Zeraphym.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Lifeline-Zeraphym.jpg",
+            "lrc": "/assets/lrcs/Lifeline-Zeraphym.lrc"
+        },
+        {
+            "mid": "002w2NMA2eS1Os",
+            "vid": "",
+            "title": "命",
+            "author": "S9ryne",
+            "url": "http://64.64.248.103/music_file/pure_music/music/命-S9ryne.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/命-S9ryne.jpg",
+            "lrc": "/assets/lrcs/命-S9ryne.lrc"
+        },
+        {
+            "mid": "002gslU21aYH5h",
+            "vid": "",
+            "title": "In Love",
+            "author": "July",
+            "url": "http://64.64.248.103/music_file/pure_music/music/In Love-July.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/In Love-July.jpg",
+            "lrc": "/assets/lrcs/In Love-July.lrc"
+        },
+        {
+            "mid": "002w70Nx1uZuyO",
+            "vid": "",
+            "title": "My Soul",
+            "author": "JULY",
+            "url": "http://64.64.248.103/music_file/pure_music/music/My Soul-JULY.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/My Soul-JULY.jpg",
+            "lrc": "/assets/lrcs/My Soul-JULY.lrc"
+        },
+        {
+            "mid": "004UFx263E7iXP",
+            "vid": "",
+            "title": "Somewhere",
+            "author": "July",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Somewhere-July.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Somewhere-July.jpg",
+            "lrc": "/assets/lrcs/Somewhere-July.lrc"
+        },
+        {
+            "mid": "002hpRj71Syqxa",
+            "vid": "",
+            "title": "Dusk",
+            "author": "Peter Jeremias",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Dusk-Peter Jeremias.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Dusk-Peter Jeremias.jpg",
+            "lrc": "/assets/lrcs/Dusk-Peter Jeremias.lrc"
+        },
+        {
+            "mid": "001hdT872SO92E",
+            "vid": "",
+            "title": "A Little Story",
+            "author": "Valentin",
+            "url": "http://64.64.248.103/music_file/pure_music/music/A Little Story-Valentin.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/A Little Story-Valentin.jpg",
+            "lrc": "/assets/lrcs/A Little Story-Valentin.lrc"
+        },
+        {
+            "mid": "001spdc83yjRLP",
+            "vid": "",
+            "title": "Time To Love",
+            "author": "October",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Time To Love-October.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Time To Love-October.jpg",
+            "lrc": "/assets/lrcs/Time To Love-October.lrc"
+        },
+        {
+            "mid": "002wQgGo0qROKC",
+            "vid": "",
+            "title": "Who's Lovin' You",
+            "author": "October",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Who's Lovin' You-October.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Who's Lovin' You-October.jpg",
+            "lrc": "/assets/lrcs/Who's Lovin' You-October.lrc"
+        },
+        {
+            "mid": "00115Q433PTGWh",
+            "vid": "",
+            "title": "January Dream",
+            "author": "Snigellin",
+            "url": "http://64.64.248.103/music_file/pure_music/music/January Dream-Snigellin.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/January Dream-Snigellin.jpg",
+            "lrc": "/assets/lrcs/January Dream-Snigellin.lrc"
+        },
+        {
+            "mid": "000eRDjm1v5GWQ",
+            "vid": "",
+            "title": "You",
+            "author": "Approaching Nirvana",
+            "url": "http://64.64.248.103/music_file/pure_music/music/You-Approaching Nirvana.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/You-Approaching Nirvana.jpg",
+            "lrc": "/assets/lrcs/You-Approaching Nirvana.lrc"
+        },
+        {
+            "mid": "001DrNr22581j8",
+            "vid": "",
+            "title": "Sakura Tears",
+            "author": "Snigellin",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Sakura Tears-Snigellin.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Sakura Tears-Snigellin.jpg",
+            "lrc": "/assets/lrcs/Sakura Tears-Snigellin.lrc"
+        },
+        {
+            "mid": "004Yi5SO31AG2Q",
+            "vid": "",
+            "title": "Luv Letter",
+            "author": "DJ OKAWARI",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Luv Letter-DJ OKAWARI.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Luv Letter-DJ OKAWARI.jpg",
+            "lrc": "/assets/lrcs/Luv Letter-DJ OKAWARI.lrc"
+        },
+        {
+            "mid": "003nAZrO2vxO6p",
+            "vid": "",
+            "title": "The Truth That You Leave",
+            "author": "Pianoboy高至豪",
+            "url": "http://64.64.248.103/music_file/pure_music/music/The Truth That You Leave-Pianoboy高至豪.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/The Truth That You Leave-Pianoboy高至豪.jpg",
+            "lrc": "/assets/lrcs/The Truth That You Leave-Pianoboy高至豪.lrc"
+        },
+        {
+            "mid": "0008dOVc2ImmJP",
+            "vid": "",
+            "title": "The Right Path",
+            "author": "Thomas Greenberg",
+            "url": "http://64.64.248.103/music_file/pure_music/music/The Right Path-Thomas Greenberg.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/The Right Path-Thomas Greenberg.jpg",
+            "lrc": "/assets/lrcs/The Right Path-Thomas Greenberg.lrc"
+        },
+        {
+            "mid": "003ut9uN3pTHAI",
+            "vid": "",
+            "title": "Easy Breeze",
+            "author": "Thomas Greenberg",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Easy Breeze-Thomas Greenberg.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Easy Breeze-Thomas Greenberg.jpg",
+            "lrc": "/assets/lrcs/Easy Breeze-Thomas Greenberg.lrc"
+        },
+        {
+            "mid": "003ENK270DTOSp",
+            "vid": "",
+            "title": "Remember",
+            "author": "Sensitive",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Remember-Sensitive.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Remember-Sensitive.jpg",
+            "lrc": "/assets/lrcs/Remember-Sensitive.lrc"
+        },
+        {
+            "mid": "003JbjjX2QdU2P",
+            "vid": "",
+            "title": "Last of the Wilds",
+            "author": "Nightwish",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Last of the Wilds-Nightwish.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Last of the Wilds-Nightwish.jpg",
+            "lrc": "/assets/lrcs/Last of the Wilds-Nightwish.lrc"
+        },
+        {
+            "mid": "002TJfuz2gLvSB",
+            "vid": "",
+            "title": "Raveology",
+            "author": "DVBBS",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Raveology-DVBBS.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Raveology-DVBBS.jpg",
+            "lrc": "/assets/lrcs/Raveology-DVBBS.lrc"
+        },
+        {
+            "mid": "003vGNm53rkMvG",
+            "vid": "",
+            "title": "Hands Up",
+            "author": "VINAI",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Hands Up-VINAI.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Hands Up-VINAI.jpg",
+            "lrc": "/assets/lrcs/Hands Up-VINAI.lrc"
+        },
+        {
+            "mid": "0035w0nF058qNo",
+            "vid": "",
+            "title": "Tremor",
+            "author": "Dimitri Vegas",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Tremor-Dimitri Vegas.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Tremor-Dimitri Vegas.jpg",
+            "lrc": "/assets/lrcs/Tremor-Dimitri Vegas.lrc"
+        },
+        {
+            "mid": "001DYwig4ZyWhx",
+            "vid": "",
+            "title": "Louder",
+            "author": "Dimitri Vegas & Like Mike",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Louder-Dimitri Vegas & Like Mike.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Louder-Dimitri Vegas & Like Mike.jpg",
+            "lrc": "/assets/lrcs/Louder-Dimitri Vegas & Like Mike.lrc"
+        },
+        {
+            "mid": "001tJfOh0lykz5",
+            "vid": "",
+            "title": "Arcade Mammoth",
+            "author": "Dimitri Vegas & Like Mike",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Arcade Mammoth-Dimitri Vegas & Like Mike.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Arcade Mammoth-Dimitri Vegas & Like Mike.jpg",
+            "lrc": "/assets/lrcs/Arcade Mammoth-Dimitri Vegas & Like Mike.lrc"
+        },
+        {
+            "mid": "000o1GXW0AbzZN",
+            "vid": "",
+            "title": "Unity",
+            "author": "Dimitri Vegas & Like Mike",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Unity-Dimitri Vegas & Like Mike.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Unity-Dimitri Vegas & Like Mike.jpg",
+            "lrc": "/assets/lrcs/Unity-Dimitri Vegas & Like Mike.lrc"
+        },
+        {
+            "mid": "003JTTxs1iN90J",
+            "vid": "x00255xiht3",
+            "title": "Crowd Control",
+            "author": "Dimitri Vegas & Like Mike",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Crowd Control-Dimitri Vegas & Like Mike.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Crowd Control-Dimitri Vegas & Like Mike.jpg",
+            "lrc": "/assets/lrcs/Crowd Control-Dimitri Vegas & Like Mike.lrc"
+        },
+        {
+            "mid": "00112uZz1VvzS6",
+            "vid": "",
+            "title": "Focus",
+            "author": "Deorro",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Focus-Deorro.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Focus-Deorro.jpg",
+            "lrc": "/assets/lrcs/Focus-Deorro.lrc"
+        },
+        {
+            "mid": "001wPAHh44P38a",
+            "vid": "",
+            "title": "Five Hours",
+            "author": "Deorro",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Five Hours-Deorro.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Five Hours-Deorro.jpg",
+            "lrc": "/assets/lrcs/Five Hours-Deorro.lrc"
+        },
+        {
+            "mid": "000xOu9n3Jn9py",
+            "vid": "",
+            "title": "Keep It Goin'",
+            "author": "Deorro",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Keep It Goin'-Deorro.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Keep It Goin'-Deorro.jpg",
+            "lrc": "/assets/lrcs/Keep It Goin'-Deorro.lrc"
+        },
+        {
+            "mid": "002AKqEG0vkOMr",
+            "vid": "",
+            "title": "Be Yourself",
+            "author": "Steve Aoki",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Be Yourself-Steve Aoki.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Be Yourself-Steve Aoki.jpg",
+            "lrc": "/assets/lrcs/Be Yourself-Steve Aoki.lrc"
+        },
+        {
+            "mid": "0029BFFJ1L1yoP",
+            "vid": "",
+            "title": "Energy Drink",
+            "author": "Virtual Riot",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Energy Drink-Virtual Riot.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Energy Drink-Virtual Riot.jpg",
+            "lrc": "/assets/lrcs/Energy Drink-Virtual Riot.lrc"
+        },
+        {
+            "mid": "000N41WJ4HM8Iu",
+            "vid": "c0021zk417a",
+            "title": "Snakes",
+            "author": "Sikdope",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Snakes-Sikdope.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Snakes-Sikdope.jpg",
+            "lrc": "/assets/lrcs/Snakes-Sikdope.lrc"
+        },
+        {
+            "mid": "001WT05z1QhNJc",
+            "vid": "",
+            "title": "Omnia",
+            "author": "Michael Giacchino",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Omnia-Michael Giacchino.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Omnia-Michael Giacchino.jpg",
+            "lrc": "/assets/lrcs/Omnia-Michael Giacchino.lrc"
+        },
+        {
+            "mid": "004a1KP10o9sgH",
+            "vid": "",
+            "title": "SUNNY SUNNY",
+            "author": "Various Artists",
+            "url": "http://64.64.248.103/music_file/pure_music/music/SUNNY SUNNY-Various Artists.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/SUNNY SUNNY-Various Artists.jpg",
+            "lrc": "/assets/lrcs/SUNNY SUNNY-Various Artists.lrc"
+        },
+        {
+            "mid": "004BeYPo3jusK7",
+            "vid": "",
+            "title": "Shanghai",
+            "author": "Carta",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Shanghai-Carta.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Shanghai-Carta.jpg",
+            "lrc": "/assets/lrcs/Shanghai-Carta.lrc"
+        },
+        {
+            "mid": "001Hvf301oq1Fq",
+            "vid": "",
+            "title": "What's Up Suckaz",
+            "author": "TJR",
+            "url": "http://64.64.248.103/music_file/pure_music/music/What's Up Suckaz-TJR.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/What's Up Suckaz-TJR.jpg",
+            "lrc": "/assets/lrcs/What's Up Suckaz-TJR.lrc"
+        },
+        {
+            "mid": "0028oLAI3SJN2J",
+            "vid": "",
+            "title": "Attack of the Sloth",
+            "author": "Goblins from Mars",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Attack of the Sloth-Goblins from Mars.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Attack of the Sloth-Goblins from Mars.jpg",
+            "lrc": "/assets/lrcs/Attack of the Sloth-Goblins from Mars.lrc"
+        },
+        {
+            "mid": "000M2t2Q0PbAsr",
+            "vid": "a0026072p66",
+            "title": "Get Down",
+            "author": "Quintino",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Get Down-Quintino.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Get Down-Quintino.jpg",
+            "lrc": "/assets/lrcs/Get Down-Quintino.lrc"
+        },
+        {
+            "mid": "003pNwds2FfpBL",
+            "vid": "",
+            "title": "The Wave(feat. Harrison)",
+            "author": "VINAI",
+            "url": "http://64.64.248.103/music_file/pure_music/music/The Wave(feat. Harrison)-VINAI.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/The Wave(feat. Harrison)-VINAI.jpg",
+            "lrc": "/assets/lrcs/The Wave(feat. Harrison)-VINAI.lrc"
+        },
+        {
+            "mid": "001QUiGc2bKIIW",
+            "vid": "o00312avpdz",
+            "title": "Switch",
+            "author": "BlasterJaxx",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Switch-BlasterJaxx.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Switch-BlasterJaxx.jpg",
+            "lrc": "/assets/lrcs/Switch-BlasterJaxx.lrc"
+        },
+        {
+            "mid": "004TFu5I0mESXg",
+            "vid": "",
+            "title": "Riverside 2099",
+            "author": "Oliver Heldens",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Riverside 2099-Oliver Heldens.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Riverside 2099-Oliver Heldens.jpg",
+            "lrc": "/assets/lrcs/Riverside 2099-Oliver Heldens.lrc"
+        },
+        {
+            "mid": "002gIp902DiFMU",
+            "vid": "",
+            "title": "Rockstar",
+            "author": "Timmy Trumpet",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Rockstar-Timmy Trumpet.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Rockstar-Timmy Trumpet.jpg",
+            "lrc": "/assets/lrcs/Rockstar-Timmy Trumpet.lrc"
+        },
+        {
+            "mid": "002YkTzy1W62Iw",
+            "vid": "",
+            "title": "How We Party",
+            "author": "R3HAB",
+            "url": "http://64.64.248.103/music_file/pure_music/music/How We Party-R3HAB.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/How We Party-R3HAB.jpg",
+            "lrc": "/assets/lrcs/How We Party-R3HAB.lrc"
+        },
+        {
+            "mid": "000ok09L2buYB7",
+            "vid": "",
+            "title": "Flashlight",
+            "author": "R3HAB",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Flashlight-R3HAB.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Flashlight-R3HAB.jpg",
+            "lrc": "/assets/lrcs/Flashlight-R3HAB.lrc"
+        },
+        {
+            "mid": "003XJ7Ts3LWd27",
+            "vid": "",
+            "title": "Karate",
+            "author": "R3HAB",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Karate-R3HAB.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Karate-R3HAB.jpg",
+            "lrc": "/assets/lrcs/Karate-R3HAB.lrc"
+        },
+        {
+            "mid": "001awfvD1TOtrq",
+            "vid": "",
+            "title": "Bazaar",
+            "author": "KSHMR",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Bazaar-KSHMR.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Bazaar-KSHMR.jpg",
+            "lrc": "/assets/lrcs/Bazaar-KSHMR.lrc"
+        },
+        {
+            "mid": "003s3Tn91j5kQP",
+            "vid": "v0016nqjaxi",
+            "title": "Secrets",
+            "author": "Tiësto",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Secrets-Tiësto.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Secrets-Tiësto.jpg",
+            "lrc": "/assets/lrcs/Secrets-Tiësto.lrc"
+        },
+        {
+            "mid": "003JcHjC27Kd1L",
+            "vid": "",
+            "title": "Grapevine",
+            "author": "Tiësto",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Grapevine-Tiësto.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Grapevine-Tiësto.jpg",
+            "lrc": "/assets/lrcs/Grapevine-Tiësto.lrc"
+        },
+        {
+            "mid": "002IVz651yWGGL",
+            "vid": "",
+            "title": "Bust Dem",
+            "author": "Henry Fong",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Bust Dem-Henry Fong.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Bust Dem-Henry Fong.jpg",
+            "lrc": "/assets/lrcs/Bust Dem-Henry Fong.lrc"
+        },
+        {
+            "mid": "000sS7LG1bdYUJ",
+            "vid": "",
+            "title": "Vengeance",
+            "author": "Zack Hemsey",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Vengeance-Zack Hemsey.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Vengeance-Zack Hemsey.jpg",
+            "lrc": "/assets/lrcs/Vengeance-Zack Hemsey.lrc"
+        },
+        {
+            "mid": "001bf2lu4FpIdT",
+            "vid": "",
+            "title": "Unstoppable",
+            "author": "Afrojack",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Unstoppable-Afrojack.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Unstoppable-Afrojack.jpg",
+            "lrc": "/assets/lrcs/Unstoppable-Afrojack.lrc"
+        },
+        {
+            "mid": "00095kDf1yRqzn",
+            "vid": "",
+            "title": "Titan",
+            "author": "BlasterJaxx",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Titan-BlasterJaxx.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Titan-BlasterJaxx.jpg",
+            "lrc": "/assets/lrcs/Titan-BlasterJaxx.lrc"
+        },
+        {
+            "mid": "001DZ4Xq1DTVRe",
+            "vid": "",
+            "title": "Flight",
+            "author": "Tristam",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Flight-Tristam.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Flight-Tristam.jpg",
+            "lrc": "/assets/lrcs/Flight-Tristam.lrc"
+        },
+        {
+            "mid": "001AGi7R3c77XE",
+            "vid": "",
+            "title": "Raise Your Hands",
+            "author": "Ummet Ozcan",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Raise Your Hands-Ummet Ozcan.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Raise Your Hands-Ummet Ozcan.jpg",
+            "lrc": "/assets/lrcs/Raise Your Hands-Ummet Ozcan.lrc"
+        },
+        {
+            "mid": "001M0mog3tojPp",
+            "vid": "",
+            "title": "Ascension",
+            "author": "Dope Arcade",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Ascension-Dope Arcade.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Ascension-Dope Arcade.jpg",
+            "lrc": "/assets/lrcs/Ascension-Dope Arcade.lrc"
+        },
+        {
+            "mid": "0028gI832rCKEs",
+            "vid": "d00182d78x9",
+            "title": "The Power of Now",
+            "author": "Steve Aoki",
+            "url": "http://64.64.248.103/music_file/pure_music/music/The Power of Now-Steve Aoki.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/The Power of Now-Steve Aoki.jpg",
+            "lrc": "/assets/lrcs/The Power of Now-Steve Aoki.lrc"
+        },
+        {
+            "mid": "0008uxE50ix9f7",
+            "vid": "",
+            "title": "Boneless",
+            "author": "Steve Aoki",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Boneless-Steve Aoki.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Boneless-Steve Aoki.jpg",
+            "lrc": "/assets/lrcs/Boneless-Steve Aoki.lrc"
+        },
+        {
+            "mid": "004KbA0k4ekDZW",
+            "vid": "y0014m8aqpl",
+            "title": "Bad",
+            "author": "David Guetta",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Bad-David Guetta.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Bad-David Guetta.jpg",
+            "lrc": "/assets/lrcs/Bad-David Guetta.lrc"
+        },
+        {
+            "mid": "003zKX4U1oKqwx",
+            "vid": "",
+            "title": "Booyah",
+            "author": "Showtek",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Booyah-Showtek.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Booyah-Showtek.jpg",
+            "lrc": "/assets/lrcs/Booyah-Showtek.lrc"
+        },
+        {
+            "mid": "002cRHvw0Mcp8T",
+            "vid": "",
+            "title": "Melody",
+            "author": "Dimitri Vegas & Like Mike",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Melody-Dimitri Vegas & Like Mike.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Melody-Dimitri Vegas & Like Mike.jpg",
+            "lrc": "/assets/lrcs/Melody-Dimitri Vegas & Like Mike.lrc"
+        },
+        {
+            "mid": "004acIvB3YAXze",
+            "vid": "",
+            "title": "Endeavors",
+            "author": "MitiS",
+            "url": "http://64.64.248.103/music_file/pure_music/music/Endeavors-MitiS.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/Endeavors-MitiS.jpg",
+            "lrc": "/assets/lrcs/Endeavors-MitiS.lrc"
+        },
+        {
+            "mid": "004YOLuC4Qrvpb",
+            "vid": "",
+            "title": "The Hum",
+            "author": "Dimitri Vegas & Like Mike",
+            "url": "http://64.64.248.103/music_file/pure_music/music/The Hum-Dimitri Vegas & Like Mike.mp3",
+            "pic": "http://64.64.248.103/music_file/pure_music/images/The Hum-Dimitri Vegas & Like Mike.jpg",
+            "lrc": "/assets/lrcs/The Hum-Dimitri Vegas & Like Mike.lrc"
+        }
+    ]
+}

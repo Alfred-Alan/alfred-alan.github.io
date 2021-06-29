@@ -12,21 +12,18 @@ description: >
 sitemap: false
 comments: true
 ---
+
 <script type='text/javascript' src='/assets/aplayer/jquery.min.js'></script>
 
-<!-- <script type='text/javascript' src='https://api88.net/api/play/js/?id=3616881472&type=songlist&music=qqmusic'></script> -->
 
-<!-- <iframe src="https://open.spotify.com/embed/playlist/5NnkN8yucyX8nMOK15jAj9" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
-
-<!-- <script type='text/javascript' src='https://api88.net/api/play/js/?id=3616881472&type=songlist&music=qqmusic&listFolded=false'></script> -->
-
+<!-- <script type='text/javascript' src='https://api88.net/api/play/js/?id=4139958112&type=songlist&music=qqmusic&listMaxHeight=500'></script> -->
 <script>
     $(document).ready(function () {
         if(location.href.indexOf("#reloaded")==-1){
             location.href=location.href+"#reloaded";
             location.reload();
         }
-    })
+    });
 
     $("head").append("<link>");
     var css = $("head").children(":last");
@@ -36,11 +33,10 @@ comments: true
         href: "/assets/aplayer/APlayer.min.css"
     });
     document.write('<div id="aplayer"></div>');
-
     $.getScript('/assets/aplayer/APlayer.min.js', function () {
         $.ajax({
             type: "GET",
-            url: "https://api88.net/api/qqmusic/?key=f34fa9f56ca6475401293358d49e764d&id=3616881472&type=songlist&cache=",
+            url:'/assets/js/pure_music.json',
             dataType: 'json',
             success: function (result) {
                 var ap = new APlayer({
@@ -53,7 +49,7 @@ comments: true
                     autoplay: false,
                     order: 'list',
                     listFolded:false,
-                    audio: result.Body
+                    audio: result.Body,
                 });
             }
         });
