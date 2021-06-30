@@ -4,10 +4,10 @@ image: /assets/img/song_list/gam.jpg
 title: Game music
 sulg: songlist
 
-caption: Hydejack as a product page.
-date: 1 Jan 2016
+caption: 游戏音乐
+date: 28 January 2020
 description: >
-  Using the Free Version of Hydejack as a product page on GitHub Pages.
+    玩游戏时听的音乐
 
 sitemap: false
 comments: true

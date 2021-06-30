@@ -4,10 +4,10 @@ image: /assets/img/song_list/cun.jpg
 title: Pure music
 sulg: songlist
 
-caption: Hydejack as a product page.
-date: 1 Jan 2016
+caption:  电子音乐
+date: 27 January 2020
 description: >
-  Using the Free Version of Hydejack as a product page on GitHub Pages.
+  心情愉悦 电子音乐
 
 sitemap: false
 comments: true
