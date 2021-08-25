@@ -2,4 +2,8 @@
 .impowerBox .title {display: none;}
 .impowerBox .info {width: 200px;}
 .status_icon {display: none}
-.impowerBox .status {text-align: center;} 
+.impowerBox .status {text-align: center;}
+iframe {
+	height: 160px;
+	width: 160px;
+}
