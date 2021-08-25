@@ -1,4 +1,11 @@
-.impowerBox .qrcode {width: 160px;}
+.impowerBox {
+	position: relative;
+    width: 0%;
+}
+.impowerBox .qrcode {
+	width: 160px;
+    margin: 0;
+}
 .impowerBox .title {display: none;}
 .impowerBox .info {width: 160px;}
 .status_icon {display: none}
