@@ -7,7 +7,7 @@ tags: []
 image:  /assets/img/blog/python.png
 
 related_posts:
-  - 
+  - _posts/2021-09-23-parent_nodes.md
 ---
 - Table of Contents
 {:toc .large-only}
