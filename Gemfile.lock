@@ -124,4 +124,8 @@ DEPENDENCIES
   kramdown-math-katex
 
 BUNDLED WITH
+<<<<<<< HEAD
    2.2.14
+=======
+   2.3.3
+>>>>>>> cae6229bbcd6f9ed8ea12d0c2d74b33e29174664
