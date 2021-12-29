@@ -2,7 +2,7 @@
 layout: post
 title: 'Ubuntu2004下安装 Mysql5.7.35'
 description: '如何在ubuntu2004下 手动安装mysql-5.7.35'
-categories: [ubuntu,mysql]
+categories: [Ubuntu, Mysql]
 tags: []
 image:  /assets/img/blog/install-mysql-ubuntu.png
 
