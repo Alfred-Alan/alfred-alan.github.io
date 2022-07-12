@@ -54,6 +54,12 @@ gem install jekyll bundler
 git clone https://github.com/....git
 ```
 
+## bundle下载依赖
+先使用bundle 把项目依赖下载好
+```shell
+bundle install
+```
+
 ## build 打包
 这里使用bundle 来协助jekyll 打包项目
 ```shell

@@ -44,18 +44,32 @@ related_posts:
 我们需要下载安装以下几个工具
 
 * Ruby
-* Rubygems
 * jekyll
+* bundler
 
 [Ruby安装](http://alfred-alan.github.io/blog/ruby/2020-04-20-ruby-install/)
 {:.note title="移步"}
 
 6.在本地编写项目
 
+创建项目
+
 ```powershell
-jekyll new myblog 生成项目
-jekyll build 生成 每次要提交的事时候也需要生成一下
-默认会将网站生成到 ./_site 目录下，生成目录可以通过配置文件 ./_config.yml
+jekyll new my-site
+```
+安装所需依赖包
+
+bundle 换国内源
+
+```
+bundle config mirror.https://rubygems.org https://gems.ruby-china.com
+```
+
+这样你不用改你的 Gemfile 的 source。
+
+```powershell
+cd my-site
+bundle install
 ```
 
 _posts 文件夹用来存储文章  
@@ -77,7 +91,7 @@ _config.yml  配置文件
 然后使用 bundle 来启动 jekyll
 
 ```powershell
-C:\Windows\system32>bundle exec jekyll server
+bundle exec jekyll server
 ```
 
 这样在启动项目的时候就可以访问 http://127.0.0.1:4001 查看项目状态
@@ -99,6 +113,8 @@ Configuration file: D:/alfred-alan.github.io/_config.yml
 <br>
 
 将写好的md 文件命名为2017-04-18-hello-jekyll.md
+
+文章路径一般存放于 `_posts`
 
 注意 ：有些文件编码可能跟jekyll 不一致 这样就需要更改配置 
 
@@ -139,3 +155,13 @@ while base = path_info.first
 
 当编写完成后 使用jekyll build打包 在进行提交到指定的库中
 
+
+
+## 打包为静态文件
+
+```powershell
+jekyll build
+```
+
+ 生成 每次要提交的事时候也需要生成一下
+默认会将网站生成到 ./_site 目录下，生成目录可以通过配置文件 ./_config.yml

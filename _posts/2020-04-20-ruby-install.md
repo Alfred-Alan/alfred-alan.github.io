@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '如何安装ruby'
+title: '如何安装ruby配置jekyll'
 categories: [Ruby]
 image: /assets/img/blog/Ruby.png
 description: '如何安装ruby并配置环境'
@@ -16,44 +16,43 @@ related_posts:
 我们需要下载安装以下几个工具
 
 * Ruby
-* Rubygems
 * jekyll
 
 <br>
 
 ruby官网下载安装：<https://rubyinstaller.org/downloads/>
 
-ruby+devkit 2.6.6-1(x64)
-{:.note title="注意安装"}
+[Ruby+Devkit 2.7.6-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-2.7.6-1/rubyinstaller-devkit-2.7.6-1-x64.exe)
+
+{:.note title="我的安装版本"}
 <br>
-安装完成后配置环境变量
 
-在命令提示符中，得到ruby版本号，如下图，即安装成功
+![install_path](/assets/img/ruby/install_path.png)
 
-```powershell
-C:\Users\haoyang>ruby -v
-ruby 2.6.6p146 (2020-03-31 revision 67876) [x64-mingw32]
-```
+![select_components](/assets/img/ruby/select_components.png)
 
-## 安装RubyGems
+![install_msys2](/assets/img/ruby/install_msys2.png)
 
-官网下载 <http://rubygems.org/pages/download>
+![select_3](/assets/img/ruby/select_3.png)
 
-rubygems-3.2.4.zip
-{:.note title="注意安装"}
+输入3之后等待直接结束，可能会卡住很长时间
 
-<br>
-cd到RubyGems目录
+![install_end](/assets/img/ruby/install_end.png)
+
+
+安装完成后在命令提示符中，得到ruby版本号，如下图，即安装成功
 
 ```powershell
-E:\xunleirubygems-3.2.4>
+C:\Users\admin>ruby -v
+ruby 2.7.6p219 (2022-04-12 revision c9c2245c0a) [x64-mingw32]
+
+C:\Users\admin>gem -v
+3.1.6
+
+C:\Users\admin>
 ```
 
-执行安装
 
-```powershell
-E:\xunlei\rubygems-3.2.4>ruby setup.rb
-```
 
 ## 使用RubyGems
 
@@ -75,20 +74,15 @@ https://gems.ruby-china.com/
 ```
 
 更换源之后再执行下面的语句安装
-我这边是安装了一个jekyll
+
+安装jekyll bundle
 
 ```powershell
-C:\Windows\system32>gem install jekyll
-```
-安装bundle
-```powershell
-C:\Windows\system32>gem install bundler
-
-C:\Windows\system32>bundle install
+gem install jekyll bundler
 ```
 <br>
 然后下载一个IDE
-我这边使用的是[RubyMine](https://www.jetbrains.com/ruby/download/)
+我使用的是[RubyMine](https://www.jetbrains.com/ruby/download/)
 
 安装完成后打开软件创建一个项目
 ![rubymine](/assets/img/ruby/rubymine.png)
@@ -96,6 +90,7 @@ C:\Windows\system32>bundle install
 
 新建一个 *.rb的文件
 编写输出Hello World
+
 ```ruby
 puts "Hello World!";
 ```
