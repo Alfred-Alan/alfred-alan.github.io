@@ -61,12 +61,9 @@
 
     {% include components/message.html text=post.description hide=hide_description alt=alt %}
   </header>
-  {{ no_excerpt }}
   {% if no_excerpt %}
-    <h3>no_excerpt error</h3>
     {{ post.content }}
   {% else %}
-    <h3>print excerpt</h3>
     {{ post.excerpt }}
 
     {% capture post_title %}<a class="heading flip-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>{% endcapture %}
