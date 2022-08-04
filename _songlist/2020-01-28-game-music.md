@@ -1,6 +1,6 @@
 ---
 layout: project
-image: /assets/img/song_list/gam.jpg
+image: /assets/img/song_list/gam.png
 title: Game music
 sulg: songlist
 
