@@ -12,7 +12,6 @@ permalink: /docs/
 ## Python
 * [Python常见面试题1]{:.heading.flip-title} --- Python面试题1
 * [Python常见面试题2]{:.heading.flip-title} --- Python面试题2
-* [Python设计模式]{:.heading.flip-title} --- Python常见的设计模式
 {:.related-posts.faded}
 
 ## Golang
@@ -25,5 +24,4 @@ permalink: /docs/
 [Go语言编程]: The_Go_Programming_Language.pdf
 [Python常见面试题1]: interview_python1.md
 [Python常见面试题2]: interview_python2.md
-[Python设计模式]: python_patterns.md
 
