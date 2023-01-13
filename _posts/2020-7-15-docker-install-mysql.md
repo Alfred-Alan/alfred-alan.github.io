@@ -15,22 +15,38 @@ related_posts:
 ## 在docker中下载mysql
 
 ```powershell
-docker pull mysql 
+docker pull mysql:5.7.35
 ```
 
 ## 查看镜像
 
-```powershell
+```shell
 docker images -a 
 ```
+## 创建备份文件
 
-## 开启服务
-
-```powershell
- docker run -p 3306:3306 --name L_mysql -e MYSQL_ROOT_PASSWORD=123456 -d mysql
+```shell
+mkdir -p /data/mysql/conf
+mkdir -p /data/mysql/data
+mkdir -p /data/mysql/log
 ```
 
---name 是 自定的服务名字
+## 启动容器
+
+```shell
+docker run -d \
+  --restart=on-failure:3 \
+  --name mysql \
+  -p 3306:3306 \
+  -e MYSQL_ROOT_PASSWORD=xxxxxx \
+  -v /data/mysql/conf/my.cnf:/etc/mysql/my.cnf \
+  -v /data/mysql/data:/var/lib/mysql \
+  -v /data/mysql/log:/var/log/mysql \
+  mysql:5.7.35
+
+```
+
+`--name` 是自定的服务名字
 
 MYSQL_ROOT_PASSWORD 就是root 用户的密码 
 

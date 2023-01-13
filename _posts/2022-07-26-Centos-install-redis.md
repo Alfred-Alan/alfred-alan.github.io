@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'CentOS8下安装Reids5.0.9'
+title: 'centos8 安装Reids5.0.9'
 description: '如何在CentOS8下手动安装Reids-5.0.9'
 categories: [CentOS, Redis]
 tags: []
@@ -12,6 +12,8 @@ related_posts:
 
 - Table of Contents
 {:toc .large-only}
+
+
 ### 下载Redis
 
 从redis 官网下载你想要的版本
@@ -29,7 +31,6 @@ wget https://download.redis.io/releases/redis-5.0.9.tar.gz
 ```shell
 tar -xvf redis-5.0.9.tar.gz -C /usr/local/
 ```
-
 
 
 ### 开始安装

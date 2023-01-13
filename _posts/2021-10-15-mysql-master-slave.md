@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Mysql5.7.35配置主从同步'
+title: 'mysql5.7.35 配置主从同步'
 description: '如何在ubuntu2004下配置Mysql主从同步'
 categories: [Mysql]
 tags: []

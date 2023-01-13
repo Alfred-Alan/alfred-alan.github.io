@@ -6,7 +6,7 @@ basics:
   label: "Python工程师"
   picture: "/assets/img/icon.png"
   email: "l3210440292@gmail.com"
-  phone: "17640666245"
+  # phone: "17640666245"
   website: "https://www.alfred-alan.com"
   summary: >
     Richard hails from Tulsa.
