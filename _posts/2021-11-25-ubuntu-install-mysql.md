@@ -175,7 +175,7 @@ lines 1-13/13 (END)
 # Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
 
 [mysqld_safe]
-socket		= /var/run/mysqld/mysqld.sock
+socket		= /var/run/mysqld/mysqld.sock # 以默认配置文件路径为准
 nice		= 0
 
 [mysqld]
@@ -183,8 +183,8 @@ nice		= 0
 # * Basic Settings
 #
 user		= mysql
-pid-file	= /var/run/mysqld/mysqld.pid
-socket		= /var/run/mysqld/mysqld.sock
+pid-file	= /var/run/mysqld/mysqld.pid # 以默认配置文件路径为准
+socket		= /var/run/mysqld/mysqld.sock # 以默认配置文件路径为准
 port		= 3306
 basedir		= /usr
 datadir		= /var/lib/mysql
@@ -214,7 +214,7 @@ myisam-recover-options  = BACKUP
 #
 # * Query Cache Configuration
 #
-query_cache_limit		= 1M
+query_cache_limit		    = 1M
 query_cache_size        = 16M
 #
 # * Logging and Replication
@@ -227,7 +227,7 @@ query_cache_size        = 16M
 #
 # Error log - should be very few entries.
 #
-log_error = /var/log/mysql/error.log
+log_error = /var/log/mysql/error.log # 以默认配置文件路径为准
 #
 # Here you can see queries with especially long duration
 #log_slow_queries	= /var/log/mysql/mysql-slow.log
@@ -237,9 +237,9 @@ log_error = /var/log/mysql/error.log
 # The following can be used as easy to replay backup logs or for replication.
 # note: if you are setting up a replication slave, see README.Debian about
 #       other settings you may need to change.
-#server-id			= 1
-log_bin				= /var/log/mysql/mysql-bin.log
-expire_logs_days	= 10
+server-id			      = 1
+log_bin				      = /var/log/mysql/mysql-bin.log
+expire_logs_days	  = 10
 max_binlog_size     = 100M
 #binlog_do_db		= include_database_name
 #binlog_ignore_db	= include_database_name
